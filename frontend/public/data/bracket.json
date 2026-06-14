@@ -1,0 +1,65 @@
+{
+  "rounds": [
+    {
+      "id": "r32",
+      "name": "Round of 32",
+      "matches": [
+        {"id":"m73","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-06-27"},
+        {"id":"m74","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-06-27"},
+        {"id":"m75","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-06-28"},
+        {"id":"m76","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-06-28"},
+        {"id":"m77","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-06-29"},
+        {"id":"m78","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-06-29"},
+        {"id":"m79","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-06-30"},
+        {"id":"m80","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-06-30"},
+        {"id":"m81","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-01"},
+        {"id":"m82","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-01"},
+        {"id":"m83","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-02"},
+        {"id":"m84","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-02"},
+        {"id":"m85","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-03"},
+        {"id":"m86","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-03"},
+        {"id":"m87","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-04"},
+        {"id":"m88","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-04"}
+      ]
+    },
+    {
+      "id": "r16",
+      "name": "Round of 16",
+      "matches": [
+        {"id":"m89","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-07"},
+        {"id":"m90","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-07"},
+        {"id":"m91","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-08"},
+        {"id":"m92","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-08"},
+        {"id":"m93","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-09"},
+        {"id":"m94","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-09"},
+        {"id":"m95","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-10"},
+        {"id":"m96","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-10"}
+      ]
+    },
+    {
+      "id": "qf",
+      "name": "Quarterfinals",
+      "matches": [
+        {"id":"m97","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-14"},
+        {"id":"m98","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-14"},
+        {"id":"m99","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-15"},
+        {"id":"m100","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-15"}
+      ]
+    },
+    {
+      "id": "sf",
+      "name": "Semifinals",
+      "matches": [
+        {"id":"m101","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-19"},
+        {"id":"m102","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-20"}
+      ]
+    },
+    {
+      "id": "final",
+      "name": "Final",
+      "matches": [
+        {"id":"m104","home":null,"away":null,"home_goals":null,"away_goals":null,"status":"tbd","home_win_pct":50,"date":"2026-07-26"}
+      ]
+    }
+  ]
+}

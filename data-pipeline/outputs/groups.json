@@ -1,0 +1,110 @@
+[
+  {
+    "id": "A",
+    "teams": [
+      {"id":"MEX","name":"Mexico","flag":"🇲🇽","played":1,"won":1,"drawn":0,"lost":0,"gf":2,"ga":0,"gd":2,"pts":3},
+      {"id":"KOR","name":"South Korea","flag":"🇰🇷","played":1,"won":1,"drawn":0,"lost":0,"gf":2,"ga":1,"gd":1,"pts":3},
+      {"id":"CZE","name":"Czech Republic","flag":"🇨🇿","played":1,"won":0,"drawn":0,"lost":1,"gf":1,"ga":2,"gd":-1,"pts":0},
+      {"id":"RSA","name":"South Africa","flag":"🇿🇦","played":1,"won":0,"drawn":0,"lost":1,"gf":0,"ga":2,"gd":-2,"pts":0}
+    ]
+  },
+  {
+    "id": "B",
+    "teams": [
+      {"id":"SUI","name":"Switzerland","flag":"🇨🇭","played":1,"won":0,"drawn":1,"lost":0,"gf":1,"ga":1,"gd":0,"pts":1},
+      {"id":"CAN","name":"Canada","flag":"🇨🇦","played":1,"won":0,"drawn":1,"lost":0,"gf":1,"ga":1,"gd":0,"pts":1},
+      {"id":"QAT","name":"Qatar","flag":"🇶🇦","played":1,"won":0,"drawn":1,"lost":0,"gf":1,"ga":1,"gd":0,"pts":1},
+      {"id":"BIH","name":"Bosnia & Herzegovina","flag":"🇧🇦","played":1,"won":0,"drawn":1,"lost":0,"gf":1,"ga":1,"gd":0,"pts":1}
+    ]
+  },
+  {
+    "id": "C",
+    "teams": [
+      {"id":"BRA","name":"Brazil","flag":"🇧🇷","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"MAR","name":"Morocco","flag":"🇲🇦","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"SCO","name":"Scotland","flag":"🏴󠁧󠁢󠁳󠁣󠁴󠁿","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"HTI","name":"Haiti","flag":"🇭🇹","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0}
+    ]
+  },
+  {
+    "id": "D",
+    "teams": [
+      {"id":"USA","name":"United States","flag":"🇺🇸","played":1,"won":1,"drawn":0,"lost":0,"gf":4,"ga":1,"gd":3,"pts":3},
+      {"id":"TUR","name":"Turkey","flag":"🇹🇷","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"AUS","name":"Australia","flag":"🇦🇺","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"PAR","name":"Paraguay","flag":"🇵🇾","played":1,"won":0,"drawn":0,"lost":1,"gf":1,"ga":4,"gd":-3,"pts":0}
+    ]
+  },
+  {
+    "id": "E",
+    "teams": [
+      {"id":"GER","name":"Germany","flag":"🇩🇪","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"CIV","name":"Ivory Coast","flag":"🇨🇮","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"ECU","name":"Ecuador","flag":"🇪🇨","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"CUW","name":"Curaçao","flag":"🇨🇼","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0}
+    ]
+  },
+  {
+    "id": "F",
+    "teams": [
+      {"id":"NED","name":"Netherlands","flag":"🇳🇱","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"JPN","name":"Japan","flag":"🇯🇵","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"SWE","name":"Sweden","flag":"🇸🇪","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"TUN","name":"Tunisia","flag":"🇹🇳","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0}
+    ]
+  },
+  {
+    "id": "G",
+    "teams": [
+      {"id":"BEL","name":"Belgium","flag":"🇧🇪","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"EGY","name":"Egypt","flag":"🇪🇬","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"IRN","name":"Iran","flag":"🇮🇷","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"NZL","name":"New Zealand","flag":"🇳🇿","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0}
+    ]
+  },
+  {
+    "id": "H",
+    "teams": [
+      {"id":"ESP","name":"Spain","flag":"🇪🇸","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"URU","name":"Uruguay","flag":"🇺🇾","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"SAU","name":"Saudi Arabia","flag":"🇸🇦","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"CPV","name":"Cape Verde","flag":"🇨🇻","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0}
+    ]
+  },
+  {
+    "id": "I",
+    "teams": [
+      {"id":"FRA","name":"France","flag":"🇫🇷","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"NOR","name":"Norway","flag":"🇳🇴","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"SEN","name":"Senegal","flag":"🇸🇳","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"IRQ","name":"Iraq","flag":"🇮🇶","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0}
+    ]
+  },
+  {
+    "id": "J",
+    "teams": [
+      {"id":"ARG","name":"Argentina","flag":"🇦🇷","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"AUT","name":"Austria","flag":"🇦🇹","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"ALG","name":"Algeria","flag":"🇩🇿","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"JOR","name":"Jordan","flag":"🇯🇴","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0}
+    ]
+  },
+  {
+    "id": "K",
+    "teams": [
+      {"id":"POR","name":"Portugal","flag":"🇵🇹","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"COL","name":"Colombia","flag":"🇨🇴","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"COD","name":"DR Congo","flag":"🇨🇩","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"UZB","name":"Uzbekistan","flag":"🇺🇿","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0}
+    ]
+  },
+  {
+    "id": "L",
+    "teams": [
+      {"id":"ENG","name":"England","flag":"🏴󠁧󠁢󠁥󠁮󠁧󠁿","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"CRO","name":"Croatia","flag":"🇭🇷","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"GHA","name":"Ghana","flag":"🇬🇭","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0},
+      {"id":"PAN","name":"Panama","flag":"🇵🇦","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"gd":0,"pts":0}
+    ]
+  }
+]
