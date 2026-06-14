@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T15:40:55.744Z",
+  "updated": "2026-06-14T23:16:28.351Z",
   "standings": {
     "Group A": [
       {
@@ -279,6 +279,78 @@
         "ga": 1,
         "gd": -1,
         "pts": 0
+      }
+    ],
+    "Group E": [
+      {
+        "id": "481",
+        "name": "Germany",
+        "abbr": "GER",
+        "color": "#FFFFFF",
+        "altColor": "#00CED1",
+        "isoCode": "de",
+        "flagUrl": "https://flagcdn.com/w40/de.png",
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gf": 7,
+        "ga": 1,
+        "gd": 6,
+        "pts": 3
+      },
+      {
+        "id": "11678",
+        "name": "Curaçao",
+        "abbr": "CUW",
+        "color": "#0537e4",
+        "altColor": "#0537e4",
+        "isoCode": "cu",
+        "flagUrl": "https://flagcdn.com/w40/cu.png",
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "gf": 1,
+        "ga": 7,
+        "gd": -6,
+        "pts": 0
+      }
+    ],
+    "Group F": [
+      {
+        "id": "627",
+        "name": "Japan",
+        "abbr": "JPN",
+        "color": "#000555",
+        "altColor": "#000555",
+        "isoCode": "jp",
+        "flagUrl": "https://flagcdn.com/w40/jp.png",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "id": "449",
+        "name": "Netherlands",
+        "abbr": "NED",
+        "color": "#fb5d00",
+        "altColor": "#fb5d00",
+        "isoCode": "nl",
+        "flagUrl": "https://flagcdn.com/w40/nl.png",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 1
       }
     ]
   }
