@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+
+# Scraper runtime logs
+backend/scraper*.log
+backend/scraper-bg*.txt
+backend/scraper-bg2*.txt
+backend/scraper-err*.txt
+backend/scraper-out*.txt
+backend/scraper-live*.txt
+
+# Playwright MCP session artifacts
+.playwright-mcp/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Vite build output artifacts
+frontend/vite-out.txt
+
+# Python
+data-pipeline/__pycache__/
+data-pipeline/.venv/
+*.pyc

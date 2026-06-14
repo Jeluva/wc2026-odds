@@ -1,0 +1,13 @@
+{
+  "name": "wc2026-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Auto-scraper for WC2026 match odds from ESPN public API",
+  "scripts": {
+    "start": "node scraper.js",
+    "once": "node scraper.js --once"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

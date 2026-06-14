@@ -1,0 +1,45 @@
+name: Update WC2026 Data
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # 6am UTC daily during tournament
+  workflow_dispatch:        # manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: data-pipeline/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r data-pipeline/requirements.txt
+
+      - name: Run predictions pipeline
+        run: |
+          cd data-pipeline
+          python fetch_data.py
+          python run_predictions.py
+          python blend_odds.py
+          python export_json.py
+
+      - name: Copy outputs to frontend public
+        run: cp data-pipeline/outputs/*.json frontend/public/data/
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data-pipeline/outputs/ frontend/public/data/
+          git diff --cached --quiet || git commit -m "chore: update WC2026 data $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
