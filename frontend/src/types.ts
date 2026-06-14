@@ -6,7 +6,7 @@ export interface ScrapedTeam {
   color: string      // hex with #, e.g. "#fee000"
   altColor: string   // hex with #
   isoCode: string    // ISO 3166-1 alpha-2 for flagcdn.com
-  flagUrl: string    // https://flagcdn.com/w40/{iso}.png
+  flagUrl: string    // https://flagcdn.com/w80/{iso}.png
   score: number | null
   winner: boolean
 }
