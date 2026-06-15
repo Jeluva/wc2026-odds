@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T20:11:09.980Z",
+  "updated": "2026-06-15T22:28:24.442Z",
   "standings": {
     "Group A": [
       {
@@ -453,6 +453,42 @@
         "lost": 0,
         "gf": 0,
         "ga": 0,
+        "gd": 0,
+        "pts": 1
+      }
+    ],
+    "Group G": [
+      {
+        "id": "459",
+        "name": "Belgium",
+        "abbr": "BEL",
+        "color": "#E30613",
+        "altColor": "#000000",
+        "isoCode": "be",
+        "flagUrl": "https://flagcdn.com/w160/be.png",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "id": "2620",
+        "name": "Egypt",
+        "abbr": "EGY",
+        "color": "#D20300",
+        "altColor": "#FFFFFF",
+        "isoCode": "eg",
+        "flagUrl": "https://flagcdn.com/w160/eg.png",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 1,
+        "ga": 1,
         "gd": 0,
         "pts": 1
       }
