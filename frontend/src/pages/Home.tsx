@@ -123,6 +123,11 @@ function HeroMatch({ match, onClick }: { match: ScrapedMatch; onClick: () => voi
                 <span>{t.home.oddsFrom}</span>
                 <span>{away.name}</span>
               </div>
+              {isLive && (
+                <p className="text-center text-[10px] text-fog/40 mt-1">
+                  {t.home.preMatchOdds}
+                </p>
+              )}
             </div>
           )}
 

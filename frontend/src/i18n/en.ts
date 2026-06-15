@@ -18,6 +18,7 @@ export const en = {
     winPct: 'to win',
     drawPct: 'Draw',
     oddsFrom: 'Odds via DraftKings',
+    preMatchOdds: 'Pre-match odds · not updated in-play',
     clickForOdds: 'Click for full odds & analysis',
   },
   match: {
