@@ -18,6 +18,7 @@ export const es = {
     winPct: 'de ganar',
     drawPct: 'Empate',
     oddsFrom: 'Cuotas vía DraftKings',
+    preMatchOdds: 'Cuotas pre-partido · no se actualizan en vivo',
     clickForOdds: 'Click para cuotas completas y análisis',
   },
   match: {
