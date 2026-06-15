@@ -49,7 +49,7 @@ const TEAM_ISO = {
 
 function flagUrl(abbr) {
   const iso = TEAM_ISO[abbr] ?? abbr.toLowerCase().slice(0, 2)
-  return `https://flagcdn.com/w80/${iso}.png`
+  return `https://flagcdn.com/w160/${iso}.png`
 }
 
 function parseML(str) {

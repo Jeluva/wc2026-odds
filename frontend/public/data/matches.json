@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T23:50:37.779Z",
+  "updated": "2026-06-15T00:00:46.146Z",
   "matches": [
     {
       "id": "760415",
@@ -16,7 +16,7 @@
         "color": "#006847",
         "altColor": "#ffffff",
         "isoCode": "mx",
-        "flagUrl": "https://flagcdn.com/w80/mx.png",
+        "flagUrl": "https://flagcdn.com/w160/mx.png",
         "score": 2,
         "winner": true
       },
@@ -27,7 +27,7 @@
         "color": "#087d5a",
         "altColor": "#fbb516",
         "isoCode": "rs",
-        "flagUrl": "https://flagcdn.com/w80/rs.png",
+        "flagUrl": "https://flagcdn.com/w160/rs.png",
         "score": 0,
         "winner": false
       },
@@ -77,7 +77,7 @@
         "color": "#ce2028",
         "altColor": "#1e4384",
         "isoCode": "kr",
-        "flagUrl": "https://flagcdn.com/w80/kr.png",
+        "flagUrl": "https://flagcdn.com/w160/kr.png",
         "score": 2,
         "winner": true
       },
@@ -88,7 +88,7 @@
         "color": "#d7141a",
         "altColor": "#ffffff",
         "isoCode": "cz",
-        "flagUrl": "https://flagcdn.com/w80/cz.png",
+        "flagUrl": "https://flagcdn.com/w160/cz.png",
         "score": 1,
         "winner": false
       },
@@ -138,7 +138,7 @@
         "color": "#ed2224",
         "altColor": "#ffffff",
         "isoCode": "ca",
-        "flagUrl": "https://flagcdn.com/w80/ca.png",
+        "flagUrl": "https://flagcdn.com/w160/ca.png",
         "score": 1,
         "winner": false
       },
@@ -149,7 +149,7 @@
         "color": "#112855",
         "altColor": "#ffffff",
         "isoCode": "ba",
-        "flagUrl": "https://flagcdn.com/w80/ba.png",
+        "flagUrl": "https://flagcdn.com/w160/ba.png",
         "score": 1,
         "winner": false
       },
@@ -199,7 +199,7 @@
         "color": "#d42339",
         "altColor": "#213065",
         "isoCode": "us",
-        "flagUrl": "https://flagcdn.com/w80/us.png",
+        "flagUrl": "https://flagcdn.com/w160/us.png",
         "score": 4,
         "winner": true
       },
@@ -210,7 +210,7 @@
         "color": "#ea2300",
         "altColor": "#21418c",
         "isoCode": "py",
-        "flagUrl": "https://flagcdn.com/w80/py.png",
+        "flagUrl": "https://flagcdn.com/w160/py.png",
         "score": 1,
         "winner": false
       },
@@ -260,7 +260,7 @@
         "color": "#691a40",
         "altColor": "#691a40",
         "isoCode": "qa",
-        "flagUrl": "https://flagcdn.com/w80/qa.png",
+        "flagUrl": "https://flagcdn.com/w160/qa.png",
         "score": 1,
         "winner": false
       },
@@ -271,7 +271,7 @@
         "color": "#d72b2c",
         "altColor": "#ffffff",
         "isoCode": "ch",
-        "flagUrl": "https://flagcdn.com/w80/ch.png",
+        "flagUrl": "https://flagcdn.com/w160/ch.png",
         "score": 1,
         "winner": false
       },
@@ -321,7 +321,7 @@
         "color": "#fee000",
         "altColor": "#009c37",
         "isoCode": "br",
-        "flagUrl": "https://flagcdn.com/w80/br.png",
+        "flagUrl": "https://flagcdn.com/w160/br.png",
         "score": 1,
         "winner": false
       },
@@ -332,7 +332,7 @@
         "color": "#009060",
         "altColor": "#df2027",
         "isoCode": "ma",
-        "flagUrl": "https://flagcdn.com/w80/ma.png",
+        "flagUrl": "https://flagcdn.com/w160/ma.png",
         "score": 1,
         "winner": false
       },
@@ -382,7 +382,7 @@
         "color": "#0033a0",
         "altColor": "#D20300",
         "isoCode": "ht",
-        "flagUrl": "https://flagcdn.com/w80/ht.png",
+        "flagUrl": "https://flagcdn.com/w160/ht.png",
         "score": 0,
         "winner": false
       },
@@ -393,7 +393,7 @@
         "color": "#1a2d69",
         "altColor": "#de4e44",
         "isoCode": "gb-sct",
-        "flagUrl": "https://flagcdn.com/w80/gb-sct.png",
+        "flagUrl": "https://flagcdn.com/w160/gb-sct.png",
         "score": 1,
         "winner": true
       },
@@ -443,7 +443,7 @@
         "color": "#FFCD00",
         "altColor": "#00843D",
         "isoCode": "au",
-        "flagUrl": "https://flagcdn.com/w80/au.png",
+        "flagUrl": "https://flagcdn.com/w160/au.png",
         "score": 2,
         "winner": true
       },
@@ -454,7 +454,7 @@
         "color": "#ffffff",
         "altColor": "#ef3340",
         "isoCode": "tr",
-        "flagUrl": "https://flagcdn.com/w80/tr.png",
+        "flagUrl": "https://flagcdn.com/w160/tr.png",
         "score": 0,
         "winner": false
       },
@@ -504,7 +504,7 @@
         "color": "#FFFFFF",
         "altColor": "#00CED1",
         "isoCode": "de",
-        "flagUrl": "https://flagcdn.com/w80/de.png",
+        "flagUrl": "https://flagcdn.com/w160/de.png",
         "score": 7,
         "winner": true
       },
@@ -515,7 +515,7 @@
         "color": "#0537e4",
         "altColor": "#0537e4",
         "isoCode": "cu",
-        "flagUrl": "https://flagcdn.com/w80/cu.png",
+        "flagUrl": "https://flagcdn.com/w160/cu.png",
         "score": 1,
         "winner": false
       },
@@ -565,7 +565,7 @@
         "color": "#fb5d00",
         "altColor": "#fb5d00",
         "isoCode": "nl",
-        "flagUrl": "https://flagcdn.com/w80/nl.png",
+        "flagUrl": "https://flagcdn.com/w160/nl.png",
         "score": 2,
         "winner": false
       },
@@ -576,7 +576,7 @@
         "color": "#000555",
         "altColor": "#000555",
         "isoCode": "jp",
-        "flagUrl": "https://flagcdn.com/w80/jp.png",
+        "flagUrl": "https://flagcdn.com/w160/jp.png",
         "score": 2,
         "winner": false
       },
@@ -618,7 +618,7 @@
       "group": "Group E",
       "venue": "",
       "statusState": "in",
-      "statusDetail": "45'+2'",
+      "statusDetail": "HT",
       "home": {
         "id": "4789",
         "name": "Ivory Coast",
@@ -626,7 +626,7 @@
         "color": "#FF8200",
         "altColor": "#009A44",
         "isoCode": "ci",
-        "flagUrl": "https://flagcdn.com/w80/ci.png",
+        "flagUrl": "https://flagcdn.com/w160/ci.png",
         "score": 0,
         "winner": false
       },
@@ -637,7 +637,7 @@
         "color": "#ffdd00",
         "altColor": "#034ea2",
         "isoCode": "ec",
-        "flagUrl": "https://flagcdn.com/w80/ec.png",
+        "flagUrl": "https://flagcdn.com/w160/ec.png",
         "score": 0,
         "winner": false
       },
@@ -687,7 +687,7 @@
         "color": "#fecb00",
         "altColor": "#006aa7",
         "isoCode": "se",
-        "flagUrl": "https://flagcdn.com/w80/se.png",
+        "flagUrl": "https://flagcdn.com/w160/se.png",
         "score": 0,
         "winner": false
       },
@@ -698,7 +698,7 @@
         "color": "#D20300",
         "altColor": "#ffffff",
         "isoCode": "tn",
-        "flagUrl": "https://flagcdn.com/w80/tn.png",
+        "flagUrl": "https://flagcdn.com/w160/tn.png",
         "score": 0,
         "winner": false
       },
@@ -748,7 +748,7 @@
         "color": "#c60b1e",
         "altColor": "#800000",
         "isoCode": "es",
-        "flagUrl": "https://flagcdn.com/w80/es.png",
+        "flagUrl": "https://flagcdn.com/w160/es.png",
         "score": 0,
         "winner": false
       },
@@ -759,7 +759,7 @@
         "color": "#000080",
         "altColor": "#EF3340",
         "isoCode": "cv",
-        "flagUrl": "https://flagcdn.com/w80/cv.png",
+        "flagUrl": "https://flagcdn.com/w160/cv.png",
         "score": 0,
         "winner": false
       },
@@ -809,7 +809,7 @@
         "color": "#E30613",
         "altColor": "#000000",
         "isoCode": "be",
-        "flagUrl": "https://flagcdn.com/w80/be.png",
+        "flagUrl": "https://flagcdn.com/w160/be.png",
         "score": 0,
         "winner": false
       },
@@ -820,7 +820,7 @@
         "color": "#D20300",
         "altColor": "#FFFFFF",
         "isoCode": "eg",
-        "flagUrl": "https://flagcdn.com/w80/eg.png",
+        "flagUrl": "https://flagcdn.com/w160/eg.png",
         "score": 0,
         "winner": false
       },
@@ -870,7 +870,7 @@
         "color": "#FFFFFF",
         "altColor": "#125B34",
         "isoCode": "sa",
-        "flagUrl": "https://flagcdn.com/w80/sa.png",
+        "flagUrl": "https://flagcdn.com/w160/sa.png",
         "score": 0,
         "winner": false
       },
@@ -881,7 +881,7 @@
         "color": "#55B5E5",
         "altColor": "#000080",
         "isoCode": "uy",
-        "flagUrl": "https://flagcdn.com/w80/uy.png",
+        "flagUrl": "https://flagcdn.com/w160/uy.png",
         "score": 0,
         "winner": false
       },
@@ -931,7 +931,7 @@
         "color": "#FFFFFF",
         "altColor": "#da0000",
         "isoCode": "ir",
-        "flagUrl": "https://flagcdn.com/w80/ir.png",
+        "flagUrl": "https://flagcdn.com/w160/ir.png",
         "score": 0,
         "winner": false
       },
@@ -942,7 +942,7 @@
         "color": "#000000",
         "altColor": "#ffffff",
         "isoCode": "nz",
-        "flagUrl": "https://flagcdn.com/w80/nz.png",
+        "flagUrl": "https://flagcdn.com/w160/nz.png",
         "score": 0,
         "winner": false
       },
@@ -992,7 +992,7 @@
         "color": "#000080",
         "altColor": "#C8E6D8",
         "isoCode": "fr",
-        "flagUrl": "https://flagcdn.com/w80/fr.png",
+        "flagUrl": "https://flagcdn.com/w160/fr.png",
         "score": 0,
         "winner": false
       },
@@ -1003,7 +1003,7 @@
         "color": "#006436",
         "altColor": "#FFFFFF",
         "isoCode": "sn",
-        "flagUrl": "https://flagcdn.com/w80/sn.png",
+        "flagUrl": "https://flagcdn.com/w160/sn.png",
         "score": 0,
         "winner": false
       },
@@ -1053,7 +1053,7 @@
         "color": "#0A4D2E",
         "altColor": "#FFFFFF",
         "isoCode": "iq",
-        "flagUrl": "https://flagcdn.com/w80/iq.png",
+        "flagUrl": "https://flagcdn.com/w160/iq.png",
         "score": 0,
         "winner": false
       },
@@ -1064,7 +1064,7 @@
         "color": "#C8102E",
         "altColor": "#000000",
         "isoCode": "no",
-        "flagUrl": "https://flagcdn.com/w80/no.png",
+        "flagUrl": "https://flagcdn.com/w160/no.png",
         "score": 0,
         "winner": false
       },
@@ -1114,7 +1114,7 @@
         "color": "#74acdf",
         "altColor": "#173E69",
         "isoCode": "ar",
-        "flagUrl": "https://flagcdn.com/w80/ar.png",
+        "flagUrl": "https://flagcdn.com/w160/ar.png",
         "score": 0,
         "winner": false
       },
@@ -1125,7 +1125,7 @@
         "color": "#4F9A44",
         "altColor": "#FFFFFF",
         "isoCode": "dz",
-        "flagUrl": "https://flagcdn.com/w80/dz.png",
+        "flagUrl": "https://flagcdn.com/w160/dz.png",
         "score": 0,
         "winner": false
       },
@@ -1175,7 +1175,7 @@
         "color": "#d72b2c",
         "altColor": "#ffffff",
         "isoCode": "at",
-        "flagUrl": "https://flagcdn.com/w80/at.png",
+        "flagUrl": "https://flagcdn.com/w160/at.png",
         "score": 0,
         "winner": false
       },
@@ -1186,7 +1186,7 @@
         "color": "#E70000",
         "altColor": "#000000",
         "isoCode": "jo",
-        "flagUrl": "https://flagcdn.com/w80/jo.png",
+        "flagUrl": "https://flagcdn.com/w160/jo.png",
         "score": 0,
         "winner": false
       },
@@ -1236,7 +1236,7 @@
         "color": "#da291c",
         "altColor": "#0D6938",
         "isoCode": "pt",
-        "flagUrl": "https://flagcdn.com/w80/pt.png",
+        "flagUrl": "https://flagcdn.com/w160/pt.png",
         "score": 0,
         "winner": false
       },
@@ -1247,7 +1247,7 @@
         "color": "#418fde",
         "altColor": "#C60000",
         "isoCode": "cd",
-        "flagUrl": "https://flagcdn.com/w80/cd.png",
+        "flagUrl": "https://flagcdn.com/w160/cd.png",
         "score": 0,
         "winner": false
       },
@@ -1297,7 +1297,7 @@
         "color": "#ffffff",
         "altColor": "#EA1F29",
         "isoCode": "gb-eng",
-        "flagUrl": "https://flagcdn.com/w80/gb-eng.png",
+        "flagUrl": "https://flagcdn.com/w160/gb-eng.png",
         "score": 0,
         "winner": false
       },
@@ -1308,7 +1308,7 @@
         "color": "#ff0000",
         "altColor": "#0c2fff",
         "isoCode": "hr",
-        "flagUrl": "https://flagcdn.com/w80/hr.png",
+        "flagUrl": "https://flagcdn.com/w160/hr.png",
         "score": 0,
         "winner": false
       },
@@ -1358,7 +1358,7 @@
         "color": "#ce2931",
         "altColor": "#fbd632",
         "isoCode": "gh",
-        "flagUrl": "https://flagcdn.com/w80/gh.png",
+        "flagUrl": "https://flagcdn.com/w160/gh.png",
         "score": 0,
         "winner": false
       },
@@ -1369,7 +1369,7 @@
         "color": "#d21034",
         "altColor": "#005293",
         "isoCode": "pa",
-        "flagUrl": "https://flagcdn.com/w80/pa.png",
+        "flagUrl": "https://flagcdn.com/w160/pa.png",
         "score": 0,
         "winner": false
       },
@@ -1419,7 +1419,7 @@
         "color": "#0081d6",
         "altColor": "#1EB53A",
         "isoCode": "uz",
-        "flagUrl": "https://flagcdn.com/w80/uz.png",
+        "flagUrl": "https://flagcdn.com/w160/uz.png",
         "score": 0,
         "winner": false
       },
@@ -1430,7 +1430,7 @@
         "color": "#fbd632",
         "altColor": "#21418c",
         "isoCode": "co",
-        "flagUrl": "https://flagcdn.com/w80/co.png",
+        "flagUrl": "https://flagcdn.com/w160/co.png",
         "score": 0,
         "winner": false
       },
@@ -1480,7 +1480,7 @@
         "color": "#d7141a",
         "altColor": "#ffffff",
         "isoCode": "cz",
-        "flagUrl": "https://flagcdn.com/w80/cz.png",
+        "flagUrl": "https://flagcdn.com/w160/cz.png",
         "score": 0,
         "winner": false
       },
@@ -1491,7 +1491,7 @@
         "color": "#087d5a",
         "altColor": "#fbb516",
         "isoCode": "rs",
-        "flagUrl": "https://flagcdn.com/w80/rs.png",
+        "flagUrl": "https://flagcdn.com/w160/rs.png",
         "score": 0,
         "winner": false
       },
@@ -1541,7 +1541,7 @@
         "color": "#d72b2c",
         "altColor": "#ffffff",
         "isoCode": "ch",
-        "flagUrl": "https://flagcdn.com/w80/ch.png",
+        "flagUrl": "https://flagcdn.com/w160/ch.png",
         "score": 0,
         "winner": false
       },
@@ -1552,7 +1552,7 @@
         "color": "#112855",
         "altColor": "#ffffff",
         "isoCode": "ba",
-        "flagUrl": "https://flagcdn.com/w80/ba.png",
+        "flagUrl": "https://flagcdn.com/w160/ba.png",
         "score": 0,
         "winner": false
       },
@@ -1602,7 +1602,7 @@
         "color": "#ed2224",
         "altColor": "#ffffff",
         "isoCode": "ca",
-        "flagUrl": "https://flagcdn.com/w80/ca.png",
+        "flagUrl": "https://flagcdn.com/w160/ca.png",
         "score": 0,
         "winner": false
       },
@@ -1613,7 +1613,7 @@
         "color": "#691a40",
         "altColor": "#691a40",
         "isoCode": "qa",
-        "flagUrl": "https://flagcdn.com/w80/qa.png",
+        "flagUrl": "https://flagcdn.com/w160/qa.png",
         "score": 0,
         "winner": false
       },
@@ -1663,7 +1663,7 @@
         "color": "#006847",
         "altColor": "#ffffff",
         "isoCode": "mx",
-        "flagUrl": "https://flagcdn.com/w80/mx.png",
+        "flagUrl": "https://flagcdn.com/w160/mx.png",
         "score": 0,
         "winner": false
       },
@@ -1674,7 +1674,7 @@
         "color": "#ce2028",
         "altColor": "#1e4384",
         "isoCode": "kr",
-        "flagUrl": "https://flagcdn.com/w80/kr.png",
+        "flagUrl": "https://flagcdn.com/w160/kr.png",
         "score": 0,
         "winner": false
       },
@@ -1724,7 +1724,7 @@
         "color": "#d42339",
         "altColor": "#213065",
         "isoCode": "us",
-        "flagUrl": "https://flagcdn.com/w80/us.png",
+        "flagUrl": "https://flagcdn.com/w160/us.png",
         "score": 0,
         "winner": false
       },
@@ -1735,7 +1735,7 @@
         "color": "#FFCD00",
         "altColor": "#00843D",
         "isoCode": "au",
-        "flagUrl": "https://flagcdn.com/w80/au.png",
+        "flagUrl": "https://flagcdn.com/w160/au.png",
         "score": 0,
         "winner": false
       },
@@ -1785,7 +1785,7 @@
         "color": "#1a2d69",
         "altColor": "#de4e44",
         "isoCode": "gb-sct",
-        "flagUrl": "https://flagcdn.com/w80/gb-sct.png",
+        "flagUrl": "https://flagcdn.com/w160/gb-sct.png",
         "score": 0,
         "winner": false
       },
@@ -1796,7 +1796,7 @@
         "color": "#009060",
         "altColor": "#df2027",
         "isoCode": "ma",
-        "flagUrl": "https://flagcdn.com/w80/ma.png",
+        "flagUrl": "https://flagcdn.com/w160/ma.png",
         "score": 0,
         "winner": false
       },
@@ -1846,7 +1846,7 @@
         "color": "#fee000",
         "altColor": "#009c37",
         "isoCode": "br",
-        "flagUrl": "https://flagcdn.com/w80/br.png",
+        "flagUrl": "https://flagcdn.com/w160/br.png",
         "score": 0,
         "winner": false
       },
@@ -1857,7 +1857,7 @@
         "color": "#0033a0",
         "altColor": "#D20300",
         "isoCode": "ht",
-        "flagUrl": "https://flagcdn.com/w80/ht.png",
+        "flagUrl": "https://flagcdn.com/w160/ht.png",
         "score": 0,
         "winner": false
       },
@@ -1907,7 +1907,7 @@
         "color": "#ffffff",
         "altColor": "#ef3340",
         "isoCode": "tr",
-        "flagUrl": "https://flagcdn.com/w80/tr.png",
+        "flagUrl": "https://flagcdn.com/w160/tr.png",
         "score": 0,
         "winner": false
       },
@@ -1918,7 +1918,7 @@
         "color": "#ea2300",
         "altColor": "#21418c",
         "isoCode": "py",
-        "flagUrl": "https://flagcdn.com/w80/py.png",
+        "flagUrl": "https://flagcdn.com/w160/py.png",
         "score": 0,
         "winner": false
       },
@@ -1968,7 +1968,7 @@
         "color": "#fb5d00",
         "altColor": "#fb5d00",
         "isoCode": "nl",
-        "flagUrl": "https://flagcdn.com/w80/nl.png",
+        "flagUrl": "https://flagcdn.com/w160/nl.png",
         "score": 0,
         "winner": false
       },
@@ -1979,7 +1979,7 @@
         "color": "#fecb00",
         "altColor": "#006aa7",
         "isoCode": "se",
-        "flagUrl": "https://flagcdn.com/w80/se.png",
+        "flagUrl": "https://flagcdn.com/w160/se.png",
         "score": 0,
         "winner": false
       },
@@ -2029,7 +2029,7 @@
         "color": "#FFFFFF",
         "altColor": "#00CED1",
         "isoCode": "de",
-        "flagUrl": "https://flagcdn.com/w80/de.png",
+        "flagUrl": "https://flagcdn.com/w160/de.png",
         "score": 0,
         "winner": false
       },
@@ -2040,7 +2040,7 @@
         "color": "#FF8200",
         "altColor": "#009A44",
         "isoCode": "ci",
-        "flagUrl": "https://flagcdn.com/w80/ci.png",
+        "flagUrl": "https://flagcdn.com/w160/ci.png",
         "score": 0,
         "winner": false
       },
@@ -2090,7 +2090,7 @@
         "color": "#ffdd00",
         "altColor": "#034ea2",
         "isoCode": "ec",
-        "flagUrl": "https://flagcdn.com/w80/ec.png",
+        "flagUrl": "https://flagcdn.com/w160/ec.png",
         "score": 0,
         "winner": false
       },
@@ -2101,7 +2101,7 @@
         "color": "#0537e4",
         "altColor": "#0537e4",
         "isoCode": "cu",
-        "flagUrl": "https://flagcdn.com/w80/cu.png",
+        "flagUrl": "https://flagcdn.com/w160/cu.png",
         "score": 0,
         "winner": false
       },
@@ -2151,7 +2151,7 @@
         "color": "#D20300",
         "altColor": "#ffffff",
         "isoCode": "tn",
-        "flagUrl": "https://flagcdn.com/w80/tn.png",
+        "flagUrl": "https://flagcdn.com/w160/tn.png",
         "score": 0,
         "winner": false
       },
@@ -2162,7 +2162,7 @@
         "color": "#000555",
         "altColor": "#000555",
         "isoCode": "jp",
-        "flagUrl": "https://flagcdn.com/w80/jp.png",
+        "flagUrl": "https://flagcdn.com/w160/jp.png",
         "score": 0,
         "winner": false
       },
@@ -2212,7 +2212,7 @@
         "color": "#c60b1e",
         "altColor": "#800000",
         "isoCode": "es",
-        "flagUrl": "https://flagcdn.com/w80/es.png",
+        "flagUrl": "https://flagcdn.com/w160/es.png",
         "score": 0,
         "winner": false
       },
@@ -2223,7 +2223,7 @@
         "color": "#FFFFFF",
         "altColor": "#125B34",
         "isoCode": "sa",
-        "flagUrl": "https://flagcdn.com/w80/sa.png",
+        "flagUrl": "https://flagcdn.com/w160/sa.png",
         "score": 0,
         "winner": false
       },
@@ -2273,7 +2273,7 @@
         "color": "#E30613",
         "altColor": "#000000",
         "isoCode": "be",
-        "flagUrl": "https://flagcdn.com/w80/be.png",
+        "flagUrl": "https://flagcdn.com/w160/be.png",
         "score": 0,
         "winner": false
       },
@@ -2284,7 +2284,7 @@
         "color": "#FFFFFF",
         "altColor": "#da0000",
         "isoCode": "ir",
-        "flagUrl": "https://flagcdn.com/w80/ir.png",
+        "flagUrl": "https://flagcdn.com/w160/ir.png",
         "score": 0,
         "winner": false
       },
@@ -2334,7 +2334,7 @@
         "color": "#55B5E5",
         "altColor": "#000080",
         "isoCode": "uy",
-        "flagUrl": "https://flagcdn.com/w80/uy.png",
+        "flagUrl": "https://flagcdn.com/w160/uy.png",
         "score": 0,
         "winner": false
       },
@@ -2345,7 +2345,7 @@
         "color": "#000080",
         "altColor": "#EF3340",
         "isoCode": "cv",
-        "flagUrl": "https://flagcdn.com/w80/cv.png",
+        "flagUrl": "https://flagcdn.com/w160/cv.png",
         "score": 0,
         "winner": false
       },
@@ -2395,7 +2395,7 @@
         "color": "#000000",
         "altColor": "#ffffff",
         "isoCode": "nz",
-        "flagUrl": "https://flagcdn.com/w80/nz.png",
+        "flagUrl": "https://flagcdn.com/w160/nz.png",
         "score": 0,
         "winner": false
       },
@@ -2406,7 +2406,7 @@
         "color": "#D20300",
         "altColor": "#FFFFFF",
         "isoCode": "eg",
-        "flagUrl": "https://flagcdn.com/w80/eg.png",
+        "flagUrl": "https://flagcdn.com/w160/eg.png",
         "score": 0,
         "winner": false
       },
@@ -2456,7 +2456,7 @@
         "color": "#74acdf",
         "altColor": "#173E69",
         "isoCode": "ar",
-        "flagUrl": "https://flagcdn.com/w80/ar.png",
+        "flagUrl": "https://flagcdn.com/w160/ar.png",
         "score": 0,
         "winner": false
       },
@@ -2467,7 +2467,7 @@
         "color": "#d72b2c",
         "altColor": "#ffffff",
         "isoCode": "at",
-        "flagUrl": "https://flagcdn.com/w80/at.png",
+        "flagUrl": "https://flagcdn.com/w160/at.png",
         "score": 0,
         "winner": false
       },
@@ -2517,7 +2517,7 @@
         "color": "#000080",
         "altColor": "#C8E6D8",
         "isoCode": "fr",
-        "flagUrl": "https://flagcdn.com/w80/fr.png",
+        "flagUrl": "https://flagcdn.com/w160/fr.png",
         "score": 0,
         "winner": false
       },
@@ -2528,7 +2528,7 @@
         "color": "#0A4D2E",
         "altColor": "#FFFFFF",
         "isoCode": "iq",
-        "flagUrl": "https://flagcdn.com/w80/iq.png",
+        "flagUrl": "https://flagcdn.com/w160/iq.png",
         "score": 0,
         "winner": false
       },
@@ -2578,7 +2578,7 @@
         "color": "#C8102E",
         "altColor": "#000000",
         "isoCode": "no",
-        "flagUrl": "https://flagcdn.com/w80/no.png",
+        "flagUrl": "https://flagcdn.com/w160/no.png",
         "score": 0,
         "winner": false
       },
@@ -2589,7 +2589,7 @@
         "color": "#006436",
         "altColor": "#FFFFFF",
         "isoCode": "sn",
-        "flagUrl": "https://flagcdn.com/w80/sn.png",
+        "flagUrl": "https://flagcdn.com/w160/sn.png",
         "score": 0,
         "winner": false
       },
@@ -2639,7 +2639,7 @@
         "color": "#E70000",
         "altColor": "#000000",
         "isoCode": "jo",
-        "flagUrl": "https://flagcdn.com/w80/jo.png",
+        "flagUrl": "https://flagcdn.com/w160/jo.png",
         "score": 0,
         "winner": false
       },
@@ -2650,7 +2650,7 @@
         "color": "#4F9A44",
         "altColor": "#FFFFFF",
         "isoCode": "dz",
-        "flagUrl": "https://flagcdn.com/w80/dz.png",
+        "flagUrl": "https://flagcdn.com/w160/dz.png",
         "score": 0,
         "winner": false
       },
@@ -2700,7 +2700,7 @@
         "color": "#da291c",
         "altColor": "#0D6938",
         "isoCode": "pt",
-        "flagUrl": "https://flagcdn.com/w80/pt.png",
+        "flagUrl": "https://flagcdn.com/w160/pt.png",
         "score": 0,
         "winner": false
       },
@@ -2711,7 +2711,7 @@
         "color": "#0081d6",
         "altColor": "#1EB53A",
         "isoCode": "uz",
-        "flagUrl": "https://flagcdn.com/w80/uz.png",
+        "flagUrl": "https://flagcdn.com/w160/uz.png",
         "score": 0,
         "winner": false
       },
@@ -2761,7 +2761,7 @@
         "color": "#ffffff",
         "altColor": "#EA1F29",
         "isoCode": "gb-eng",
-        "flagUrl": "https://flagcdn.com/w80/gb-eng.png",
+        "flagUrl": "https://flagcdn.com/w160/gb-eng.png",
         "score": 0,
         "winner": false
       },
@@ -2772,7 +2772,7 @@
         "color": "#ce2931",
         "altColor": "#fbd632",
         "isoCode": "gh",
-        "flagUrl": "https://flagcdn.com/w80/gh.png",
+        "flagUrl": "https://flagcdn.com/w160/gh.png",
         "score": 0,
         "winner": false
       },
@@ -2822,7 +2822,7 @@
         "color": "#d21034",
         "altColor": "#005293",
         "isoCode": "pa",
-        "flagUrl": "https://flagcdn.com/w80/pa.png",
+        "flagUrl": "https://flagcdn.com/w160/pa.png",
         "score": 0,
         "winner": false
       },
@@ -2833,7 +2833,7 @@
         "color": "#ff0000",
         "altColor": "#0c2fff",
         "isoCode": "hr",
-        "flagUrl": "https://flagcdn.com/w80/hr.png",
+        "flagUrl": "https://flagcdn.com/w160/hr.png",
         "score": 0,
         "winner": false
       },
@@ -2883,7 +2883,7 @@
         "color": "#fbd632",
         "altColor": "#21418c",
         "isoCode": "co",
-        "flagUrl": "https://flagcdn.com/w80/co.png",
+        "flagUrl": "https://flagcdn.com/w160/co.png",
         "score": 0,
         "winner": false
       },
@@ -2894,7 +2894,7 @@
         "color": "#418fde",
         "altColor": "#C60000",
         "isoCode": "cd",
-        "flagUrl": "https://flagcdn.com/w80/cd.png",
+        "flagUrl": "https://flagcdn.com/w160/cd.png",
         "score": 0,
         "winner": false
       },
@@ -2944,7 +2944,7 @@
         "color": "#112855",
         "altColor": "#ffffff",
         "isoCode": "ba",
-        "flagUrl": "https://flagcdn.com/w80/ba.png",
+        "flagUrl": "https://flagcdn.com/w160/ba.png",
         "score": 0,
         "winner": false
       },
@@ -2955,7 +2955,7 @@
         "color": "#691a40",
         "altColor": "#691a40",
         "isoCode": "qa",
-        "flagUrl": "https://flagcdn.com/w80/qa.png",
+        "flagUrl": "https://flagcdn.com/w160/qa.png",
         "score": 0,
         "winner": false
       },
@@ -3005,7 +3005,7 @@
         "color": "#d72b2c",
         "altColor": "#ffffff",
         "isoCode": "ch",
-        "flagUrl": "https://flagcdn.com/w80/ch.png",
+        "flagUrl": "https://flagcdn.com/w160/ch.png",
         "score": 0,
         "winner": false
       },
@@ -3016,7 +3016,7 @@
         "color": "#ed2224",
         "altColor": "#ffffff",
         "isoCode": "ca",
-        "flagUrl": "https://flagcdn.com/w80/ca.png",
+        "flagUrl": "https://flagcdn.com/w160/ca.png",
         "score": 0,
         "winner": false
       },
@@ -3066,7 +3066,7 @@
         "color": "#009060",
         "altColor": "#df2027",
         "isoCode": "ma",
-        "flagUrl": "https://flagcdn.com/w80/ma.png",
+        "flagUrl": "https://flagcdn.com/w160/ma.png",
         "score": 0,
         "winner": false
       },
@@ -3077,7 +3077,7 @@
         "color": "#0033a0",
         "altColor": "#D20300",
         "isoCode": "ht",
-        "flagUrl": "https://flagcdn.com/w80/ht.png",
+        "flagUrl": "https://flagcdn.com/w160/ht.png",
         "score": 0,
         "winner": false
       },
@@ -3127,7 +3127,7 @@
         "color": "#1a2d69",
         "altColor": "#de4e44",
         "isoCode": "gb-sct",
-        "flagUrl": "https://flagcdn.com/w80/gb-sct.png",
+        "flagUrl": "https://flagcdn.com/w160/gb-sct.png",
         "score": 0,
         "winner": false
       },
@@ -3138,7 +3138,7 @@
         "color": "#fee000",
         "altColor": "#009c37",
         "isoCode": "br",
-        "flagUrl": "https://flagcdn.com/w80/br.png",
+        "flagUrl": "https://flagcdn.com/w160/br.png",
         "score": 0,
         "winner": false
       },
@@ -3188,7 +3188,7 @@
         "color": "#d7141a",
         "altColor": "#ffffff",
         "isoCode": "cz",
-        "flagUrl": "https://flagcdn.com/w80/cz.png",
+        "flagUrl": "https://flagcdn.com/w160/cz.png",
         "score": 0,
         "winner": false
       },
@@ -3199,7 +3199,7 @@
         "color": "#006847",
         "altColor": "#ffffff",
         "isoCode": "mx",
-        "flagUrl": "https://flagcdn.com/w80/mx.png",
+        "flagUrl": "https://flagcdn.com/w160/mx.png",
         "score": 0,
         "winner": false
       },
@@ -3249,7 +3249,7 @@
         "color": "#087d5a",
         "altColor": "#fbb516",
         "isoCode": "rs",
-        "flagUrl": "https://flagcdn.com/w80/rs.png",
+        "flagUrl": "https://flagcdn.com/w160/rs.png",
         "score": 0,
         "winner": false
       },
@@ -3260,7 +3260,7 @@
         "color": "#ce2028",
         "altColor": "#1e4384",
         "isoCode": "kr",
-        "flagUrl": "https://flagcdn.com/w80/kr.png",
+        "flagUrl": "https://flagcdn.com/w160/kr.png",
         "score": 0,
         "winner": false
       },
@@ -3310,7 +3310,7 @@
         "color": "#0537e4",
         "altColor": "#0537e4",
         "isoCode": "cu",
-        "flagUrl": "https://flagcdn.com/w80/cu.png",
+        "flagUrl": "https://flagcdn.com/w160/cu.png",
         "score": 0,
         "winner": false
       },
@@ -3321,7 +3321,7 @@
         "color": "#FF8200",
         "altColor": "#009A44",
         "isoCode": "ci",
-        "flagUrl": "https://flagcdn.com/w80/ci.png",
+        "flagUrl": "https://flagcdn.com/w160/ci.png",
         "score": 0,
         "winner": false
       },
@@ -3371,7 +3371,7 @@
         "color": "#ffdd00",
         "altColor": "#034ea2",
         "isoCode": "ec",
-        "flagUrl": "https://flagcdn.com/w80/ec.png",
+        "flagUrl": "https://flagcdn.com/w160/ec.png",
         "score": 0,
         "winner": false
       },
@@ -3382,7 +3382,7 @@
         "color": "#FFFFFF",
         "altColor": "#00CED1",
         "isoCode": "de",
-        "flagUrl": "https://flagcdn.com/w80/de.png",
+        "flagUrl": "https://flagcdn.com/w160/de.png",
         "score": 0,
         "winner": false
       },
@@ -3432,7 +3432,7 @@
         "color": "#000555",
         "altColor": "#000555",
         "isoCode": "jp",
-        "flagUrl": "https://flagcdn.com/w80/jp.png",
+        "flagUrl": "https://flagcdn.com/w160/jp.png",
         "score": 0,
         "winner": false
       },
@@ -3443,7 +3443,7 @@
         "color": "#fecb00",
         "altColor": "#006aa7",
         "isoCode": "se",
-        "flagUrl": "https://flagcdn.com/w80/se.png",
+        "flagUrl": "https://flagcdn.com/w160/se.png",
         "score": 0,
         "winner": false
       },
@@ -3493,7 +3493,7 @@
         "color": "#D20300",
         "altColor": "#ffffff",
         "isoCode": "tn",
-        "flagUrl": "https://flagcdn.com/w80/tn.png",
+        "flagUrl": "https://flagcdn.com/w160/tn.png",
         "score": 0,
         "winner": false
       },
@@ -3504,7 +3504,7 @@
         "color": "#fb5d00",
         "altColor": "#fb5d00",
         "isoCode": "nl",
-        "flagUrl": "https://flagcdn.com/w80/nl.png",
+        "flagUrl": "https://flagcdn.com/w160/nl.png",
         "score": 0,
         "winner": false
       },
@@ -3554,7 +3554,7 @@
         "color": "#ea2300",
         "altColor": "#21418c",
         "isoCode": "py",
-        "flagUrl": "https://flagcdn.com/w80/py.png",
+        "flagUrl": "https://flagcdn.com/w160/py.png",
         "score": 0,
         "winner": false
       },
@@ -3565,7 +3565,7 @@
         "color": "#FFCD00",
         "altColor": "#00843D",
         "isoCode": "au",
-        "flagUrl": "https://flagcdn.com/w80/au.png",
+        "flagUrl": "https://flagcdn.com/w160/au.png",
         "score": 0,
         "winner": false
       },
@@ -3615,7 +3615,7 @@
         "color": "#ffffff",
         "altColor": "#ef3340",
         "isoCode": "tr",
-        "flagUrl": "https://flagcdn.com/w80/tr.png",
+        "flagUrl": "https://flagcdn.com/w160/tr.png",
         "score": 0,
         "winner": false
       },
@@ -3626,7 +3626,7 @@
         "color": "#d42339",
         "altColor": "#213065",
         "isoCode": "us",
-        "flagUrl": "https://flagcdn.com/w80/us.png",
+        "flagUrl": "https://flagcdn.com/w160/us.png",
         "score": 0,
         "winner": false
       },
@@ -3676,7 +3676,7 @@
         "color": "#C8102E",
         "altColor": "#000000",
         "isoCode": "no",
-        "flagUrl": "https://flagcdn.com/w80/no.png",
+        "flagUrl": "https://flagcdn.com/w160/no.png",
         "score": 0,
         "winner": false
       },
@@ -3687,7 +3687,7 @@
         "color": "#000080",
         "altColor": "#C8E6D8",
         "isoCode": "fr",
-        "flagUrl": "https://flagcdn.com/w80/fr.png",
+        "flagUrl": "https://flagcdn.com/w160/fr.png",
         "score": 0,
         "winner": false
       },
@@ -3737,7 +3737,7 @@
         "color": "#006436",
         "altColor": "#FFFFFF",
         "isoCode": "sn",
-        "flagUrl": "https://flagcdn.com/w80/sn.png",
+        "flagUrl": "https://flagcdn.com/w160/sn.png",
         "score": 0,
         "winner": false
       },
@@ -3748,7 +3748,7 @@
         "color": "#0A4D2E",
         "altColor": "#FFFFFF",
         "isoCode": "iq",
-        "flagUrl": "https://flagcdn.com/w80/iq.png",
+        "flagUrl": "https://flagcdn.com/w160/iq.png",
         "score": 0,
         "winner": false
       },
@@ -3798,7 +3798,7 @@
         "color": "#000080",
         "altColor": "#EF3340",
         "isoCode": "cv",
-        "flagUrl": "https://flagcdn.com/w80/cv.png",
+        "flagUrl": "https://flagcdn.com/w160/cv.png",
         "score": 0,
         "winner": false
       },
@@ -3809,7 +3809,7 @@
         "color": "#FFFFFF",
         "altColor": "#125B34",
         "isoCode": "sa",
-        "flagUrl": "https://flagcdn.com/w80/sa.png",
+        "flagUrl": "https://flagcdn.com/w160/sa.png",
         "score": 0,
         "winner": false
       },
@@ -3859,7 +3859,7 @@
         "color": "#55B5E5",
         "altColor": "#000080",
         "isoCode": "uy",
-        "flagUrl": "https://flagcdn.com/w80/uy.png",
+        "flagUrl": "https://flagcdn.com/w160/uy.png",
         "score": 0,
         "winner": false
       },
@@ -3870,7 +3870,7 @@
         "color": "#c60b1e",
         "altColor": "#800000",
         "isoCode": "es",
-        "flagUrl": "https://flagcdn.com/w80/es.png",
+        "flagUrl": "https://flagcdn.com/w160/es.png",
         "score": 0,
         "winner": false
       },
@@ -3920,7 +3920,7 @@
         "color": "#D20300",
         "altColor": "#FFFFFF",
         "isoCode": "eg",
-        "flagUrl": "https://flagcdn.com/w80/eg.png",
+        "flagUrl": "https://flagcdn.com/w160/eg.png",
         "score": 0,
         "winner": false
       },
@@ -3931,7 +3931,7 @@
         "color": "#FFFFFF",
         "altColor": "#da0000",
         "isoCode": "ir",
-        "flagUrl": "https://flagcdn.com/w80/ir.png",
+        "flagUrl": "https://flagcdn.com/w160/ir.png",
         "score": 0,
         "winner": false
       },
@@ -3981,7 +3981,7 @@
         "color": "#000000",
         "altColor": "#ffffff",
         "isoCode": "nz",
-        "flagUrl": "https://flagcdn.com/w80/nz.png",
+        "flagUrl": "https://flagcdn.com/w160/nz.png",
         "score": 0,
         "winner": false
       },
@@ -3992,7 +3992,7 @@
         "color": "#E30613",
         "altColor": "#000000",
         "isoCode": "be",
-        "flagUrl": "https://flagcdn.com/w80/be.png",
+        "flagUrl": "https://flagcdn.com/w160/be.png",
         "score": 0,
         "winner": false
       },
@@ -4042,7 +4042,7 @@
         "color": "#ff0000",
         "altColor": "#0c2fff",
         "isoCode": "hr",
-        "flagUrl": "https://flagcdn.com/w80/hr.png",
+        "flagUrl": "https://flagcdn.com/w160/hr.png",
         "score": 0,
         "winner": false
       },
@@ -4053,7 +4053,7 @@
         "color": "#ce2931",
         "altColor": "#fbd632",
         "isoCode": "gh",
-        "flagUrl": "https://flagcdn.com/w80/gh.png",
+        "flagUrl": "https://flagcdn.com/w160/gh.png",
         "score": 0,
         "winner": false
       },
@@ -4103,7 +4103,7 @@
         "color": "#d21034",
         "altColor": "#005293",
         "isoCode": "pa",
-        "flagUrl": "https://flagcdn.com/w80/pa.png",
+        "flagUrl": "https://flagcdn.com/w160/pa.png",
         "score": 0,
         "winner": false
       },
@@ -4114,7 +4114,7 @@
         "color": "#ffffff",
         "altColor": "#EA1F29",
         "isoCode": "gb-eng",
-        "flagUrl": "https://flagcdn.com/w80/gb-eng.png",
+        "flagUrl": "https://flagcdn.com/w160/gb-eng.png",
         "score": 0,
         "winner": false
       },
@@ -4164,7 +4164,7 @@
         "color": "#fbd632",
         "altColor": "#21418c",
         "isoCode": "co",
-        "flagUrl": "https://flagcdn.com/w80/co.png",
+        "flagUrl": "https://flagcdn.com/w160/co.png",
         "score": 0,
         "winner": false
       },
@@ -4175,7 +4175,7 @@
         "color": "#da291c",
         "altColor": "#0D6938",
         "isoCode": "pt",
-        "flagUrl": "https://flagcdn.com/w80/pt.png",
+        "flagUrl": "https://flagcdn.com/w160/pt.png",
         "score": 0,
         "winner": false
       },
@@ -4225,7 +4225,7 @@
         "color": "#418fde",
         "altColor": "#C60000",
         "isoCode": "cd",
-        "flagUrl": "https://flagcdn.com/w80/cd.png",
+        "flagUrl": "https://flagcdn.com/w160/cd.png",
         "score": 0,
         "winner": false
       },
@@ -4236,7 +4236,7 @@
         "color": "#0081d6",
         "altColor": "#1EB53A",
         "isoCode": "uz",
-        "flagUrl": "https://flagcdn.com/w80/uz.png",
+        "flagUrl": "https://flagcdn.com/w160/uz.png",
         "score": 0,
         "winner": false
       },
@@ -4286,7 +4286,7 @@
         "color": "#4F9A44",
         "altColor": "#FFFFFF",
         "isoCode": "dz",
-        "flagUrl": "https://flagcdn.com/w80/dz.png",
+        "flagUrl": "https://flagcdn.com/w160/dz.png",
         "score": 0,
         "winner": false
       },
@@ -4297,7 +4297,7 @@
         "color": "#d72b2c",
         "altColor": "#ffffff",
         "isoCode": "at",
-        "flagUrl": "https://flagcdn.com/w80/at.png",
+        "flagUrl": "https://flagcdn.com/w160/at.png",
         "score": 0,
         "winner": false
       },
@@ -4347,7 +4347,7 @@
         "color": "#E70000",
         "altColor": "#000000",
         "isoCode": "jo",
-        "flagUrl": "https://flagcdn.com/w80/jo.png",
+        "flagUrl": "https://flagcdn.com/w160/jo.png",
         "score": 0,
         "winner": false
       },
@@ -4358,7 +4358,7 @@
         "color": "#74acdf",
         "altColor": "#173E69",
         "isoCode": "ar",
-        "flagUrl": "https://flagcdn.com/w80/ar.png",
+        "flagUrl": "https://flagcdn.com/w160/ar.png",
         "score": 0,
         "winner": false
       },
@@ -4408,7 +4408,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "2a",
-        "flagUrl": "https://flagcdn.com/w80/2a.png",
+        "flagUrl": "https://flagcdn.com/w160/2a.png",
         "score": 0,
         "winner": false
       },
@@ -4419,7 +4419,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "2b",
-        "flagUrl": "https://flagcdn.com/w80/2b.png",
+        "flagUrl": "https://flagcdn.com/w160/2b.png",
         "score": 0,
         "winner": false
       },
@@ -4469,7 +4469,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "1c",
-        "flagUrl": "https://flagcdn.com/w80/1c.png",
+        "flagUrl": "https://flagcdn.com/w160/1c.png",
         "score": 0,
         "winner": false
       },
@@ -4480,7 +4480,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "2f",
-        "flagUrl": "https://flagcdn.com/w80/2f.png",
+        "flagUrl": "https://flagcdn.com/w160/2f.png",
         "score": 0,
         "winner": false
       },
@@ -4530,7 +4530,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "1e",
-        "flagUrl": "https://flagcdn.com/w80/1e.png",
+        "flagUrl": "https://flagcdn.com/w160/1e.png",
         "score": 0,
         "winner": false
       },
@@ -4541,7 +4541,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "3r",
-        "flagUrl": "https://flagcdn.com/w80/3r.png",
+        "flagUrl": "https://flagcdn.com/w160/3r.png",
         "score": 0,
         "winner": false
       },
@@ -4591,7 +4591,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "1f",
-        "flagUrl": "https://flagcdn.com/w80/1f.png",
+        "flagUrl": "https://flagcdn.com/w160/1f.png",
         "score": 0,
         "winner": false
       },
@@ -4602,7 +4602,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "2c",
-        "flagUrl": "https://flagcdn.com/w80/2c.png",
+        "flagUrl": "https://flagcdn.com/w160/2c.png",
         "score": 0,
         "winner": false
       },
@@ -4652,7 +4652,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "2e",
-        "flagUrl": "https://flagcdn.com/w80/2e.png",
+        "flagUrl": "https://flagcdn.com/w160/2e.png",
         "score": 0,
         "winner": false
       },
@@ -4663,7 +4663,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "2i",
-        "flagUrl": "https://flagcdn.com/w80/2i.png",
+        "flagUrl": "https://flagcdn.com/w160/2i.png",
         "score": 0,
         "winner": false
       },
@@ -4713,7 +4713,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "1i",
-        "flagUrl": "https://flagcdn.com/w80/1i.png",
+        "flagUrl": "https://flagcdn.com/w160/1i.png",
         "score": 0,
         "winner": false
       },
@@ -4724,7 +4724,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "3r",
-        "flagUrl": "https://flagcdn.com/w80/3r.png",
+        "flagUrl": "https://flagcdn.com/w160/3r.png",
         "score": 0,
         "winner": false
       },
@@ -4774,7 +4774,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "1a",
-        "flagUrl": "https://flagcdn.com/w80/1a.png",
+        "flagUrl": "https://flagcdn.com/w160/1a.png",
         "score": 0,
         "winner": false
       },
@@ -4785,7 +4785,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "3r",
-        "flagUrl": "https://flagcdn.com/w80/3r.png",
+        "flagUrl": "https://flagcdn.com/w160/3r.png",
         "score": 0,
         "winner": false
       },
@@ -4835,7 +4835,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "1l",
-        "flagUrl": "https://flagcdn.com/w80/1l.png",
+        "flagUrl": "https://flagcdn.com/w160/1l.png",
         "score": 0,
         "winner": false
       },
@@ -4846,7 +4846,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "3r",
-        "flagUrl": "https://flagcdn.com/w80/3r.png",
+        "flagUrl": "https://flagcdn.com/w160/3r.png",
         "score": 0,
         "winner": false
       },
@@ -4896,7 +4896,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "1g",
-        "flagUrl": "https://flagcdn.com/w80/1g.png",
+        "flagUrl": "https://flagcdn.com/w160/1g.png",
         "score": 0,
         "winner": false
       },
@@ -4907,7 +4907,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "3r",
-        "flagUrl": "https://flagcdn.com/w80/3r.png",
+        "flagUrl": "https://flagcdn.com/w160/3r.png",
         "score": 0,
         "winner": false
       },
@@ -4957,7 +4957,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "1d",
-        "flagUrl": "https://flagcdn.com/w80/1d.png",
+        "flagUrl": "https://flagcdn.com/w160/1d.png",
         "score": 0,
         "winner": false
       },
@@ -4968,7 +4968,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "3r",
-        "flagUrl": "https://flagcdn.com/w80/3r.png",
+        "flagUrl": "https://flagcdn.com/w160/3r.png",
         "score": 0,
         "winner": false
       },
@@ -5018,7 +5018,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "1h",
-        "flagUrl": "https://flagcdn.com/w80/1h.png",
+        "flagUrl": "https://flagcdn.com/w160/1h.png",
         "score": 0,
         "winner": false
       },
@@ -5029,7 +5029,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "2j",
-        "flagUrl": "https://flagcdn.com/w80/2j.png",
+        "flagUrl": "https://flagcdn.com/w160/2j.png",
         "score": 0,
         "winner": false
       },
@@ -5079,7 +5079,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "2k",
-        "flagUrl": "https://flagcdn.com/w80/2k.png",
+        "flagUrl": "https://flagcdn.com/w160/2k.png",
         "score": 0,
         "winner": false
       },
@@ -5090,7 +5090,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "2l",
-        "flagUrl": "https://flagcdn.com/w80/2l.png",
+        "flagUrl": "https://flagcdn.com/w160/2l.png",
         "score": 0,
         "winner": false
       },
@@ -5140,7 +5140,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "1b",
-        "flagUrl": "https://flagcdn.com/w80/1b.png",
+        "flagUrl": "https://flagcdn.com/w160/1b.png",
         "score": 0,
         "winner": false
       },
@@ -5151,7 +5151,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "3r",
-        "flagUrl": "https://flagcdn.com/w80/3r.png",
+        "flagUrl": "https://flagcdn.com/w160/3r.png",
         "score": 0,
         "winner": false
       },
@@ -5201,7 +5201,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "2d",
-        "flagUrl": "https://flagcdn.com/w80/2d.png",
+        "flagUrl": "https://flagcdn.com/w160/2d.png",
         "score": 0,
         "winner": false
       },
@@ -5212,7 +5212,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "2g",
-        "flagUrl": "https://flagcdn.com/w80/2g.png",
+        "flagUrl": "https://flagcdn.com/w160/2g.png",
         "score": 0,
         "winner": false
       },
@@ -5262,7 +5262,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "1j",
-        "flagUrl": "https://flagcdn.com/w80/1j.png",
+        "flagUrl": "https://flagcdn.com/w160/1j.png",
         "score": 0,
         "winner": false
       },
@@ -5273,7 +5273,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "2h",
-        "flagUrl": "https://flagcdn.com/w80/2h.png",
+        "flagUrl": "https://flagcdn.com/w160/2h.png",
         "score": 0,
         "winner": false
       },
@@ -5323,7 +5323,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "1k",
-        "flagUrl": "https://flagcdn.com/w80/1k.png",
+        "flagUrl": "https://flagcdn.com/w160/1k.png",
         "score": 0,
         "winner": false
       },
@@ -5334,7 +5334,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "3r",
-        "flagUrl": "https://flagcdn.com/w80/3r.png",
+        "flagUrl": "https://flagcdn.com/w160/3r.png",
         "score": 0,
         "winner": false
       },
@@ -5384,7 +5384,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5395,7 +5395,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5445,7 +5445,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5456,7 +5456,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5506,7 +5506,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5517,7 +5517,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5567,7 +5567,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5578,7 +5578,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5628,7 +5628,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5639,7 +5639,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5689,7 +5689,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5700,7 +5700,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5750,7 +5750,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5761,7 +5761,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5811,7 +5811,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5822,7 +5822,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5872,7 +5872,7 @@
         "color": "#000000",
         "altColor": "#C60000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5883,7 +5883,7 @@
         "color": "#000000",
         "altColor": "#C60000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5933,7 +5933,7 @@
         "color": "#000000",
         "altColor": "#C60000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5944,7 +5944,7 @@
         "color": "#000000",
         "altColor": "#C60000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -5994,7 +5994,7 @@
         "color": "#000000",
         "altColor": "#C60000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -6005,7 +6005,7 @@
         "color": "#000000",
         "altColor": "#C60000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -6055,7 +6055,7 @@
         "color": "#000000",
         "altColor": "#C60000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -6066,7 +6066,7 @@
         "color": "#000000",
         "altColor": "#C60000",
         "isoCode": "rd",
-        "flagUrl": "https://flagcdn.com/w80/rd.png",
+        "flagUrl": "https://flagcdn.com/w160/rd.png",
         "score": 0,
         "winner": false
       },
@@ -6116,7 +6116,7 @@
         "color": "#000000",
         "altColor": "#C60000",
         "isoCode": "qf",
-        "flagUrl": "https://flagcdn.com/w80/qf.png",
+        "flagUrl": "https://flagcdn.com/w160/qf.png",
         "score": 0,
         "winner": false
       },
@@ -6127,7 +6127,7 @@
         "color": "#000000",
         "altColor": "#C60000",
         "isoCode": "qf",
-        "flagUrl": "https://flagcdn.com/w80/qf.png",
+        "flagUrl": "https://flagcdn.com/w160/qf.png",
         "score": 0,
         "winner": false
       },
@@ -6177,7 +6177,7 @@
         "color": "#000000",
         "altColor": "#C60000",
         "isoCode": "qf",
-        "flagUrl": "https://flagcdn.com/w80/qf.png",
+        "flagUrl": "https://flagcdn.com/w160/qf.png",
         "score": 0,
         "winner": false
       },
@@ -6188,7 +6188,7 @@
         "color": "#000000",
         "altColor": "#C60000",
         "isoCode": "qw",
-        "flagUrl": "https://flagcdn.com/w80/qw.png",
+        "flagUrl": "https://flagcdn.com/w160/qw.png",
         "score": 0,
         "winner": false
       },
@@ -6238,7 +6238,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "sf",
-        "flagUrl": "https://flagcdn.com/w80/sf.png",
+        "flagUrl": "https://flagcdn.com/w160/sf.png",
         "score": 0,
         "winner": false
       },
@@ -6249,7 +6249,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "sf",
-        "flagUrl": "https://flagcdn.com/w80/sf.png",
+        "flagUrl": "https://flagcdn.com/w160/sf.png",
         "score": 0,
         "winner": false
       },
@@ -6299,7 +6299,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "sf",
-        "flagUrl": "https://flagcdn.com/w80/sf.png",
+        "flagUrl": "https://flagcdn.com/w160/sf.png",
         "score": 0,
         "winner": false
       },
@@ -6310,7 +6310,7 @@
         "color": "#000000",
         "altColor": "#000000",
         "isoCode": "sf",
-        "flagUrl": "https://flagcdn.com/w80/sf.png",
+        "flagUrl": "https://flagcdn.com/w160/sf.png",
         "score": 0,
         "winner": false
       },
