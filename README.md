@@ -10,7 +10,7 @@
 
 ## 🌐 Live Demo
 
-> Deploy to Vercel and add your URL here
+> https://wc2026-odds-three.vercel.app/
 
 ---
 
