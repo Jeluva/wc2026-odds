@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T16:32:12.706Z",
+  "updated": "2026-06-15T20:11:09.980Z",
   "standings": {
     "Group A": [
       {
@@ -419,6 +419,42 @@
         "ga": 5,
         "gd": -4,
         "pts": 0
+      }
+    ],
+    "Group H": [
+      {
+        "id": "2597",
+        "name": "Cape Verde",
+        "abbr": "CPV",
+        "color": "#000080",
+        "altColor": "#EF3340",
+        "isoCode": "cv",
+        "flagUrl": "https://flagcdn.com/w160/cv.png",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "id": "164",
+        "name": "Spain",
+        "abbr": "ESP",
+        "color": "#c60b1e",
+        "altColor": "#800000",
+        "isoCode": "es",
+        "flagUrl": "https://flagcdn.com/w160/es.png",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 0,
+        "ga": 0,
+        "gd": 0,
+        "pts": 1
       }
     ]
   }
