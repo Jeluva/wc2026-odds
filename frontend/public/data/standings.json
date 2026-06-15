@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T00:22:02.167Z",
+  "updated": "2026-06-15T05:34:46.180Z",
   "standings": {
     "Group A": [
       {
@@ -300,6 +300,40 @@
         "pts": 3
       },
       {
+        "id": "4789",
+        "name": "Ivory Coast",
+        "abbr": "CIV",
+        "color": "#FF8200",
+        "altColor": "#009A44",
+        "isoCode": "ci",
+        "flagUrl": "https://flagcdn.com/w160/ci.png",
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gf": 1,
+        "ga": 0,
+        "gd": 1,
+        "pts": 3
+      },
+      {
+        "id": "209",
+        "name": "Ecuador",
+        "abbr": "ECU",
+        "color": "#ffdd00",
+        "altColor": "#034ea2",
+        "isoCode": "ec",
+        "flagUrl": "https://flagcdn.com/w160/ec.png",
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "gf": 0,
+        "ga": 1,
+        "gd": -1,
+        "pts": 0
+      },
+      {
         "id": "11678",
         "name": "Curaçao",
         "abbr": "CUW",
@@ -318,6 +352,23 @@
       }
     ],
     "Group F": [
+      {
+        "id": "466",
+        "name": "Sweden",
+        "abbr": "SWE",
+        "color": "#fecb00",
+        "altColor": "#006aa7",
+        "isoCode": "se",
+        "flagUrl": "https://flagcdn.com/w160/se.png",
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gf": 5,
+        "ga": 1,
+        "gd": 4,
+        "pts": 3
+      },
       {
         "id": "627",
         "name": "Japan",
@@ -351,6 +402,23 @@
         "ga": 2,
         "gd": 0,
         "pts": 1
+      },
+      {
+        "id": "659",
+        "name": "Tunisia",
+        "abbr": "TUN",
+        "color": "#D20300",
+        "altColor": "#ffffff",
+        "isoCode": "tn",
+        "flagUrl": "https://flagcdn.com/w160/tn.png",
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "gf": 1,
+        "ga": 5,
+        "gd": -4,
+        "pts": 0
       }
     ]
   }
