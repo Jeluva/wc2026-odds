@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T00:11:15.844Z",
+  "updated": "2026-06-16T05:30:49.569Z",
   "standings": {
     "Group A": [
       {
@@ -492,6 +492,40 @@
       }
     ],
     "Group G": [
+      {
+        "id": "469",
+        "name": "Iran",
+        "abbr": "IRN",
+        "color": "#FFFFFF",
+        "altColor": "#da0000",
+        "isoCode": "ir",
+        "flagUrl": "https://flagcdn.com/w160/ir.png",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "id": "2666",
+        "name": "New Zealand",
+        "abbr": "NZL",
+        "color": "#000000",
+        "altColor": "#ffffff",
+        "isoCode": "nz",
+        "flagUrl": "https://flagcdn.com/w160/nz.png",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 1
+      },
       {
         "id": "459",
         "name": "Belgium",
