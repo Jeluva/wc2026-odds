@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T20:29:16.348Z",
+  "updated": "2026-06-17T22:20:48.283Z",
   "standings": {
     "Group A": [
       {
@@ -735,6 +735,42 @@
         "ga": 1,
         "gd": 0,
         "pts": 1
+      }
+    ],
+    "Group L": [
+      {
+        "id": "448",
+        "name": "England",
+        "abbr": "ENG",
+        "color": "#ffffff",
+        "altColor": "#EA1F29",
+        "isoCode": "gb-eng",
+        "flagUrl": "https://flagcdn.com/w160/gb-eng.png",
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gf": 4,
+        "ga": 2,
+        "gd": 2,
+        "pts": 3
+      },
+      {
+        "id": "477",
+        "name": "Croatia",
+        "abbr": "CRO",
+        "color": "#ff0000",
+        "altColor": "#0c2fff",
+        "isoCode": "hr",
+        "flagUrl": "https://flagcdn.com/w160/hr.png",
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "gf": 2,
+        "ga": 4,
+        "gd": -2,
+        "pts": 0
       }
     ]
   }
