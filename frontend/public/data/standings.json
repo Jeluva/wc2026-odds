@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T18:01:26.577Z",
+  "updated": "2026-06-17T20:29:16.348Z",
   "standings": {
     "Group A": [
       {
@@ -699,6 +699,42 @@
         "ga": 3,
         "gd": -3,
         "pts": 0
+      }
+    ],
+    "Group K": [
+      {
+        "id": "2850",
+        "name": "Congo DR",
+        "abbr": "COD",
+        "color": "#418fde",
+        "altColor": "#C60000",
+        "isoCode": "cd",
+        "flagUrl": "https://flagcdn.com/w160/cd.png",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
+      },
+      {
+        "id": "482",
+        "name": "Portugal",
+        "abbr": "POR",
+        "color": "#da291c",
+        "altColor": "#0D6938",
+        "isoCode": "pt",
+        "flagUrl": "https://flagcdn.com/w160/pt.png",
+        "played": 1,
+        "won": 0,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 1
       }
     ]
   }
