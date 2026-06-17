@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T23:18:09.320Z",
+  "updated": "2026-06-17T01:59:09.658Z",
   "standings": {
     "Group A": [
       {
@@ -563,6 +563,23 @@
     ],
     "Group I": [
       {
+        "id": "464",
+        "name": "Norway",
+        "abbr": "NOR",
+        "color": "#C8102E",
+        "altColor": "#000000",
+        "isoCode": "no",
+        "flagUrl": "https://flagcdn.com/w160/no.png",
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "pts": 3
+      },
+      {
         "id": "478",
         "name": "France",
         "abbr": "FRA",
@@ -594,6 +611,23 @@
         "gf": 1,
         "ga": 3,
         "gd": -2,
+        "pts": 0
+      },
+      {
+        "id": "4375",
+        "name": "Iraq",
+        "abbr": "IRQ",
+        "color": "#0A4D2E",
+        "altColor": "#FFFFFF",
+        "isoCode": "iq",
+        "flagUrl": "https://flagcdn.com/w160/iq.png",
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "gf": 1,
+        "ga": 4,
+        "gd": -3,
         "pts": 0
       }
     ]
