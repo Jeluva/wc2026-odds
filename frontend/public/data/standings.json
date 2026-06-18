@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T23:54:52.508Z",
+  "updated": "2026-06-18T02:42:13.093Z",
   "standings": {
     "Group A": [
       {
@@ -754,6 +754,40 @@
         "ga": 2,
         "gd": 2,
         "pts": 3
+      },
+      {
+        "id": "4469",
+        "name": "Ghana",
+        "abbr": "GHA",
+        "color": "#fbd632",
+        "altColor": "#000000",
+        "isoCode": "gh",
+        "flagUrl": "https://flagcdn.com/w160/gh.png",
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gf": 1,
+        "ga": 0,
+        "gd": 1,
+        "pts": 3
+      },
+      {
+        "id": "2659",
+        "name": "Panama",
+        "abbr": "PAN",
+        "color": "#d21034",
+        "altColor": "#005293",
+        "isoCode": "pa",
+        "flagUrl": "https://flagcdn.com/w160/pa.png",
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "gf": 0,
+        "ga": 1,
+        "gd": -1,
+        "pts": 0
       },
       {
         "id": "477",
