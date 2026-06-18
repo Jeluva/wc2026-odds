@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T02:42:13.093Z",
+  "updated": "2026-06-18T07:20:01.724Z",
   "standings": {
     "Group A": [
       {
@@ -703,6 +703,23 @@
     ],
     "Group K": [
       {
+        "id": "208",
+        "name": "Colombia",
+        "abbr": "COL",
+        "color": "#fbd632",
+        "altColor": "#21418c",
+        "isoCode": "co",
+        "flagUrl": "https://flagcdn.com/w160/co.png",
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "gf": 3,
+        "ga": 1,
+        "gd": 2,
+        "pts": 3
+      },
+      {
         "id": "2850",
         "name": "Congo DR",
         "abbr": "COD",
@@ -735,6 +752,23 @@
         "ga": 1,
         "gd": 0,
         "pts": 1
+      },
+      {
+        "id": "2570",
+        "name": "Uzbekistan",
+        "abbr": "UZB",
+        "color": "#ffffff",
+        "altColor": "#0072CE",
+        "isoCode": "uz",
+        "flagUrl": "https://flagcdn.com/w160/uz.png",
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "gf": 1,
+        "ga": 3,
+        "gd": -2,
+        "pts": 0
       }
     ],
     "Group L": [
