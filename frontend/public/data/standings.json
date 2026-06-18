@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T20:12:06.389Z",
+  "updated": "2026-06-18T22:25:13.163Z",
   "standings": {
     "Group A": [
       {
@@ -73,21 +73,21 @@
     ],
     "Group B": [
       {
-        "id": "452",
-        "name": "Bosnia-Herzegovina",
-        "abbr": "BIH",
-        "color": "#112855",
-        "altColor": "#ffffff",
-        "isoCode": "ba",
-        "flagUrl": "https://flagcdn.com/w160/ba.png",
-        "played": 1,
-        "won": 0,
+        "id": "475",
+        "name": "Switzerland",
+        "abbr": "SUI",
+        "color": "#FF0000",
+        "altColor": "#BCECAC",
+        "isoCode": "ch",
+        "flagUrl": "https://flagcdn.com/w160/ch.png",
+        "played": 2,
+        "won": 1,
         "drawn": 1,
         "lost": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "pts": 1
+        "gf": 5,
+        "ga": 2,
+        "gd": 3,
+        "pts": 4
       },
       {
         "id": "206",
@@ -124,20 +124,20 @@
         "pts": 1
       },
       {
-        "id": "475",
-        "name": "Switzerland",
-        "abbr": "SUI",
-        "color": "#FF0000",
-        "altColor": "#BCECAC",
-        "isoCode": "ch",
-        "flagUrl": "https://flagcdn.com/w160/ch.png",
-        "played": 1,
+        "id": "452",
+        "name": "Bosnia-Herzegovina",
+        "abbr": "BIH",
+        "color": "#112855",
+        "altColor": "#ffffff",
+        "isoCode": "ba",
+        "flagUrl": "https://flagcdn.com/w160/ba.png",
+        "played": 2,
         "won": 0,
         "drawn": 1,
-        "lost": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
+        "lost": 1,
+        "gf": 2,
+        "ga": 5,
+        "gd": -3,
         "pts": 1
       }
     ],
