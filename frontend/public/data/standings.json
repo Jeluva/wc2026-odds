@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T18:14:06.208Z",
+  "updated": "2026-06-19T20:03:56.302Z",
   "standings": {
     "Group A": [
       {
@@ -164,7 +164,7 @@
         "name": "Australia",
         "abbr": "AUS",
         "color": "#FFCD00",
-        "altColor": "#00843D",
+        "altColor": "#FFCD00",
         "isoCode": "au",
         "flagUrl": "https://flagcdn.com/w160/au.png",
         "played": 1,
