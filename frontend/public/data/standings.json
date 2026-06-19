@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T22:25:13.163Z",
+  "updated": "2026-06-19T00:07:12.290Z",
   "standings": {
     "Group A": [
       {
@@ -73,6 +73,23 @@
     ],
     "Group B": [
       {
+        "id": "206",
+        "name": "Canada",
+        "abbr": "CAN",
+        "color": "#ed2224",
+        "altColor": "#000000",
+        "isoCode": "ca",
+        "flagUrl": "https://flagcdn.com/w160/ca.png",
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 7,
+        "ga": 1,
+        "gd": 6,
+        "pts": 4
+      },
+      {
         "id": "475",
         "name": "Switzerland",
         "abbr": "SUI",
@@ -90,40 +107,6 @@
         "pts": 4
       },
       {
-        "id": "206",
-        "name": "Canada",
-        "abbr": "CAN",
-        "color": "#ed2224",
-        "altColor": "#000000",
-        "isoCode": "ca",
-        "flagUrl": "https://flagcdn.com/w160/ca.png",
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "pts": 1
-      },
-      {
-        "id": "4398",
-        "name": "Qatar",
-        "abbr": "QAT",
-        "color": "#691a40",
-        "altColor": "#FFFFFF",
-        "isoCode": "qa",
-        "flagUrl": "https://flagcdn.com/w160/qa.png",
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "pts": 1
-      },
-      {
         "id": "452",
         "name": "Bosnia-Herzegovina",
         "abbr": "BIH",
@@ -138,6 +121,23 @@
         "gf": 2,
         "ga": 5,
         "gd": -3,
+        "pts": 1
+      },
+      {
+        "id": "4398",
+        "name": "Qatar",
+        "abbr": "QAT",
+        "color": "#691a40",
+        "altColor": "#FFFFFF",
+        "isoCode": "qa",
+        "flagUrl": "https://flagcdn.com/w160/qa.png",
+        "played": 2,
+        "won": 0,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 1,
+        "ga": 7,
+        "gd": -6,
         "pts": 1
       }
     ],
