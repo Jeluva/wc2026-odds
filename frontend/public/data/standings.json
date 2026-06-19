@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T00:07:12.290Z",
+  "updated": "2026-06-19T05:22:14.129Z",
   "standings": {
     "Group A": [
       {
@@ -10,30 +10,30 @@
         "altColor": "#000000",
         "isoCode": "mx",
         "flagUrl": "https://flagcdn.com/w160/mx.png",
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "drawn": 0,
         "lost": 0,
-        "gf": 2,
+        "gf": 3,
         "ga": 0,
-        "gd": 2,
-        "pts": 3
+        "gd": 3,
+        "pts": 6
       },
       {
         "id": "451",
         "name": "South Korea",
         "abbr": "KOR",
         "color": "#ce2028",
-        "altColor": "#5E3D8F",
+        "altColor": "#9E82C8",
         "isoCode": "kr",
         "flagUrl": "https://flagcdn.com/w160/kr.png",
-        "played": 1,
+        "played": 2,
         "won": 1,
         "drawn": 0,
-        "lost": 0,
+        "lost": 1,
         "gf": 2,
-        "ga": 1,
-        "gd": 1,
+        "ga": 2,
+        "gd": 0,
         "pts": 3
       },
       {
