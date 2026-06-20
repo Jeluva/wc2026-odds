@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T23:36:56.249Z",
+  "updated": "2026-06-20T01:50:50.078Z",
   "standings": {
     "Group A": [
       {
@@ -213,6 +213,23 @@
     ],
     "Group C": [
       {
+        "id": "2869",
+        "name": "Morocco",
+        "abbr": "MAR",
+        "color": "#df2027",
+        "altColor": "#ffffff",
+        "isoCode": "ma",
+        "flagUrl": "https://flagcdn.com/w160/ma.png",
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 2,
+        "ga": 1,
+        "gd": 1,
+        "pts": 4
+      },
+      {
         "id": "580",
         "name": "Scotland",
         "abbr": "SCO",
@@ -220,13 +237,13 @@
         "altColor": "#de4e44",
         "isoCode": "gb-sct",
         "flagUrl": "https://flagcdn.com/w160/gb-sct.png",
-        "played": 1,
+        "played": 2,
         "won": 1,
         "drawn": 0,
-        "lost": 0,
+        "lost": 1,
         "gf": 1,
-        "ga": 0,
-        "gd": 1,
+        "ga": 1,
+        "gd": 0,
         "pts": 3
       },
       {
@@ -237,23 +254,6 @@
         "altColor": "#193375",
         "isoCode": "br",
         "flagUrl": "https://flagcdn.com/w160/br.png",
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "pts": 1
-      },
-      {
-        "id": "2869",
-        "name": "Morocco",
-        "abbr": "MAR",
-        "color": "#df2027",
-        "altColor": "#ffffff",
-        "isoCode": "ma",
-        "flagUrl": "https://flagcdn.com/w160/ma.png",
         "played": 1,
         "won": 0,
         "drawn": 1,
