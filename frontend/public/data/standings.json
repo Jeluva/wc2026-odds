@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T01:50:50.078Z",
+  "updated": "2026-06-20T06:11:57.503Z",
   "standings": {
     "Group A": [
       {
@@ -177,23 +177,6 @@
         "pts": 3
       },
       {
-        "id": "465",
-        "name": "Türkiye",
-        "abbr": "TUR",
-        "color": "#ffffff",
-        "altColor": "#ef3340",
-        "isoCode": "tr",
-        "flagUrl": "https://flagcdn.com/w160/tr.png",
-        "played": 1,
-        "won": 0,
-        "drawn": 0,
-        "lost": 1,
-        "gf": 0,
-        "ga": 2,
-        "gd": -2,
-        "pts": 0
-      },
-      {
         "id": "210",
         "name": "Paraguay",
         "abbr": "PAR",
@@ -201,17 +184,51 @@
         "altColor": "#21418c",
         "isoCode": "py",
         "flagUrl": "https://flagcdn.com/w160/py.png",
-        "played": 1,
-        "won": 0,
+        "played": 2,
+        "won": 1,
         "drawn": 0,
         "lost": 1,
-        "gf": 1,
+        "gf": 2,
         "ga": 4,
+        "gd": -2,
+        "pts": 3
+      },
+      {
+        "id": "465",
+        "name": "Türkiye",
+        "abbr": "TUR",
+        "color": "#ffffff",
+        "altColor": "#ef3340",
+        "isoCode": "tr",
+        "flagUrl": "https://flagcdn.com/w160/tr.png",
+        "played": 2,
+        "won": 0,
+        "drawn": 0,
+        "lost": 2,
+        "gf": 0,
+        "ga": 3,
         "gd": -3,
         "pts": 0
       }
     ],
     "Group C": [
+      {
+        "id": "205",
+        "name": "Brazil",
+        "abbr": "BRA",
+        "color": "#fee000",
+        "altColor": "#193375",
+        "isoCode": "br",
+        "flagUrl": "https://flagcdn.com/w160/br.png",
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "pts": 4
+      },
       {
         "id": "2869",
         "name": "Morocco",
@@ -247,23 +264,6 @@
         "pts": 3
       },
       {
-        "id": "205",
-        "name": "Brazil",
-        "abbr": "BRA",
-        "color": "#fee000",
-        "altColor": "#193375",
-        "isoCode": "br",
-        "flagUrl": "https://flagcdn.com/w160/br.png",
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "pts": 1
-      },
-      {
         "id": "2654",
         "name": "Haiti",
         "abbr": "HAI",
@@ -271,13 +271,13 @@
         "altColor": "#FFFFFF",
         "isoCode": "ht",
         "flagUrl": "https://flagcdn.com/w160/ht.png",
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
+        "lost": 2,
         "gf": 0,
-        "ga": 1,
-        "gd": -1,
+        "ga": 4,
+        "gd": -4,
         "pts": 0
       }
     ],
