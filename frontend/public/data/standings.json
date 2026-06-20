@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T18:05:32.609Z",
+  "updated": "2026-06-20T19:54:19.841Z",
   "standings": {
     "Group A": [
       {
@@ -353,6 +353,23 @@
     ],
     "Group F": [
       {
+        "id": "449",
+        "name": "Netherlands",
+        "abbr": "NED",
+        "color": "#fb5d00",
+        "altColor": "#fb5d00",
+        "isoCode": "nl",
+        "flagUrl": "https://flagcdn.com/w160/nl.png",
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 7,
+        "ga": 3,
+        "gd": 4,
+        "pts": 4
+      },
+      {
         "id": "466",
         "name": "Sweden",
         "abbr": "SWE",
@@ -360,13 +377,13 @@
         "altColor": "#006aa7",
         "isoCode": "se",
         "flagUrl": "https://flagcdn.com/w160/se.png",
-        "played": 1,
+        "played": 2,
         "won": 1,
         "drawn": 0,
-        "lost": 0,
-        "gf": 5,
-        "ga": 1,
-        "gd": 4,
+        "lost": 1,
+        "gf": 6,
+        "ga": 6,
+        "gd": 0,
         "pts": 3
       },
       {
@@ -377,23 +394,6 @@
         "altColor": "#000555",
         "isoCode": "jp",
         "flagUrl": "https://flagcdn.com/w160/jp.png",
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 2,
-        "ga": 2,
-        "gd": 0,
-        "pts": 1
-      },
-      {
-        "id": "449",
-        "name": "Netherlands",
-        "abbr": "NED",
-        "color": "#fb5d00",
-        "altColor": "#fb5d00",
-        "isoCode": "nl",
-        "flagUrl": "https://flagcdn.com/w160/nl.png",
         "played": 1,
         "won": 0,
         "drawn": 1,
