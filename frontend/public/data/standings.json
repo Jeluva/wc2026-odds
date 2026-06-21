@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T16:54:23.849Z",
+  "updated": "2026-06-21T18:15:03.347Z",
   "standings": {
     "Group A": [
       {
@@ -423,21 +423,21 @@
     ],
     "Group H": [
       {
-        "id": "655",
-        "name": "Saudi Arabia",
-        "abbr": "KSA",
-        "color": "#FFFFFF",
-        "altColor": "#125B34",
-        "isoCode": "sa",
-        "flagUrl": "https://flagcdn.com/w160/sa.png",
-        "played": 1,
-        "won": 0,
+        "id": "164",
+        "name": "Spain",
+        "abbr": "ESP",
+        "color": "#c60b1e",
+        "altColor": "#800000",
+        "isoCode": "es",
+        "flagUrl": "https://flagcdn.com/w160/es.png",
+        "played": 2,
+        "won": 1,
         "drawn": 1,
         "lost": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "pts": 1
+        "gf": 4,
+        "ga": 0,
+        "gd": 4,
+        "pts": 4
       },
       {
         "id": "212",
@@ -474,20 +474,20 @@
         "pts": 1
       },
       {
-        "id": "164",
-        "name": "Spain",
-        "abbr": "ESP",
-        "color": "#c60b1e",
-        "altColor": "#800000",
-        "isoCode": "es",
-        "flagUrl": "https://flagcdn.com/w160/es.png",
-        "played": 1,
+        "id": "655",
+        "name": "Saudi Arabia",
+        "abbr": "KSA",
+        "color": "#FFFFFF",
+        "altColor": "#125B34",
+        "isoCode": "sa",
+        "flagUrl": "https://flagcdn.com/w160/sa.png",
+        "played": 2,
         "won": 0,
         "drawn": 1,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
+        "lost": 1,
+        "gf": 1,
+        "ga": 5,
+        "gd": -4,
         "pts": 1
       }
     ],
