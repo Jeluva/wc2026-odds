@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T20:04:04.342Z",
+  "updated": "2026-06-21T21:40:33.886Z",
   "standings": {
     "Group A": [
       {
@@ -500,14 +500,31 @@
         "altColor": "#da0000",
         "isoCode": "ir",
         "flagUrl": "https://flagcdn.com/w160/ir.png",
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 0,
         "gf": 2,
         "ga": 2,
         "gd": 0,
-        "pts": 1
+        "pts": 2
+      },
+      {
+        "id": "459",
+        "name": "Belgium",
+        "abbr": "BEL",
+        "color": "#E30613",
+        "altColor": "#000000",
+        "isoCode": "be",
+        "flagUrl": "https://flagcdn.com/w160/be.png",
+        "played": 2,
+        "won": 0,
+        "drawn": 2,
+        "lost": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 2
       },
       {
         "id": "2666",
@@ -523,23 +540,6 @@
         "lost": 0,
         "gf": 2,
         "ga": 2,
-        "gd": 0,
-        "pts": 1
-      },
-      {
-        "id": "459",
-        "name": "Belgium",
-        "abbr": "BEL",
-        "color": "#E30613",
-        "altColor": "#000000",
-        "isoCode": "be",
-        "flagUrl": "https://flagcdn.com/w160/be.png",
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 1,
-        "ga": 1,
         "gd": 0,
         "pts": 1
       },
