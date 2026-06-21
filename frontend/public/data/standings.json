@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T23:41:55.327Z",
+  "updated": "2026-06-21T02:05:06.612Z",
   "standings": {
     "Group A": [
       {
@@ -324,14 +324,14 @@
         "altColor": "#034ea2",
         "isoCode": "ec",
         "flagUrl": "https://flagcdn.com/w160/ec.png",
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 1,
         "gf": 0,
         "ga": 1,
         "gd": -1,
-        "pts": 0
+        "pts": 1
       },
       {
         "id": "11678",
@@ -341,14 +341,14 @@
         "altColor": "#0537e4",
         "isoCode": "cu",
         "flagUrl": "https://flagcdn.com/w160/cu.png",
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 1,
         "gf": 1,
         "ga": 7,
         "gd": -6,
-        "pts": 0
+        "pts": 1
       }
     ],
     "Group F": [
