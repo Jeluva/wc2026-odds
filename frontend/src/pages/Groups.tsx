@@ -1,17 +1,18 @@
 import { useState, useEffect, useMemo } from 'react'
 import type { ScrapedMatch, StandingsPayload, ScrapedStandingEntry } from '../types'
 import { MatchDetailModal } from '../components/MatchDetailModal'
+import { Flag } from '../components/Flag'
 import { useLiveMatches } from '../hooks/useLiveMatches'
 import { useT } from '../i18n/LangContext'
 
 function StandingsTable({ teams }: { teams: ScrapedStandingEntry[] }) {
-  const { t } = useT()
+  const { t, tn } = useT()
   return (
     <table className="w-full">
       <thead>
         <tr className="border-b border-white/[0.06]">
           <th className="text-left px-4 py-2 text-[10px] font-bold text-fog uppercase tracking-wider w-full">
-            Team
+            {t.table.team}
           </th>
           {[t.groups.played, t.groups.won, t.groups.drawn, t.groups.lost,
             t.groups.gf, t.groups.ga, t.groups.gd, t.groups.pts].map(col => (
@@ -33,11 +34,10 @@ function StandingsTable({ teams }: { teams: ScrapedStandingEntry[] }) {
                       ? 'linear-gradient(to bottom, #f5a623, #22c55e)'
                       : 'rgba(255,255,255,0.05)'
                   }} />
-                <img src={team.flagUrl} alt={team.name}
-                  className="w-5 h-auto rounded-sm flex-shrink-0"
-                  onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
+                <Flag url={team.flagUrl} name={team.name}
+                  className="w-5 h-auto rounded-sm flex-shrink-0" />
                 <span className={`text-sm font-semibold ${i < 2 ? 'text-chalk' : 'text-chalk/80'}`}>
-                  {team.name}
+                  {tn(team.name)}
                 </span>
               </div>
             </td>
@@ -56,7 +56,7 @@ function StandingsTable({ teams }: { teams: ScrapedStandingEntry[] }) {
 }
 
 export function Groups() {
-  const { t } = useT()
+  const { t, lang, tn, tg } = useT()
   const { matches } = useLiveMatches()
   const [standings, setStandings] = useState<Record<string, ScrapedStandingEntry[]>>({})
   const [active, setActive] = useState('Group A')
@@ -124,8 +124,8 @@ export function Groups() {
         <div className="lg:col-span-3 rounded-2xl overflow-hidden border border-white/[0.06]"
           style={{ background: 'rgba(22,32,53,0.7)', backdropFilter: 'blur(12px)' }}>
           <div className="px-4 py-3 border-b border-white/[0.06] flex items-center justify-between">
-            <h2 className="font-black text-chalk text-sm">{active}</h2>
-            <span className="text-[10px] text-fog uppercase tracking-widest">Standings</span>
+            <h2 className="font-black text-chalk text-sm">{tg(active)}</h2>
+            <span className="text-[10px] text-fog uppercase tracking-widest">{t.table.standings}</span>
           </div>
 
           {currentTeams.length > 0 ? (
@@ -135,7 +135,7 @@ export function Groups() {
                 <span className="text-[10px] text-fog">
                   <span className="inline-block w-2 h-2 rounded-full mr-1 align-middle"
                     style={{ background: 'linear-gradient(135deg, #f5a623, #22c55e)' }} />
-                  Top 2 qualify · Best 8 third-place teams also advance
+                  {t.standings.qualify}
                 </span>
               </div>
             </>
@@ -159,20 +159,18 @@ export function Groups() {
                   <button key={m.id} onClick={() => setSelected(m)}
                     className="w-full flex items-center gap-3 py-2 px-2 rounded-xl hover:bg-white/[0.03] transition-colors">
                     <div className="flex-1 flex items-center justify-end gap-2">
-                      <span className="text-xs text-chalk/80 hidden sm:block">{m.home.name}</span>
-                      <img src={m.home.flagUrl} alt={m.home.name}
-                        className="w-5 h-auto rounded-sm"
-                        onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
+                      <span className="text-xs text-chalk/80 text-xs text-chalk/80"><span className="sm:hidden">{m.home.abbr}</span><span className="hidden sm:inline">{tn(m.home.name)}</span></span>
+                      <Flag url={m.home.flagUrl} name={m.home.name}
+                        className="w-5 h-auto rounded-sm" />
                     </div>
                     <div className="text-center min-w-[56px]">
                       <p className="text-sm font-black text-chalk">{m.home.score} – {m.away.score}</p>
-                      <span className="text-[10px] text-fog">FT</span>
+                      <span className="text-[10px] text-fog">{t.status.finished}</span>
                     </div>
                     <div className="flex-1 flex items-center gap-2">
-                      <img src={m.away.flagUrl} alt={m.away.name}
-                        className="w-5 h-auto rounded-sm"
-                        onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
-                      <span className="text-xs text-chalk/80 hidden sm:block">{m.away.name}</span>
+                      <Flag url={m.away.flagUrl} name={m.away.name}
+                        className="w-5 h-auto rounded-sm" />
+                      <span className="text-xs text-chalk/80 text-xs text-chalk/80"><span className="sm:hidden">{m.away.abbr}</span><span className="hidden sm:inline">{tn(m.away.name)}</span></span>
                     </div>
                   </button>
                 ))}
@@ -191,10 +189,9 @@ export function Groups() {
                   <button key={m.id} onClick={() => setSelected(m)}
                     className="w-full flex items-center gap-3 py-2 px-2 rounded-xl hover:bg-white/[0.03] transition-colors">
                     <div className="flex-1 flex items-center justify-end gap-2">
-                      <span className="text-xs text-chalk/80 hidden sm:block">{m.home.name}</span>
-                      <img src={m.home.flagUrl} alt={m.home.name}
-                        className="w-5 h-auto rounded-sm"
-                        onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
+                      <span className="text-xs text-chalk/80 text-xs text-chalk/80"><span className="sm:hidden">{m.home.abbr}</span><span className="hidden sm:inline">{tn(m.home.name)}</span></span>
+                      <Flag url={m.home.flagUrl} name={m.home.name}
+                        className="w-5 h-auto rounded-sm" />
                     </div>
                     <div className="text-center min-w-[56px]">
                       {m.statusState === 'in' ? (
@@ -205,19 +202,20 @@ export function Groups() {
                       ) : (
                         <>
                           <p className="text-[10px] text-gold font-bold">
-                            {new Date(m.date).toLocaleDateString('en', { month: 'short', day: 'numeric' })}
+                            {new Date(m.date).toLocaleDateString(lang === 'es' ? 'es' : 'en', { month: 'short', day: 'numeric' })}
                           </p>
-                          {m.odds?.drawMoneyline && (
-                            <p className="text-[10px] text-fog">{m.odds.homeWinPct}–{m.odds.drawPct}–{m.odds.awayWinPct}</p>
+                          {m.odds?.homeMoneyline && (
+                            <p className="text-[10px] text-fog" title={`${m.home.abbr} ${m.odds.homeWinPct}% – ${t.home.drawPct} ${m.odds.drawPct}% – ${m.away.abbr} ${m.odds.awayWinPct}%`}>
+                              <span className="text-green-400/70">{m.odds.homeWinPct}</span>–<span className="text-fog/60">{m.odds.drawPct}</span>–<span className="text-amber-400/70">{m.odds.awayWinPct}</span>
+                            </p>
                           )}
                         </>
                       )}
                     </div>
                     <div className="flex-1 flex items-center gap-2">
-                      <img src={m.away.flagUrl} alt={m.away.name}
-                        className="w-5 h-auto rounded-sm"
-                        onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
-                      <span className="text-xs text-chalk/80 hidden sm:block">{m.away.name}</span>
+                      <Flag url={m.away.flagUrl} name={m.away.name}
+                        className="w-5 h-auto rounded-sm" />
+                      <span className="text-xs text-chalk/80 text-xs text-chalk/80"><span className="sm:hidden">{m.away.abbr}</span><span className="hidden sm:inline">{tn(m.away.name)}</span></span>
                     </div>
                   </button>
                 ))}

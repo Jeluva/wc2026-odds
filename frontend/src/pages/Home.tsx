@@ -4,15 +4,21 @@ import { MatchDetailModal } from '../components/MatchDetailModal'
 import { useLiveMatches } from '../hooks/useLiveMatches'
 import { useT } from '../i18n/LangContext'
 import { useDominantColor } from '../hooks/useDominantColor'
+import { Flag } from '../components/Flag'
 
-function formatKickoff(dateStr: string): string {
+function formatKickoff(dateStr: string, lang: string): string {
+  const locale = lang === 'es' ? 'es' : 'en-US'
   const d = new Date(dateStr)
   const now = new Date()
   const diffDays = Math.floor((d.getTime() - now.setHours(0,0,0,0)) / 86400000)
-  const timeStr = new Date(dateStr).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })
-  if (diffDays === 0) return `TODAY · ${timeStr}`
-  if (diffDays === 1) return `TOMORROW · ${timeStr}`
-  return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' }).toUpperCase() + ` · ${timeStr}`
+  const timeStr = new Date(dateStr).toLocaleTimeString(locale, { hour: '2-digit', minute: '2-digit' })
+  if (diffDays === 0) return `${lang === 'es' ? 'HOY' : 'TODAY'} · ${timeStr}`
+  if (diffDays === 1) return `${lang === 'es' ? 'MAÑANA' : 'TOMORROW'} · ${timeStr}`
+  return d.toLocaleDateString(locale, { weekday: 'short', month: 'short', day: 'numeric' }).toUpperCase() + ` · ${timeStr}`
+}
+
+function hasRealOdds(m: ScrapedMatch): boolean {
+  return m.odds != null && m.odds.homeMoneyline != null
 }
 
 function ProbBar({ homePct, drawPct, awayPct }: { homePct: number; drawPct: number; awayPct: number }) {
@@ -26,7 +32,7 @@ function ProbBar({ homePct, drawPct, awayPct }: { homePct: number; drawPct: numb
 }
 
 function HeroMatch({ match, onClick }: { match: ScrapedMatch; onClick: () => void }) {
-  const { t } = useT()
+  const { t, lang, tn, tg } = useT()
   const { home, away, odds } = match
   const isLive = match.statusState === 'in'
   const label = isLive ? t.home.liveNow : t.home.upNext
@@ -59,7 +65,7 @@ function HeroMatch({ match, onClick }: { match: ScrapedMatch; onClick: () => voi
               </span>
             </div>
             <div className="flex items-center gap-2 text-xs text-fog">
-              {match.group && <span className="border border-white/10 rounded-full px-2 py-0.5">{match.group}</span>}
+              {match.group && <span className="border border-white/10 rounded-full px-2 py-0.5">{tg(match.group)}</span>}
               {match.venue && <span className="hidden sm:block">📍 {match.venue}</span>}
             </div>
           </div>
@@ -68,10 +74,9 @@ function HeroMatch({ match, onClick }: { match: ScrapedMatch; onClick: () => voi
           <div className="grid grid-cols-3 items-center gap-4">
             {/* Home */}
             <div className="text-center">
-              <img src={home.flagUrl} alt={home.name}
-                className="w-16 h-auto sm:w-24 rounded-md shadow-2xl mx-auto mb-3 drop-shadow-lg"
-                onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
-              <p className="text-chalk font-black text-base sm:text-xl tracking-tight leading-tight">{home.name}</p>
+              <Flag url={home.flagUrl} name={home.name} eager
+                className="w-16 h-auto sm:w-24 rounded-md shadow-2xl mx-auto mb-3 drop-shadow-lg" />
+              <p className="text-chalk font-black text-base sm:text-xl tracking-tight leading-tight">{tn(home.name)}</p>
               {odds && (
                 <p className="text-fog text-xs mt-1 font-semibold">{odds.homeWinPct}% {t.home.winPct}</p>
               )}
@@ -82,7 +87,7 @@ function HeroMatch({ match, onClick }: { match: ScrapedMatch; onClick: () => voi
               {match.statusState === 'post' ? (
                 <div>
                   <div className="text-4xl font-black text-chalk">{home.score} – {away.score}</div>
-                  <span className="text-[10px] text-fog bg-white/10 px-2 py-0.5 rounded-full">FT</span>
+                  <span className="text-[10px] text-fog bg-white/10 px-2 py-0.5 rounded-full">{t.status.finished}</span>
                 </div>
               ) : match.statusState === 'in' ? (
                 <div>
@@ -92,7 +97,7 @@ function HeroMatch({ match, onClick }: { match: ScrapedMatch; onClick: () => voi
               ) : (
                 <div>
                   <div className="text-2xl font-black text-fog/40 mb-1">VS</div>
-                  <div className="text-xs text-gold font-bold">{formatKickoff(match.date)}</div>
+                  <div className="text-xs text-gold font-bold">{formatKickoff(match.date, lang)}</div>
                 </div>
               )}
               {odds && match.statusState !== 'post' && (
@@ -104,10 +109,9 @@ function HeroMatch({ match, onClick }: { match: ScrapedMatch; onClick: () => voi
 
             {/* Away */}
             <div className="text-center">
-              <img src={away.flagUrl} alt={away.name}
-                className="w-16 h-auto sm:w-24 rounded-md shadow-2xl mx-auto mb-3 drop-shadow-lg"
-                onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
-              <p className="text-chalk font-black text-base sm:text-xl tracking-tight leading-tight">{away.name}</p>
+              <Flag url={away.flagUrl} name={away.name} eager
+                className="w-16 h-auto sm:w-24 rounded-md shadow-2xl mx-auto mb-3 drop-shadow-lg" />
+              <p className="text-chalk font-black text-base sm:text-xl tracking-tight leading-tight">{tn(away.name)}</p>
               {odds && (
                 <p className="text-fog text-xs mt-1 font-semibold">{odds.awayWinPct}% {t.home.winPct}</p>
               )}
@@ -119,9 +123,9 @@ function HeroMatch({ match, onClick }: { match: ScrapedMatch; onClick: () => voi
             <div className="mt-6">
               <ProbBar homePct={odds.homeWinPct} drawPct={odds.drawPct} awayPct={odds.awayWinPct} />
               <div className="flex justify-between text-[10px] text-fog/60 mt-1">
-                <span>{home.name}</span>
+                <span>{tn(home.name)}</span>
                 <span>{t.home.oddsFrom}</span>
-                <span>{away.name}</span>
+                <span>{tn(away.name)}</span>
               </div>
               {isLive && (
                 <p className="text-center text-[10px] text-fog/40 mt-1">
@@ -144,7 +148,7 @@ function HeroMatch({ match, onClick }: { match: ScrapedMatch; onClick: () => voi
 }
 
 function MatchRow({ match, onClick }: { match: ScrapedMatch; onClick: () => void }) {
-  const { t } = useT()
+  const { t, lang, tn } = useT()
   const { home, away, odds } = match
   const isLive = match.statusState === 'in'
   // Live state, clock and score are already overlaid onto `match` by useLiveMatches.
@@ -169,11 +173,10 @@ function MatchRow({ match, onClick }: { match: ScrapedMatch; onClick: () => void
         <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3">
           {/* Home */}
           <div className="flex items-center gap-2">
-            <img src={home.flagUrl} alt={home.name}
-              className="w-7 h-auto rounded-sm flex-shrink-0"
-              onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
+            <Flag url={home.flagUrl} name={home.name}
+              className="w-7 h-auto rounded-sm flex-shrink-0" />
             <div>
-              <p className="text-sm font-bold text-chalk leading-tight">{home.name}</p>
+              <p className="text-sm font-bold text-chalk leading-tight">{tn(home.name)}</p>
               {odds && match.statusState !== 'post' && (
                 <p className="text-[10px] text-fog">{odds.homeWinPct}% {t.home.winPct}</p>
               )}
@@ -185,7 +188,7 @@ function MatchRow({ match, onClick }: { match: ScrapedMatch; onClick: () => void
             {match.statusState === 'post' ? (
               <div>
                 <p className="text-base font-black text-chalk">{home.score} – {away.score}</p>
-                <span className="text-[10px] text-fog">FT</span>
+                <span className="text-[10px] text-fog">{t.status.finished}</span>
               </div>
             ) : match.statusState === 'in' ? (
               <div>
@@ -194,7 +197,7 @@ function MatchRow({ match, onClick }: { match: ScrapedMatch; onClick: () => void
               </div>
             ) : (
               <div>
-                <p className="text-[10px] text-gold font-bold leading-tight">{formatKickoff(match.date)}</p>
+                <p className="text-[10px] text-gold font-bold leading-tight">{formatKickoff(match.date, lang)}</p>
                 {odds?.drawPct && (
                   <p className="text-[10px] text-fog mt-0.5">{t.home.drawPct} {odds.drawPct}%</p>
                 )}
@@ -205,14 +208,13 @@ function MatchRow({ match, onClick }: { match: ScrapedMatch; onClick: () => void
           {/* Away */}
           <div className="flex items-center gap-2 justify-end">
             <div className="text-right">
-              <p className="text-sm font-bold text-chalk leading-tight">{away.name}</p>
+              <p className="text-sm font-bold text-chalk leading-tight">{tn(away.name)}</p>
               {odds && match.statusState !== 'post' && (
                 <p className="text-[10px] text-fog">{odds.awayWinPct}% {t.home.winPct}</p>
               )}
             </div>
-            <img src={away.flagUrl} alt={away.name}
-              className="w-7 h-auto rounded-sm flex-shrink-0"
-              onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
+            <Flag url={away.flagUrl} name={away.name}
+              className="w-7 h-auto rounded-sm flex-shrink-0" />
           </div>
         </div>
 
@@ -242,10 +244,30 @@ export function Home() {
       .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
   }, [matches])
 
-  const heroMatch = liveMatch ?? upcomingMatches[0]
+  const recentResults = useMemo(() =>
+    matches
+      .filter(m => m.statusState === 'post')
+      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+      .slice(0, 6),
+    [matches]
+  )
+
+  const upcomingWithOdds = useMemo(() =>
+    upcomingMatches.filter(hasRealOdds),
+    [upcomingMatches]
+  )
+  const upcomingNoOdds = useMemo(() => {
+    const twoWeeks = Date.now() + 14 * 86400000
+    return upcomingMatches
+      .filter(m => !hasRealOdds(m))
+      .filter(m => m.home.flagUrl != null && m.away.flagUrl != null)
+      .filter(m => new Date(m.date).getTime() < twoWeeks)
+  }, [upcomingMatches])
+
+  const heroMatch = liveMatch ?? upcomingWithOdds[0]
   const listMatches = useMemo(() =>
-    liveMatch ? upcomingMatches : upcomingMatches.slice(1),
-    [liveMatch, upcomingMatches]
+    liveMatch ? upcomingWithOdds : upcomingWithOdds.slice(1),
+    [liveMatch, upcomingWithOdds]
   )
 
   return (
@@ -270,7 +292,38 @@ export function Home() {
         </section>
       )}
 
-      {matches.length > 0 && listMatches.length === 0 && !heroMatch && (
+      {/* Awaiting odds */}
+      {upcomingNoOdds.length > 0 && (
+        <section className="mt-8">
+          <div className="flex items-center gap-2 mb-4">
+            <h2 className="text-xs font-bold text-fog/50 uppercase tracking-widest">
+              {t.home.awaitingOdds}
+            </h2>
+            <span className="text-[10px] text-fog/30">— {t.home.oddsNotYet}</span>
+          </div>
+          <div className="space-y-1.5 opacity-60">
+            {upcomingNoOdds.map(m => (
+              <MatchRow key={m.id} match={m} onClick={() => setSelected(m)} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Recent results */}
+      {recentResults.length > 0 && (
+        <section className="mt-8">
+          <h2 className="text-xs font-bold text-fog uppercase tracking-widest mb-4">
+            {t.home.recentResults}
+          </h2>
+          <div className="space-y-2">
+            {recentResults.map(m => (
+              <MatchRow key={m.id} match={m} onClick={() => setSelected(m)} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {matches.length > 0 && listMatches.length === 0 && !heroMatch && recentResults.length === 0 && (
         <p className="text-center text-fog py-12">{t.home.noUpcoming}</p>
       )}
 

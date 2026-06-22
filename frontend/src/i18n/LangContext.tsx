@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, type ReactNode } from 'react'
 import { en, type Translations } from './en'
-import { es } from './es'
+import { es, teamNames } from './es'
 
 type Lang = 'en' | 'es'
 
@@ -8,9 +8,12 @@ interface LangCtx {
   lang: Lang
   t: Translations
   toggle: () => void
+  tn: (name: string) => string
+  tg: (group: string) => string
 }
 
-const LangContext = createContext<LangCtx>({ lang: 'en', t: en, toggle: () => {} })
+const identity = (s: string) => s
+const LangContext = createContext<LangCtx>({ lang: 'en', t: en, toggle: () => {}, tn: identity, tg: identity })
 
 export function LangProvider({ children }: { children: ReactNode }) {
   const stored = (localStorage.getItem('lang') as Lang) || 'en'
@@ -22,8 +25,16 @@ export function LangProvider({ children }: { children: ReactNode }) {
     localStorage.setItem('lang', next)
   }
 
+  const tn = lang === 'es'
+    ? (name: string) => teamNames[name] ?? name
+    : (name: string) => name
+
+  const tg = lang === 'es'
+    ? (group: string) => group.replace(/^Group /, 'Grupo ')
+    : (group: string) => group
+
   return (
-    <LangContext.Provider value={{ lang, t: lang === 'en' ? en : es, toggle }}>
+    <LangContext.Provider value={{ lang, t: lang === 'en' ? en : es, toggle, tn, tg }}>
       {children}
     </LangContext.Provider>
   )

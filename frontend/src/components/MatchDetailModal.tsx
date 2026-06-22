@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import type { ReactNode } from 'react'
 import type { ScrapedMatch } from '../types'
 import { useDominantColor } from '../hooks/useDominantColor'
+import { Flag } from './Flag'
+import { useT } from '../i18n/LangContext'
 
 // ─── Local types ─────────────────────────────────────────────────────────────
 
@@ -86,6 +88,7 @@ function ProbBar({ homePct, drawPct, awayPct, homeLabel, awayLabel }: {
   homePct: number; drawPct: number; awayPct: number
   homeLabel: string; awayLabel: string
 }) {
+  const { t } = useT()
   return (
     <div>
       <div className="flex rounded-xl overflow-hidden h-9 text-[11px] font-black">
@@ -104,7 +107,7 @@ function ProbBar({ homePct, drawPct, awayPct, homeLabel, awayLabel }: {
       </div>
       <div className="flex justify-between text-[10px] mt-1 px-0.5">
         <span className="text-green-400 font-bold">{homeLabel} {homePct}%</span>
-        <span className="text-fog">Draw {drawPct}%</span>
+        <span className="text-fog">{t.modal.draw} {drawPct}%</span>
         <span className="text-amber-400 font-bold">{awayLabel} {awayPct}%</span>
       </div>
     </div>
@@ -113,10 +116,11 @@ function ProbBar({ homePct, drawPct, awayPct, homeLabel, awayLabel }: {
 
 // Movement badge — ▲ if more likely now, ▼ if less likely
 function MovementBadge({ dir }: { dir: Movement }) {
+  const { t } = useT()
   if (!dir) return null
   return dir === 'in'
-    ? <span className="text-[9px] font-black text-green-400 leading-none" title="More likely than at open">▲</span>
-    : <span className="text-[9px] font-black text-red-400 leading-none" title="Less likely than at open">▼</span>
+    ? <span className="text-[9px] font-black text-green-400 leading-none" title={t.modal.movementMore}>▲</span>
+    : <span className="text-[9px] font-black text-red-400 leading-none" title={t.modal.movementLess}>▼</span>
 }
 
 interface MarketRowProps {
@@ -140,8 +144,9 @@ function MarketRow({ label, pct, barColor, openML, closeML, note }: MarketRowPro
         <div className="h-full rounded-full"
           style={{ width: `${Math.min(pct, 100)}%`, background: barColor || 'rgba(245,166,35,0.6)' }} />
       </div>
-      <div className="flex items-center gap-1 min-w-[58px] justify-end">
+      <div className="flex items-center gap-1 min-w-[80px] justify-end">
         <span className="text-sm font-black text-gold">{pct.toFixed(0)}%</span>
+        {closeML && <span className="text-[10px] text-fog/60 font-mono">{closeML}</span>}
         <MovementBadge dir={dir} />
       </div>
     </div>
@@ -173,6 +178,7 @@ function ResultPill({ result }: { result: 'W' | 'D' | 'L' }) {
 }
 
 function FormGameRow({ game }: { game: FormGame }) {
+  const { tn } = useT()
   return (
     <div className="flex items-center gap-2 py-2.5 border-b border-white/[0.04] last:border-0">
       <ResultPill result={game.result} />
@@ -180,20 +186,21 @@ function FormGameRow({ game }: { game: FormGame }) {
       <img src={game.opponentLogo} alt={game.opponentName}
         className="w-4 h-4 object-contain flex-shrink-0"
         onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
-      <span className="text-[11px] text-chalk/70 truncate flex-1 min-w-0">{game.opponentName}</span>
+      <span className="text-[11px] text-chalk/70 truncate flex-1 min-w-0">{tn(game.opponentName)}</span>
       <span className="text-[10px] text-fog/40 hidden sm:block truncate max-w-[100px]">{game.competition}</span>
     </div>
   )
 }
 
 function FormPanel({ teamName, teamColor, flagUrl, form }: {
-  teamName: string; teamColor: string; flagUrl: string; form: TeamFormData | null
+  teamName: string; teamColor: string; flagUrl: string | null; form: TeamFormData | null
 }) {
+  const { t } = useT()
   const dominantColor = useDominantColor(flagUrl, teamColor)
   if (!form) return (
     <div className="flex-1 min-w-0 rounded-xl border border-white/[0.06] p-6 text-center"
       style={{ background: 'rgba(18,28,50,0.7)' }}>
-      <p className="text-xs text-fog">No form data available</p>
+      <p className="text-xs text-fog">{t.modal.noFormData}</p>
     </div>
   )
   const { scored, conceded } = formAvgGoals(form.games)
@@ -203,9 +210,8 @@ function FormPanel({ teamName, teamColor, flagUrl, form }: {
       style={{ background: 'rgba(18,28,50,0.7)' }}>
       <div className="px-3 py-2.5 border-b border-white/[0.06] flex items-center gap-2"
         style={{ background: `${dominantColor}22` }}>
-        <img src={flagUrl} alt={teamName}
-          className="w-5 h-auto rounded-sm flex-shrink-0"
-          onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
+        <Flag url={flagUrl} name={teamName}
+          className="w-5 h-auto rounded-sm flex-shrink-0" />
         <span className="text-xs font-black text-chalk truncate flex-1">{teamName}</span>
         <div className="flex gap-1">
           {form.games.map((g, i) => <ResultPill key={i} result={g.result} />)}
@@ -217,15 +223,15 @@ function FormPanel({ teamName, teamColor, flagUrl, form }: {
       <div className="px-3 py-2.5 border-t border-white/[0.04] grid grid-cols-3 gap-2 text-center">
         <div>
           <p className="text-sm font-black text-green-400">{scored.toFixed(1)}</p>
-          <p className="text-[10px] text-fog">Avg scored</p>
+          <p className="text-[10px] text-fog">{t.modal.avgScored}</p>
         </div>
         <div>
           <p className="text-sm font-black text-red-400">{conceded.toFixed(1)}</p>
-          <p className="text-[10px] text-fog">Avg conceded</p>
+          <p className="text-[10px] text-fog">{t.modal.avgConceded}</p>
         </div>
         <div>
           <p className="text-sm font-black text-chalk">{cleanSheets}/5</p>
-          <p className="text-[10px] text-fog">Clean sheets</p>
+          <p className="text-[10px] text-fog">{t.modal.cleanSheets}</p>
         </div>
       </div>
     </div>
@@ -240,17 +246,24 @@ interface Props {
 }
 
 export function MatchDetailModal({ match, onClose }: Props) {
+  const { t, lang, tn, tg } = useT()
   const { home, away, odds } = match
   const homeColor = useDominantColor(home.flagUrl, home.color)
   const awayColor = useDominantColor(away.flagUrl, away.color)
-  const [tab, setTab] = useState<Tab>('odds')
+  const defaultTab: Tab = match.statusState === 'post' ? 'form'
+    : (match.odds != null && match.odds.homeMoneyline != null) ? 'odds' : 'form'
+  const [tab, setTab] = useState<Tab>(defaultTab)
   const [detail, setDetail] = useState<DetailData | null>(null)
   const [loadingDetail, setLoadingDetail] = useState(false)
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose() }
     document.addEventListener('keydown', handler)
-    return () => document.removeEventListener('keydown', handler)
+    document.body.style.overflow = 'hidden'
+    return () => {
+      document.removeEventListener('keydown', handler)
+      document.body.style.overflow = ''
+    }
   }, [onClose])
 
   // Lazy-load form data when FORM or ANALYSIS tab opened
@@ -285,7 +298,8 @@ export function MatchDetailModal({ match, onClose }: Props) {
       .finally(() => setLoadingDetail(false))
   }, [tab, match.id, home.id, away.id, detail, loadingDetail])
 
-  const dateStr = new Date(match.date).toLocaleDateString('en-US', {
+  const locale = lang === 'es' ? 'es' : 'en-US'
+  const dateStr = new Date(match.date).toLocaleDateString(locale, {
     weekday: 'short', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit',
   })
 
@@ -315,15 +329,28 @@ export function MatchDetailModal({ match, onClose }: Props) {
     : null
   const scorelines = topScorelines(λH, λA)
 
-  const tabs: { id: Tab; label: string }[] = [
-    { id: 'odds', label: 'Odds' },
-    { id: 'form', label: 'Form & Stats' },
-    { id: 'analysis', label: 'Analysis' },
-    { id: 'chatbot', label: '🤖 Chatbot' },
-  ]
+  const isFinished = match.statusState === 'post'
+  const hasRealOdds = odds != null && odds.homeMoneyline != null
+
+  const tabs: { id: Tab; label: string }[] = isFinished
+    ? [
+        { id: 'form', label: t.modal.tabs.form },
+      ]
+    : hasRealOdds
+      ? [
+          { id: 'odds', label: t.modal.tabs.odds },
+          { id: 'form', label: t.modal.tabs.form },
+          { id: 'analysis', label: t.modal.tabs.analysis },
+          { id: 'chatbot', label: t.modal.tabs.chatbot },
+        ]
+      : [
+          { id: 'form', label: t.modal.tabs.form },
+          { id: 'chatbot', label: t.modal.tabs.chatbot },
+        ]
 
   return (
     <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4"
+      role="dialog" aria-modal="true"
       onClick={e => { if (e.target === e.currentTarget) onClose() }}>
       <div className="absolute inset-0 bg-black/75 backdrop-blur-md" onClick={onClose} />
 
@@ -343,10 +370,9 @@ export function MatchDetailModal({ match, onClose }: Props) {
           <div className="absolute inset-0" style={{ background: 'rgba(0,0,0,0.25)' }} />
           <div className="absolute inset-0 flex items-center justify-between px-6 sm:px-10">
             <div className="text-center">
-              <img src={home.flagUrl} alt={home.name}
-                className="w-14 sm:w-16 h-auto rounded shadow-2xl mx-auto mb-2"
-                onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
-              <p className="text-chalk font-black text-sm drop-shadow">{home.name}</p>
+              <Flag url={home.flagUrl} name={home.name}
+                className="w-14 sm:w-16 h-auto rounded shadow-2xl mx-auto mb-2" />
+              <p className="text-chalk font-black text-sm drop-shadow">{tn(home.name)}</p>
               {match.statusState !== 'pre' && (
                 <p className="text-2xl font-black text-chalk mt-1 drop-shadow">{home.score}</p>
               )}
@@ -357,23 +383,22 @@ export function MatchDetailModal({ match, onClose }: Props) {
                   {match.statusDetail}
                 </span>
               ) : match.statusState === 'post' ? (
-                <span className="text-xs text-fog bg-white/10 px-3 py-1 rounded-full">FT</span>
+                <span className="text-xs text-fog bg-white/10 px-3 py-1 rounded-full">{t.status.finished}</span>
               ) : (
                 <span className="text-2xl font-black text-chalk/40">vs</span>
               )}
-              {match.group && <p className="text-[10px] text-fog/70 mt-1.5">{match.group}</p>}
+              {match.group && <p className="text-[10px] text-fog/70 mt-1.5">{tg(match.group)}</p>}
             </div>
             <div className="text-center">
-              <img src={away.flagUrl} alt={away.name}
-                className="w-14 sm:w-16 h-auto rounded shadow-2xl mx-auto mb-2"
-                onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
-              <p className="text-chalk font-black text-sm drop-shadow">{away.name}</p>
+              <Flag url={away.flagUrl} name={away.name}
+                className="w-14 sm:w-16 h-auto rounded shadow-2xl mx-auto mb-2" />
+              <p className="text-chalk font-black text-sm drop-shadow">{tn(away.name)}</p>
               {match.statusState !== 'pre' && (
                 <p className="text-2xl font-black text-chalk mt-1 drop-shadow">{away.score}</p>
               )}
             </div>
           </div>
-          <button onClick={onClose}
+          <button onClick={onClose} aria-label="Close"
             className="absolute top-3 right-3 w-8 h-8 rounded-full bg-black/50 flex items-center justify-center text-chalk hover:bg-black/70 transition-colors text-sm">
             ✕
           </button>
@@ -416,45 +441,45 @@ export function MatchDetailModal({ match, onClose }: Props) {
                   />
 
                   {/* Match Result 1X2 */}
-                  <MarketSection title="Match Result" desc="Which team wins, or draw?">
-                    <MarketRow label={`${home.name}`} pct={odds.homeWinPct}
+                  <MarketSection title={t.modal.matchResult} desc={t.modal.matchResultDesc}>
+                    <MarketRow label={tn(home.name)} pct={odds.homeWinPct}
                       barColor="#22c55e"
                       openML={odds.homeMoneylineOpen} closeML={odds.homeMoneyline} />
-                    <MarketRow label="Draw" pct={odds.drawPct}
+                    <MarketRow label={t.modal.draw} pct={odds.drawPct}
                       barColor="rgba(255,255,255,0.35)"
                       openML={odds.drawMoneylineOpen} closeML={odds.drawMoneyline} />
-                    <MarketRow label={`${away.name}`} pct={odds.awayWinPct}
+                    <MarketRow label={tn(away.name)} pct={odds.awayWinPct}
                       barColor="#f5a623"
                       openML={odds.awayMoneylineOpen} closeML={odds.awayMoneyline} />
                   </MarketSection>
 
                   {/* Double Chance */}
                   {dcPcts && (
-                    <MarketSection title="Double Chance" desc="Bet on 2 outcomes at once — safer, lower return">
-                      <MarketRow label={`${home.abbr} or Draw`} pct={dcPcts.oneX}
+                    <MarketSection title={t.modal.doubleChance} desc={t.modal.doubleChanceDesc}>
+                      <MarketRow label={`${home.abbr} ${t.modal.orDraw}`} pct={dcPcts.oneX}
                         barColor="#22c55e" note="1X" />
-                      <MarketRow label={`Draw or ${away.abbr}`} pct={dcPcts.xTwo}
+                      <MarketRow label={`${t.modal.draw} ${t.modal.or} ${away.abbr}`} pct={dcPcts.xTwo}
                         barColor="#f5a623" note="X2" />
-                      <MarketRow label={`${home.abbr} or ${away.abbr}`} pct={dcPcts.oneTwo}
-                        barColor="rgba(245,166,35,0.5)" note="12 · No draw" />
+                      <MarketRow label={`${home.abbr} ${t.modal.or} ${away.abbr}`} pct={dcPcts.oneTwo}
+                        barColor="rgba(245,166,35,0.5)" note={`12 · ${t.modal.noDraw}`} />
                     </MarketSection>
                   )}
 
                   {/* Draw No Bet */}
                   {dnbPcts && (
-                    <MarketSection title="Draw No Bet" desc="Draw = stake refunded. Who wins?">
-                      <MarketRow label={home.name} pct={dnbPcts.home} barColor="#22c55e" />
-                      <MarketRow label={away.name} pct={dnbPcts.away} barColor="#f5a623" />
+                    <MarketSection title={t.modal.drawNoBet} desc={t.modal.drawNoBetDesc}>
+                      <MarketRow label={tn(home.name)} pct={dnbPcts.home} barColor="#22c55e" />
+                      <MarketRow label={tn(away.name)} pct={dnbPcts.away} barColor="#f5a623" />
                     </MarketSection>
                   )}
 
                   {/* Over/Under */}
                   {ouPcts && odds.overUnder != null && (
-                    <MarketSection title={`Over / Under ${odds.overUnder} Goals`} desc="Total goals in the match">
-                      <MarketRow label={`Over ${odds.overUnder} goals`} pct={ouPcts[0]}
+                    <MarketSection title={`${t.modal.over} / ${t.modal.under} ${odds.overUnder} ${t.modal.overUnderGoals}`} desc={t.modal.overUnderDesc}>
+                      <MarketRow label={`${t.modal.over} ${odds.overUnder} ${t.modal.goals}`} pct={ouPcts[0]}
                         barColor="#22c55e"
                         openML={odds.overOddsOpen} closeML={odds.overOdds} />
-                      <MarketRow label={`Under ${odds.overUnder} goals`} pct={ouPcts[1]}
+                      <MarketRow label={`${t.modal.under} ${odds.overUnder} ${t.modal.goals}`} pct={ouPcts[1]}
                         barColor="rgba(255,255,255,0.35)"
                         openML={odds.underOddsOpen} closeML={odds.underOdds} />
                     </MarketSection>
@@ -462,15 +487,15 @@ export function MatchDetailModal({ match, onClose }: Props) {
 
                   {/* Handicap */}
                   {spreadPcts && (odds.spreadHomeLine || odds.spreadLine) && (
-                    <MarketSection title="Handicap" desc="Virtual goal advantage/disadvantage applied at kick-off">
+                    <MarketSection title={t.modal.handicap} desc={t.modal.handicapDesc}>
                       {odds.spreadHomeLine && (
                         <MarketRow
-                          label={`${home.name} ${odds.spreadHomeLine}`}
+                          label={`${tn(home.name)} ${odds.spreadHomeLine}`}
                           pct={spreadPcts[0]} barColor="#22c55e" />
                       )}
                       {odds.spreadLine && (
                         <MarketRow
-                          label={`${away.name} ${odds.spreadLine}`}
+                          label={`${tn(away.name)} ${odds.spreadLine}`}
                           pct={spreadPcts[1]} barColor="#f5a623"
                           openML={odds.spreadOddsOpen} closeML={odds.spreadOdds} />
                       )}
@@ -480,15 +505,15 @@ export function MatchDetailModal({ match, onClose }: Props) {
                   {/* Movement key — only if there are open lines */}
                   {odds.homeMoneylineOpen && (
                     <p className="text-[10px] text-fog/35 text-center">
-                      <span className="text-green-400/70">▲</span> more likely than at open ·{' '}
-                      <span className="text-red-400/70">▼</span> less likely than at open
+                      <span className="text-green-400/70">▲</span> {t.modal.movementMore} ·{' '}
+                      <span className="text-red-400/70">▼</span> {t.modal.movementLess}
                     </p>
                   )}
                 </>
               ) : (
                 <div className="py-10 text-center">
-                  <p className="text-fog">Odds not yet available for this match.</p>
-                  <p className="text-[11px] text-fog/50 mt-1">Check back closer to kick-off.</p>
+                  <p className="text-fog">{t.modal.noOdds}</p>
+                  <p className="text-[11px] text-fog/50 mt-1">{t.modal.noOddsHint}</p>
                 </div>
               )}
 
@@ -497,13 +522,13 @@ export function MatchDetailModal({ match, onClose }: Props) {
                 <a href={match.espnUrl} target="_blank" rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 py-3 rounded-xl text-xs font-bold text-chalk hover:opacity-80 transition-opacity"
                   style={{ background: 'linear-gradient(135deg, #cc0c00, #e01a14)' }}>
-                  📊 ESPN Match Center
+                  📊 {t.modal.espnMatchCenter}
                 </a>
                 <a href={`https://www.espn.com/soccer/odds/_/gameId/${match.id}`}
                   target="_blank" rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 py-3 rounded-xl text-xs font-bold text-chalk hover:opacity-80 transition-opacity"
                   style={{ background: 'linear-gradient(135deg, #1a5c2a, #22c55e)' }}>
-                  💰 ESPN Full Odds
+                  💰 {t.modal.espnFullOdds}
                 </a>
               </div>
             </div>
@@ -513,17 +538,17 @@ export function MatchDetailModal({ match, onClose }: Props) {
           {tab === 'form' && (
             <div className="px-4 py-4">
               {loadingDetail ? (
-                <div className="py-12 text-center text-fog text-sm">Loading form data…</div>
+                <div className="py-12 text-center text-fog text-sm">{t.modal.loadingForm}</div>
               ) : (
                 <div className="space-y-4">
                   <div className="flex gap-3">
-                    <FormPanel teamName={home.name} teamColor={home.color} flagUrl={home.flagUrl} form={detail?.homeForm ?? null} />
-                    <FormPanel teamName={away.name} teamColor={away.color} flagUrl={away.flagUrl} form={detail?.awayForm ?? null} />
+                    <FormPanel teamName={tn(home.name)} teamColor={home.color} flagUrl={home.flagUrl} form={detail?.homeForm ?? null} />
+                    <FormPanel teamName={tn(away.name)} teamColor={away.color} flagUrl={away.flagUrl} form={detail?.awayForm ?? null} />
                   </div>
                   <div className="rounded-xl border border-white/[0.06] p-4"
                     style={{ background: 'rgba(18,28,50,0.7)' }}>
-                    <p className="text-[10px] font-black text-fog uppercase tracking-widest mb-2">Head to Head</p>
-                    <p className="text-xs text-fog/50 text-center py-2">No recent meetings on record</p>
+                    <p className="text-[10px] font-black text-fog uppercase tracking-widest mb-2">{t.modal.headToHead}</p>
+                    <p className="text-xs text-fog/50 text-center py-2">{t.modal.noH2H}</p>
                   </div>
                 </div>
               )}
@@ -535,44 +560,44 @@ export function MatchDetailModal({ match, onClose }: Props) {
             <div className="px-4 py-4 space-y-3">
 
               {/* Avg goals */}
-              <MarketSection title="Avg Goals Scored · Last 5 Games">
+              <MarketSection title={t.modal.avgGoalsTitle}>
                 <div className="flex py-4">
                   <div className="flex-1 text-center border-r border-white/[0.06]">
                     <p className="text-2xl font-black text-green-400">{λH.toFixed(2)}</p>
-                    <p className="text-[10px] text-fog mt-1">{home.abbr} per game</p>
+                    <p className="text-[10px] text-fog mt-1">{home.abbr} {t.modal.perGame}</p>
                   </div>
                   <div className="flex-1 text-center">
                     <p className="text-2xl font-black text-amber-400">{λA.toFixed(2)}</p>
-                    <p className="text-[10px] text-fog mt-1">{away.abbr} per game</p>
+                    <p className="text-[10px] text-fog mt-1">{away.abbr} {t.modal.perGame}</p>
                   </div>
                 </div>
                 {!detail?.homeForm && (
                   <p className="text-[10px] text-fog/35 text-center pb-2">
-                    Estimated from win probabilities · Load Form tab for real data
+                    {t.modal.estimatedFromOdds}
                   </p>
                 )}
               </MarketSection>
 
               {/* BTTS */}
               {bttsPct !== null && (
-                <MarketSection title="Both Teams to Score · Estimated">
+                <MarketSection title={t.modal.bttsTitle}>
                   <div className="flex gap-3 py-3">
                     <div className="flex-1 rounded-lg py-3 text-center border border-green-500/20"
                       style={{ background: 'rgba(34,197,94,0.08)' }}>
                       <p className="text-xl font-black text-green-400">{bttsPct}%</p>
-                      <p className="text-[10px] text-fog mt-0.5">Yes — both score</p>
+                      <p className="text-[10px] text-fog mt-0.5">{t.modal.bttsYes}</p>
                     </div>
                     <div className="flex-1 rounded-lg py-3 text-center border border-white/10"
                       style={{ background: 'rgba(255,255,255,0.04)' }}>
                       <p className="text-xl font-black text-chalk/60">{100 - bttsPct}%</p>
-                      <p className="text-[10px] text-fog mt-0.5">No — at least one clean sheet</p>
+                      <p className="text-[10px] text-fog mt-0.5">{t.modal.bttsNo}</p>
                     </div>
                   </div>
                 </MarketSection>
               )}
 
               {/* Scoreline probabilities */}
-              <MarketSection title="Most Likely Scorelines · Poisson Model">
+              <MarketSection title={t.modal.scorelineTitle}>
                 <div className="grid grid-cols-4 gap-1.5 py-3">
                   {scorelines.map((s, i) => (
                     <div key={i} className="rounded-lg py-2.5 text-center border border-white/[0.05]"
@@ -589,16 +614,16 @@ export function MatchDetailModal({ match, onClose }: Props) {
 
               {/* O/U probability from odds */}
               {ouPcts && odds?.overUnder != null && (
-                <MarketSection title={`Over/Under ${odds.overUnder} · Implied Probability`}>
+                <MarketSection title={`${t.modal.over}/${t.modal.under} ${odds.overUnder} · ${t.modal.ouImplied}`}>
                   <div className="py-2">
                     <div className="flex rounded-lg overflow-hidden h-8 text-[10px] font-black">
                       <div className="flex items-center justify-center text-pitch"
                         style={{ width: `${ouPcts[0]}%`, background: 'rgba(34,197,94,0.5)' }}>
-                        Over {ouPcts[0]}%
+                        {t.modal.over} {ouPcts[0]}%
                       </div>
                       <div className="flex items-center justify-center text-chalk"
                         style={{ width: `${ouPcts[1]}%`, background: 'rgba(255,255,255,0.08)' }}>
-                        Under {ouPcts[1]}%
+                        {t.modal.under} {ouPcts[1]}%
                       </div>
                     </div>
                   </div>
@@ -610,13 +635,13 @@ export function MatchDetailModal({ match, onClose }: Props) {
                 <a href={match.espnUrl} target="_blank" rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-bold text-chalk hover:opacity-80 transition-opacity"
                   style={{ background: 'linear-gradient(135deg, #cc0c00, #e01a14)' }}>
-                  📰 Expert Preview &amp; Analysis on ESPN
+                  📰 {t.modal.expertPreview}
                 </a>
                 <a href={`https://www.espn.com/soccer/odds/_/gameId/${match.id}`}
                   target="_blank" rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-bold text-chalk hover:opacity-80 transition-opacity"
                   style={{ background: 'linear-gradient(135deg, #f5a623, #e8890a)' }}>
-                  💰 Full Odds &amp; Prop Bets on ESPN
+                  💰 {t.modal.fullOddsProps}
                 </a>
               </div>
             </div>
@@ -629,16 +654,16 @@ export function MatchDetailModal({ match, onClose }: Props) {
                 🤖
               </div>
               <div className="text-center">
-                <p className="text-chalk font-black text-lg">AI Match Assistant</p>
-                <p className="text-fog text-sm mt-1">Coming Soon</p>
+                <p className="text-chalk font-black text-lg">{t.modal.aiAssistant}</p>
+                <p className="text-fog text-sm mt-1">{t.modal.comingSoon}</p>
               </div>
               <p className="text-fog/50 text-xs text-center max-w-[260px] leading-relaxed">
-                Ask anything about this match — odds analysis, team form, historical data, and betting insights powered by AI.
+                {t.modal.aiDesc}
               </p>
               <div className="flex items-center gap-2 px-4 py-2 rounded-full text-[11px] text-gold/60 border border-gold/20"
                 style={{ background: 'rgba(245,166,35,0.05)' }}>
                 <span className="w-1.5 h-1.5 rounded-full bg-gold/40" />
-                In development
+                {t.modal.inDevelopment}
               </div>
             </div>
           )}
@@ -648,7 +673,7 @@ export function MatchDetailModal({ match, onClose }: Props) {
         <div className="flex-shrink-0 px-4 py-2 border-t border-white/[0.06] text-center"
           style={{ background: 'rgba(0,0,0,0.3)' }}>
           <p className="text-[10px] text-fog/35">
-            Percentages = implied probability from DraftKings odds · Not betting advice · 18+
+            {t.modal.disclaimer}
           </p>
         </div>
       </div>

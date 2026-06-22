@@ -1,23 +1,24 @@
 import { useState, useEffect } from 'react'
 import type { StandingsPayload, ScrapedStandingEntry, ScrapedMatch } from '../types'
 import { MatchDetailModal } from '../components/MatchDetailModal'
+import { Flag } from '../components/Flag'
 import { useLiveMatches } from '../hooks/useLiveMatches'
 import { useT } from '../i18n/LangContext'
 
 function GroupTable({ groupName, teams }: { groupName: string; teams: ScrapedStandingEntry[] }) {
-  const { t } = useT()
+  const { t, tn, tg } = useT()
   return (
     <div className="rounded-2xl overflow-hidden border border-white/[0.06] fade-in"
       style={{ background: 'rgba(22,32,53,0.7)', backdropFilter: 'blur(12px)' }}>
       <div className="px-4 py-3 border-b border-white/[0.06] flex items-center justify-between">
-        <h3 className="font-black text-chalk text-sm">{groupName}</h3>
-        <span className="text-[10px] text-fog uppercase tracking-widest">Standings</span>
+        <h3 className="font-black text-chalk text-sm">{tg(groupName)}</h3>
+        <span className="text-[10px] text-fog uppercase tracking-widest">{t.table.standings}</span>
       </div>
       <table className="w-full">
         <thead>
           <tr className="border-b border-white/[0.06]">
             <th className="text-left px-3 py-2 text-[10px] font-bold text-fog uppercase tracking-wider">
-              {t.standings.played === 'P' ? 'Team' : 'Equipo'}
+              {t.table.team}
             </th>
             {[t.standings.played, t.standings.won, t.standings.drawn, t.standings.lost,
               t.standings.gf, t.standings.ga, t.standings.gd, t.standings.pts
@@ -41,11 +42,10 @@ function GroupTable({ groupName, teams }: { groupName: string; teams: ScrapedSta
                         ? 'linear-gradient(to bottom, #f5a623, #22c55e)'
                         : 'rgba(255,255,255,0.05)'
                     }} />
-                  <img src={team.flagUrl} alt={team.name}
-                    className="w-5 h-auto rounded-sm flex-shrink-0"
-                    onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
+                  <Flag url={team.flagUrl} name={team.name}
+                    className="w-5 h-auto rounded-sm flex-shrink-0" />
                   <span className={`text-sm font-semibold ${i < 2 ? 'text-chalk' : 'text-chalk/80'}`}>
-                    {team.name}
+                    {tn(team.name)}
                   </span>
                 </div>
               </td>
@@ -72,21 +72,21 @@ function GroupTable({ groupName, teams }: { groupName: string; teams: ScrapedSta
 }
 
 function RecentMatchRow({ match, onClick }: { match: ScrapedMatch; onClick: () => void }) {
+  const { t, lang, tn } = useT()
   const isLive = match.statusState === 'in'
   return (
     <button onClick={onClick}
       className="w-full text-left flex items-center gap-3 py-2 px-3 rounded-xl hover:bg-white/[0.03] transition-colors group">
       <div className="flex-1 flex items-center justify-end gap-2">
-        <span className="text-xs font-semibold text-chalk/80 hidden sm:block">{match.home.name}</span>
-        <img src={match.home.flagUrl} alt={match.home.name}
-          className="w-5 h-auto rounded-sm"
-          onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
+        <span className="text-xs font-semibold text-chalk/80 text-xs font-semibold text-chalk/80"><span className="sm:hidden">{match.home.abbr}</span><span className="hidden sm:inline">{tn(match.home.name)}</span></span>
+        <Flag url={match.home.flagUrl} name={match.home.name}
+          className="w-5 h-auto rounded-sm" />
       </div>
       <div className="flex flex-col items-center min-w-[60px] text-center">
         {match.statusState === 'post' ? (
           <>
             <span className="text-sm font-black text-chalk">{match.home.score} – {match.away.score}</span>
-            <span className="text-[10px] text-fog bg-white/10 px-1.5 rounded-full">FT</span>
+            <span className="text-[10px] text-fog bg-white/10 px-1.5 rounded-full">{t.status.finished}</span>
           </>
         ) : isLive ? (
           <>
@@ -95,22 +95,21 @@ function RecentMatchRow({ match, onClick }: { match: ScrapedMatch; onClick: () =
           </>
         ) : (
           <span className="text-[10px] text-gold font-bold">
-            {new Date(match.date).toLocaleDateString('en', { month: 'short', day: 'numeric' })}
+            {new Date(match.date).toLocaleDateString(lang === 'es' ? 'es' : 'en', { month: 'short', day: 'numeric' })}
           </span>
         )}
       </div>
       <div className="flex-1 flex items-center gap-2">
-        <img src={match.away.flagUrl} alt={match.away.name}
-          className="w-5 h-auto rounded-sm"
-          onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
-        <span className="text-xs font-semibold text-chalk/80 hidden sm:block">{match.away.name}</span>
+        <Flag url={match.away.flagUrl} name={match.away.name}
+          className="w-5 h-auto rounded-sm" />
+        <span className="text-xs font-semibold text-chalk/80 text-xs font-semibold text-chalk/80"><span className="sm:hidden">{match.away.abbr}</span><span className="hidden sm:inline">{tn(match.away.name)}</span></span>
       </div>
     </button>
   )
 }
 
 export function Standings() {
-  const { t } = useT()
+  const { t, tg } = useT()
   const { matches } = useLiveMatches()
   const [standings, setStandings] = useState<Record<string, ScrapedStandingEntry[]>>({})
   const [selected, setSelected] = useState<ScrapedMatch | null>(null)
@@ -161,7 +160,7 @@ export function Standings() {
                   ? { background: 'linear-gradient(135deg, #f5a623, #ffd97d)' }
                   : { background: 'rgba(22,32,53,0.6)' }
                 }>
-                {g}
+                {tg(g)}
               </button>
             ))}
           </div>
