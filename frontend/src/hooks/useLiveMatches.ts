@@ -52,15 +52,18 @@ export function useLiveMatches(): LiveMatches {
     return () => clearInterval(id)
   }, [])
 
-  // Trigger live polling off the *cached* state so it persists across the
-  // in → post transition until the scraper rewrites the file.
-  const liveMatchId = useMemo(
-    () => matches.find(m => m.statusState === 'in')?.id ?? null,
-    [matches]
-  )
+  // Trigger live polling when a match is live OR when a match's kickoff has
+  // passed but the cached JSON still says 'pre' (scraper hasn't caught up).
+  const shouldPollLive = useMemo(() => {
+    const now = Date.now()
+    return matches.some(m =>
+      m.statusState === 'in' ||
+      (m.statusState === 'pre' && new Date(m.date).getTime() < now)
+    )
+  }, [matches])
 
   useEffect(() => {
-    if (!liveMatchId) { setLiveOverlay({}); return }
+    if (!shouldPollLive) { setLiveOverlay({}); return }
     const fetchLive = async () => {
       try {
         const today     = new Date().toISOString().slice(0, 10).replace(/-/g, '')
@@ -90,7 +93,7 @@ export function useLiveMatches(): LiveMatches {
     fetchLive()
     const id = setInterval(fetchLive, LIVE_POLL_MS)
     return () => clearInterval(id)
-  }, [liveMatchId])
+  }, [shouldPollLive])
 
   // Overlay the real-time ESPN state/score onto the cached matches so kick-offs
   // and finishes reflect within 30 s without waiting for the scraper.
