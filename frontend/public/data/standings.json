@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T16:00:43.781Z",
+  "updated": "2026-06-22T16:05:35.766Z",
   "standings": {
     "Group A": [
       {
@@ -59,8 +59,8 @@
         "abbr": "RSA",
         "color": "#FFB81C",
         "altColor": "#0C562E",
-        "isoCode": "rs",
-        "flagUrl": "https://flagcdn.com/w160/rs.png",
+        "isoCode": "za",
+        "flagUrl": "https://flagcdn.com/w160/za.png",
         "played": 2,
         "won": 0,
         "drawn": 1,
@@ -339,8 +339,8 @@
         "abbr": "CUW",
         "color": "#0537e4",
         "altColor": "#0537e4",
-        "isoCode": "cu",
-        "flagUrl": "https://flagcdn.com/w160/cu.png",
+        "isoCode": "cw",
+        "flagUrl": "https://flagcdn.com/w160/cw.png",
         "played": 2,
         "won": 0,
         "drawn": 1,

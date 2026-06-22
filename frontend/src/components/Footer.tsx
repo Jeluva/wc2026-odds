@@ -1,7 +1,22 @@
+import { useState, useEffect } from 'react'
 import { useT } from '../i18n/LangContext'
 
 export function Footer() {
-  const { t } = useT()
+  const { t, lang } = useT()
+  const [updatedAt, setUpdatedAt] = useState<string | null>(null)
+
+  useEffect(() => {
+    fetch('/data/matches.json')
+      .then(r => r.json())
+      .then(d => {
+        if (d.updated) {
+          const locale = lang === 'es' ? 'es' : 'en-US'
+          setUpdatedAt(new Date(d.updated).toLocaleString(locale))
+        }
+      })
+      .catch(() => {})
+  }, [lang])
+
   return (
     <footer className="border-t border-white/[0.06] mt-16 py-8"
       style={{ background: 'rgba(10,22,40,0.6)' }}>
@@ -22,9 +37,12 @@ export function Footer() {
           <a href="https://flagcdn.com" target="_blank" rel="noopener noreferrer"
             className="text-gold hover:underline">flagcdn.com</a>
         </p>
-        <p className="text-xs text-fog/50">
-          {t.footer.updated}: {new Date().toLocaleString()}
-        </p>
+        <p className="text-[10px] text-fog/40 mt-2">{t.footer.responsible}</p>
+        {updatedAt && (
+          <p className="text-xs text-fog/50 mt-1">
+            {t.footer.updated}: {updatedAt}
+          </p>
+        )}
       </div>
     </footer>
   )

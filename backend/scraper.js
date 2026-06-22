@@ -1,7 +1,7 @@
 /**
  * WC2026 Odds Scraper
  * Source: ESPN public API (no key required) — DraftKings odds embedded
- * Writes to frontend/public/data/matches.json every 15 minutes
+ * Writes to frontend/public/data/{matches,standings}.json every 15 minutes
  */
 import fs from 'fs'
 import path from 'path'
@@ -12,7 +12,7 @@ const OUT_DIR = path.join(__dirname, '..', 'frontend', 'public', 'data')
 const OUT_FILE = path.join(OUT_DIR, 'matches.json')
 const STANDINGS_FILE = path.join(OUT_DIR, 'standings.json')
 
-const REFRESH_MS     = 5 * 60 * 1000  // 5 minutes full scrape
+const REFRESH_MS     = 15 * 60 * 1000  // 15 minutes full scrape (matches Actions cron)
 const LIVE_REFRESH_MS =     60 * 1000  // 1 minute when a match is live
 
 // ESPN abbreviation → ISO 3166-1 alpha-2 (flagcdn.com codes)
@@ -38,18 +38,28 @@ const TEAM_ISO = {
   // CAF
   MAR: 'ma', SEN: 'sn', NGA: 'ng', CMR: 'cm', GHA: 'gh', CIV: 'ci',
   TUN: 'tn', ALG: 'dz', EGY: 'eg', MLI: 'ml', GUI: 'gn', COD: 'cd',
-  ZAF: 'za', ZIM: 'zw', MOZ: 'mz', TAN: 'tz', KEN: 'ke', ETH: 'et',
+  ZAF: 'za', RSA: 'za', ZIM: 'zw', MOZ: 'mz', TAN: 'tz', KEN: 'ke', ETH: 'et',
   BFA: 'bf', NER: 'ne', BEN: 'bj', TOG: 'tg', GAB: 'ga', COG: 'cg',
   CPV: 'cv', SLE: 'sl', LBR: 'lr', RWA: 'rw', BDI: 'bi',
+  // CONCACAF / Caribbean
+  CUW: 'cw',
   // OFC
   NZL: 'nz',
   // others
   PHI: 'ph', SIN: 'sg', MAL: 'my', TAH: 'pf',
 }
 
+// Returns the flagcdn URL for a known team, or null for placeholder/knockout
+// slots (e.g. "RD32", "QFW1", "1A") and any unmapped abbreviation. We never guess
+// an ISO code from the abbreviation — a wrong-but-valid code (e.g. RSA→"rs"=Serbia)
+// silently renders the wrong country's flag, which is worse than no flag.
+function isoFor(abbr) {
+  return TEAM_ISO[abbr] ?? null
+}
+
 function flagUrl(abbr) {
-  const iso = TEAM_ISO[abbr] ?? abbr.toLowerCase().slice(0, 2)
-  return `https://flagcdn.com/w160/${iso}.png`
+  const iso = isoFor(abbr)
+  return iso ? `https://flagcdn.com/w160/${iso}.png` : null
 }
 
 function parseML(str) {
@@ -83,7 +93,7 @@ function parseTeam(competitor) {
     abbr,
     color:    t.color ? `#${t.color}` : '#1a2d69',
     altColor: t.alternateColor ? `#${t.alternateColor}` : '#ffffff',
-    isoCode:  TEAM_ISO[abbr] ?? abbr.toLowerCase().slice(0, 2),
+    isoCode:  isoFor(abbr) ?? '',
     flagUrl:  flagUrl(abbr),
     score:    competitor.score != null ? parseInt(competitor.score, 10) : null,
     winner:   competitor.winner ?? false,
@@ -109,6 +119,9 @@ function parseOdds(oddsObj) {
       ml.draw?.current?.odds ?? ml.draw?.close?.odds ??
       oddsObj.drawOdds?.moneyLine?.toString()
     )
+    // No real odds data — don't emit a fake 33/33/33 object
+    if (homeML === null && awayML === null && drawML === null) return null
+
     const pcts = normalizePcts(
       mlToImplied(homeML),
       mlToImplied(drawML),
@@ -213,6 +226,8 @@ async function enrichOddsFromSummary(eventId) {
     const dkUnderBetUrl      = dkCleanUrl(total.under?.close?.link?.href)
     const dkHomeSpreadBetUrl = dkCleanUrl(spread.home?.close?.link?.href)
     const dkAwaySpreadBetUrl = dkCleanUrl(spread.away?.close?.link?.href)
+
+    if (homeMLStr === null && awayMLStr === null && drawMLStr === null) return null
 
     const pcts = normalizePcts(
       mlToImplied(parseML(homeMLStr)),

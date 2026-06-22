@@ -5,8 +5,8 @@ export interface ScrapedTeam {
   abbr: string
   color: string      // hex with #, e.g. "#fee000"
   altColor: string   // hex with #
-  isoCode: string    // ISO 3166-1 alpha-2 for flagcdn.com
-  flagUrl: string    // https://flagcdn.com/w80/{iso}.png
+  isoCode: string    // ISO 3166-1 alpha-2 for flagcdn.com ('' for placeholder slots)
+  flagUrl: string | null  // flagcdn URL, or null for placeholder/knockout slots
   score: number | null
   winner: boolean
 }
@@ -68,7 +68,7 @@ export interface ScrapedStandingEntry {
   color: string
   altColor: string
   isoCode: string
-  flagUrl: string
+  flagUrl: string | null
   played: number
   won: number
   drawn: number

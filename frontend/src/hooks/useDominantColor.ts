@@ -2,10 +2,16 @@ import { useState, useEffect } from 'react'
 
 const cache = new Map<string, string>()
 
-export function useDominantColor(imageUrl: string, fallback = '#ffffff'): string {
-  const [color, setColor] = useState<string>(cache.get(imageUrl) ?? fallback)
+export function useDominantColor(imageUrl: string | null | undefined, fallback = '#ffffff'): string {
+  const [color, setColor] = useState<string>((imageUrl && cache.get(imageUrl)) || fallback)
 
   useEffect(() => {
+    // No flag (placeholder/knockout slot) → keep the team's fallback colour and skip
+    // the cross-origin canvas read entirely (avoids needless CORS console errors).
+    if (!imageUrl) {
+      setColor(fallback)
+      return
+    }
     if (cache.has(imageUrl)) {
       setColor(cache.get(imageUrl)!)
       return
@@ -56,7 +62,7 @@ export function useDominantColor(imageUrl: string, fallback = '#ffffff'): string
       }
     }
     img.src = imageUrl
-  }, [imageUrl])
+  }, [imageUrl, fallback])
 
   return color
 }
