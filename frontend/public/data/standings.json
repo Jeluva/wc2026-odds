@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T00:03:44.063Z",
+  "updated": "2026-06-22T05:28:17.874Z",
   "standings": {
     "Group A": [
       {
@@ -447,14 +447,14 @@
         "altColor": "#000080",
         "isoCode": "uy",
         "flagUrl": "https://flagcdn.com/w160/uy.png",
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 0,
-        "gf": 1,
-        "ga": 1,
+        "gf": 3,
+        "ga": 3,
         "gd": 0,
-        "pts": 1
+        "pts": 2
       },
       {
         "id": "2597",
@@ -464,14 +464,14 @@
         "altColor": "#EF3340",
         "isoCode": "cv",
         "flagUrl": "https://flagcdn.com/w160/cv.png",
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 0,
-        "gf": 0,
-        "ga": 0,
+        "gf": 2,
+        "ga": 2,
         "gd": 0,
-        "pts": 1
+        "pts": 2
       },
       {
         "id": "655",
@@ -492,6 +492,23 @@
       }
     ],
     "Group G": [
+      {
+        "id": "2620",
+        "name": "Egypt",
+        "abbr": "EGY",
+        "color": "#D20300",
+        "altColor": "#FFFFFF",
+        "isoCode": "eg",
+        "flagUrl": "https://flagcdn.com/w160/eg.png",
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 4,
+        "ga": 2,
+        "gd": 2,
+        "pts": 4
+      },
       {
         "id": "469",
         "name": "Iran",
@@ -534,30 +551,13 @@
         "altColor": "#ffffff",
         "isoCode": "nz",
         "flagUrl": "https://flagcdn.com/w160/nz.png",
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 1,
-        "lost": 0,
-        "gf": 2,
-        "ga": 2,
-        "gd": 0,
-        "pts": 1
-      },
-      {
-        "id": "2620",
-        "name": "Egypt",
-        "abbr": "EGY",
-        "color": "#D20300",
-        "altColor": "#FFFFFF",
-        "isoCode": "eg",
-        "flagUrl": "https://flagcdn.com/w160/eg.png",
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
+        "lost": 1,
+        "gf": 3,
+        "ga": 5,
+        "gd": -2,
         "pts": 1
       }
     ],
