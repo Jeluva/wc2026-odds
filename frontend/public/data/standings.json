@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T18:29:27.209Z",
+  "updated": "2026-06-23T20:36:43.739Z",
   "standings": {
     "Group A": [
       {
@@ -703,6 +703,23 @@
     ],
     "Group K": [
       {
+        "id": "482",
+        "name": "Portugal",
+        "abbr": "POR",
+        "color": "#da291c",
+        "altColor": "#0D6938",
+        "isoCode": "pt",
+        "flagUrl": "https://flagcdn.com/w160/pt.png",
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 6,
+        "ga": 1,
+        "gd": 5,
+        "pts": 4
+      },
+      {
         "id": "208",
         "name": "Colombia",
         "abbr": "COL",
@@ -737,23 +754,6 @@
         "pts": 1
       },
       {
-        "id": "482",
-        "name": "Portugal",
-        "abbr": "POR",
-        "color": "#da291c",
-        "altColor": "#0D6938",
-        "isoCode": "pt",
-        "flagUrl": "https://flagcdn.com/w160/pt.png",
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "pts": 1
-      },
-      {
         "id": "2570",
         "name": "Uzbekistan",
         "abbr": "UZB",
@@ -761,13 +761,13 @@
         "altColor": "#0072CE",
         "isoCode": "uz",
         "flagUrl": "https://flagcdn.com/w160/uz.png",
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
+        "lost": 2,
         "gf": 1,
-        "ga": 3,
-        "gd": -2,
+        "ga": 8,
+        "gd": -7,
         "pts": 0
       }
     ],
