@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T23:20:51.269Z",
+  "updated": "2026-06-24T01:22:36.194Z",
   "standings": {
     "Group A": [
       {
@@ -807,23 +807,6 @@
         "pts": 4
       },
       {
-        "id": "2659",
-        "name": "Panama",
-        "abbr": "PAN",
-        "color": "#d21034",
-        "altColor": "#005293",
-        "isoCode": "pa",
-        "flagUrl": "https://flagcdn.com/w160/pa.png",
-        "played": 1,
-        "won": 0,
-        "drawn": 0,
-        "lost": 1,
-        "gf": 0,
-        "ga": 1,
-        "gd": -1,
-        "pts": 0
-      },
-      {
         "id": "477",
         "name": "Croatia",
         "abbr": "CRO",
@@ -831,12 +814,29 @@
         "altColor": "#0c2fff",
         "isoCode": "hr",
         "flagUrl": "https://flagcdn.com/w160/hr.png",
-        "played": 1,
-        "won": 0,
+        "played": 2,
+        "won": 1,
         "drawn": 0,
         "lost": 1,
-        "gf": 2,
+        "gf": 3,
         "ga": 4,
+        "gd": -1,
+        "pts": 3
+      },
+      {
+        "id": "2659",
+        "name": "Panama",
+        "abbr": "PAN",
+        "color": "#d21034",
+        "altColor": "#005293",
+        "isoCode": "pa",
+        "flagUrl": "https://flagcdn.com/w160/pa.png",
+        "played": 2,
+        "won": 0,
+        "drawn": 0,
+        "lost": 2,
+        "gf": 0,
+        "ga": 2,
         "gd": -2,
         "pts": 0
       }
