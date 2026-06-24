@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T19:46:21.154Z",
+  "updated": "2026-06-24T21:16:58.025Z",
   "standings": {
     "Group A": [
       {
@@ -73,23 +73,6 @@
     ],
     "Group B": [
       {
-        "id": "206",
-        "name": "Canada",
-        "abbr": "CAN",
-        "color": "#ed2224",
-        "altColor": "#000000",
-        "isoCode": "ca",
-        "flagUrl": "https://flagcdn.com/w160/ca.png",
-        "played": 2,
-        "won": 1,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 7,
-        "ga": 1,
-        "gd": 6,
-        "pts": 4
-      },
-      {
         "id": "475",
         "name": "Switzerland",
         "abbr": "SUI",
@@ -97,13 +80,30 @@
         "altColor": "#BCECAC",
         "isoCode": "ch",
         "flagUrl": "https://flagcdn.com/w160/ch.png",
-        "played": 2,
-        "won": 1,
+        "played": 3,
+        "won": 2,
         "drawn": 1,
         "lost": 0,
-        "gf": 5,
-        "ga": 2,
-        "gd": 3,
+        "gf": 7,
+        "ga": 3,
+        "gd": 4,
+        "pts": 7
+      },
+      {
+        "id": "206",
+        "name": "Canada",
+        "abbr": "CAN",
+        "color": "#ed2224",
+        "altColor": "#000000",
+        "isoCode": "ca",
+        "flagUrl": "https://flagcdn.com/w160/ca.png",
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 8,
+        "ga": 3,
+        "gd": 5,
         "pts": 4
       },
       {
@@ -114,14 +114,14 @@
         "altColor": "#ffffff",
         "isoCode": "ba",
         "flagUrl": "https://flagcdn.com/w160/ba.png",
-        "played": 2,
-        "won": 0,
+        "played": 3,
+        "won": 1,
         "drawn": 1,
         "lost": 1,
-        "gf": 2,
-        "ga": 5,
-        "gd": -3,
-        "pts": 1
+        "gf": 5,
+        "ga": 6,
+        "gd": -1,
+        "pts": 4
       },
       {
         "id": "4398",
@@ -131,13 +131,13 @@
         "altColor": "#FFFFFF",
         "isoCode": "qa",
         "flagUrl": "https://flagcdn.com/w160/qa.png",
-        "played": 2,
+        "played": 3,
         "won": 0,
         "drawn": 1,
-        "lost": 1,
-        "gf": 1,
-        "ga": 7,
-        "gd": -6,
+        "lost": 2,
+        "gf": 2,
+        "ga": 10,
+        "gd": -8,
         "pts": 1
       }
     ],
