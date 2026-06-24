@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T01:22:36.194Z",
+  "updated": "2026-06-24T05:14:50.652Z",
   "standings": {
     "Group A": [
       {
@@ -703,6 +703,23 @@
     ],
     "Group K": [
       {
+        "id": "208",
+        "name": "Colombia",
+        "abbr": "COL",
+        "color": "#fbd632",
+        "altColor": "#21418c",
+        "isoCode": "co",
+        "flagUrl": "https://flagcdn.com/w160/co.png",
+        "played": 2,
+        "won": 2,
+        "drawn": 0,
+        "lost": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "pts": 6
+      },
+      {
         "id": "482",
         "name": "Portugal",
         "abbr": "POR",
@@ -720,23 +737,6 @@
         "pts": 4
       },
       {
-        "id": "208",
-        "name": "Colombia",
-        "abbr": "COL",
-        "color": "#fbd632",
-        "altColor": "#21418c",
-        "isoCode": "co",
-        "flagUrl": "https://flagcdn.com/w160/co.png",
-        "played": 1,
-        "won": 1,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 3,
-        "ga": 1,
-        "gd": 2,
-        "pts": 3
-      },
-      {
         "id": "2850",
         "name": "Congo DR",
         "abbr": "COD",
@@ -744,13 +744,13 @@
         "altColor": "#C60000",
         "isoCode": "cd",
         "flagUrl": "https://flagcdn.com/w160/cd.png",
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 1,
-        "lost": 0,
+        "lost": 1,
         "gf": 1,
-        "ga": 1,
-        "gd": 0,
+        "ga": 2,
+        "gd": -1,
         "pts": 1
       },
       {
