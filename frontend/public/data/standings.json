@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T02:27:25.863Z",
+  "updated": "2026-06-25T06:31:18.326Z",
   "standings": {
     "Group A": [
       {
@@ -10,14 +10,31 @@
         "altColor": "#000000",
         "isoCode": "mx",
         "flagUrl": "https://flagcdn.com/w160/mx.png",
-        "played": 2,
-        "won": 2,
+        "played": 3,
+        "won": 3,
         "drawn": 0,
         "lost": 0,
-        "gf": 3,
+        "gf": 6,
         "ga": 0,
-        "gd": 3,
-        "pts": 6
+        "gd": 6,
+        "pts": 9
+      },
+      {
+        "id": "467",
+        "name": "South Africa",
+        "abbr": "RSA",
+        "color": "#FFB81C",
+        "altColor": "#0C562E",
+        "isoCode": "za",
+        "flagUrl": "https://flagcdn.com/w160/za.png",
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 2,
+        "ga": 3,
+        "gd": -1,
+        "pts": 4
       },
       {
         "id": "451",
@@ -27,13 +44,13 @@
         "altColor": "#9E82C8",
         "isoCode": "kr",
         "flagUrl": "https://flagcdn.com/w160/kr.png",
-        "played": 2,
+        "played": 3,
         "won": 1,
         "drawn": 0,
-        "lost": 1,
+        "lost": 2,
         "gf": 2,
-        "ga": 2,
-        "gd": 0,
+        "ga": 3,
+        "gd": -1,
         "pts": 3
       },
       {
@@ -44,30 +61,13 @@
         "altColor": "#ffffff",
         "isoCode": "cz",
         "flagUrl": "https://flagcdn.com/w160/cz.png",
-        "played": 2,
+        "played": 3,
         "won": 0,
         "drawn": 1,
-        "lost": 1,
+        "lost": 2,
         "gf": 2,
-        "ga": 3,
-        "gd": -1,
-        "pts": 1
-      },
-      {
-        "id": "467",
-        "name": "South Africa",
-        "abbr": "RSA",
-        "color": "#FFB81C",
-        "altColor": "#0C562E",
-        "isoCode": "za",
-        "flagUrl": "https://flagcdn.com/w160/za.png",
-        "played": 2,
-        "won": 0,
-        "drawn": 1,
-        "lost": 1,
-        "gf": 1,
-        "ga": 3,
-        "gd": -2,
+        "ga": 6,
+        "gd": -4,
         "pts": 1
       }
     ],
