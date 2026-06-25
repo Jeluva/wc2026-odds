@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T23:49:39.130Z",
+  "updated": "2026-06-25T02:27:25.863Z",
   "standings": {
     "Group A": [
       {
@@ -220,14 +220,14 @@
         "altColor": "#193375",
         "isoCode": "br",
         "flagUrl": "https://flagcdn.com/w160/br.png",
-        "played": 2,
-        "won": 1,
+        "played": 3,
+        "won": 2,
         "drawn": 1,
         "lost": 0,
-        "gf": 4,
+        "gf": 7,
         "ga": 1,
-        "gd": 3,
-        "pts": 4
+        "gd": 6,
+        "pts": 7
       },
       {
         "id": "2869",
@@ -237,14 +237,14 @@
         "altColor": "#ffffff",
         "isoCode": "ma",
         "flagUrl": "https://flagcdn.com/w160/ma.png",
-        "played": 2,
-        "won": 1,
+        "played": 3,
+        "won": 2,
         "drawn": 1,
         "lost": 0,
-        "gf": 2,
-        "ga": 1,
-        "gd": 1,
-        "pts": 4
+        "gf": 6,
+        "ga": 3,
+        "gd": 3,
+        "pts": 7
       },
       {
         "id": "580",
@@ -254,13 +254,13 @@
         "altColor": "#de4e44",
         "isoCode": "gb-sct",
         "flagUrl": "https://flagcdn.com/w160/gb-sct.png",
-        "played": 2,
+        "played": 3,
         "won": 1,
         "drawn": 0,
-        "lost": 1,
+        "lost": 2,
         "gf": 1,
-        "ga": 1,
-        "gd": 0,
+        "ga": 4,
+        "gd": -3,
         "pts": 3
       },
       {
@@ -271,13 +271,13 @@
         "altColor": "#FFFFFF",
         "isoCode": "ht",
         "flagUrl": "https://flagcdn.com/w160/ht.png",
-        "played": 2,
+        "played": 3,
         "won": 0,
         "drawn": 0,
-        "lost": 2,
-        "gf": 0,
-        "ga": 4,
-        "gd": -4,
+        "lost": 3,
+        "gf": 2,
+        "ga": 8,
+        "gd": -6,
         "pts": 0
       }
     ],
