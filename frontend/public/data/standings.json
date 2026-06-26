@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T19:03:46.095Z",
+  "updated": "2026-06-26T20:53:35.069Z",
   "standings": {
     "Group A": [
       {
@@ -600,8 +600,8 @@
         "id": "654",
         "name": "Senegal",
         "abbr": "SEN",
-        "color": "#006436",
-        "altColor": "#FFFFFF",
+        "color": "#FFFFFF",
+        "altColor": "#006436",
         "isoCode": "sn",
         "flagUrl": "https://flagcdn.com/w160/sn.png",
         "played": 2,
@@ -617,8 +617,8 @@
         "id": "4375",
         "name": "Iraq",
         "abbr": "IRQ",
-        "color": "#0A4D2E",
-        "altColor": "#FFFFFF",
+        "color": "#FFFFFF",
+        "altColor": "#0A4D2E",
         "isoCode": "iq",
         "flagUrl": "https://flagcdn.com/w160/iq.png",
         "played": 2,
