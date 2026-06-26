@@ -177,7 +177,7 @@ function MatchRow({ match, onClick }: { match: ScrapedMatch; onClick: () => void
               className="w-7 h-auto rounded-sm flex-shrink-0" />
             <div>
               <p className="text-sm font-bold text-chalk leading-tight">{tn(home.name)}</p>
-              {odds && match.statusState !== 'post' && (
+              {odds && match.statusState === 'pre' && (
                 <p className="text-[10px] text-fog">{odds.homeWinPct}% {t.home.winPct}</p>
               )}
             </div>
@@ -209,7 +209,7 @@ function MatchRow({ match, onClick }: { match: ScrapedMatch; onClick: () => void
           <div className="flex items-center gap-2 justify-end">
             <div className="text-right">
               <p className="text-sm font-bold text-chalk leading-tight">{tn(away.name)}</p>
-              {odds && match.statusState !== 'post' && (
+              {odds && match.statusState === 'pre' && (
                 <p className="text-[10px] text-fog">{odds.awayWinPct}% {t.home.winPct}</p>
               )}
             </div>
@@ -232,8 +232,8 @@ export function Home() {
   const { matches } = useLiveMatches()
   const [selected, setSelected] = useState<ScrapedMatch | null>(null)
 
-  const liveMatch = useMemo(() =>
-    matches.find(m => m.statusState === 'in'),
+  const liveMatches = useMemo(() =>
+    matches.filter(m => m.statusState === 'in' && m.home.flagUrl != null && m.away.flagUrl != null),
     [matches]
   )
 
@@ -264,10 +264,11 @@ export function Home() {
       .filter(m => new Date(m.date).getTime() < twoWeeks)
   }, [upcomingMatches])
 
-  const heroMatch = liveMatch ?? upcomingWithOdds[0]
+  const heroMatch = liveMatches[0] ?? upcomingWithOdds[0]
+  const otherLiveMatches = useMemo(() => liveMatches.slice(1), [liveMatches])
   const listMatches = useMemo(() =>
-    liveMatch ? upcomingWithOdds : upcomingWithOdds.slice(1),
-    [liveMatch, upcomingWithOdds]
+    liveMatches.length > 0 ? upcomingWithOdds : upcomingWithOdds.slice(1),
+    [liveMatches, upcomingWithOdds]
   )
 
   return (
@@ -276,6 +277,21 @@ export function Home() {
         <HeroMatch
           match={heroMatch}
           onClick={() => setSelected(heroMatch)} />
+      )}
+
+      {/* Other simultaneous live matches */}
+      {otherLiveMatches.length > 0 && (
+        <section className="mb-6">
+          <h2 className="text-xs font-bold text-live uppercase tracking-widest mb-3 flex items-center gap-2">
+            <span className="w-1.5 h-1.5 rounded-full bg-live pulse-live" />
+            {t.home.liveNow}
+          </h2>
+          <div className="space-y-2">
+            {otherLiveMatches.map(m => (
+              <MatchRow key={m.id} match={m} onClick={() => setSelected(m)} />
+            ))}
+          </div>
+        </section>
       )}
 
       {/* Upcoming list */}
