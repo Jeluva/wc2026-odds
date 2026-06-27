@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T22:55:12.084Z",
+  "updated": "2026-06-27T23:54:53.704Z",
   "standings": {
     "Group A": [
       {
@@ -780,31 +780,14 @@
         "altColor": "#EA1F29",
         "isoCode": "gb-eng",
         "flagUrl": "https://flagcdn.com/w160/gb-eng.png",
-        "played": 2,
-        "won": 1,
+        "played": 3,
+        "won": 2,
         "drawn": 1,
         "lost": 0,
-        "gf": 4,
+        "gf": 6,
         "ga": 2,
-        "gd": 2,
-        "pts": 4
-      },
-      {
-        "id": "4469",
-        "name": "Ghana",
-        "abbr": "GHA",
-        "color": "#fbd632",
-        "altColor": "#000000",
-        "isoCode": "gh",
-        "flagUrl": "https://flagcdn.com/w160/gh.png",
-        "played": 2,
-        "won": 1,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 1,
-        "ga": 0,
-        "gd": 1,
-        "pts": 4
+        "gd": 4,
+        "pts": 7
       },
       {
         "id": "477",
@@ -814,14 +797,31 @@
         "altColor": "#0c2fff",
         "isoCode": "hr",
         "flagUrl": "https://flagcdn.com/w160/hr.png",
-        "played": 2,
-        "won": 1,
+        "played": 3,
+        "won": 2,
         "drawn": 0,
         "lost": 1,
-        "gf": 3,
-        "ga": 4,
-        "gd": -1,
-        "pts": 3
+        "gf": 5,
+        "ga": 5,
+        "gd": 0,
+        "pts": 6
+      },
+      {
+        "id": "4469",
+        "name": "Ghana",
+        "abbr": "GHA",
+        "color": "#fbd632",
+        "altColor": "#000000",
+        "isoCode": "gh",
+        "flagUrl": "https://flagcdn.com/w160/gh.png",
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "pts": 4
       },
       {
         "id": "2659",
@@ -831,13 +831,13 @@
         "altColor": "#005293",
         "isoCode": "pa",
         "flagUrl": "https://flagcdn.com/w160/pa.png",
-        "played": 2,
+        "played": 3,
         "won": 0,
         "drawn": 0,
-        "lost": 2,
+        "lost": 3,
         "gf": 0,
-        "ga": 2,
-        "gd": -2,
+        "ga": 4,
+        "gd": -4,
         "pts": 0
       }
     ]
