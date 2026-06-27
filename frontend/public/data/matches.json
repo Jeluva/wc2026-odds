@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T22:55:12.084Z",
+  "updated": "2026-06-27T23:54:53.704Z",
   "matches": [
     {
       "id": "760415",
@@ -2185,8 +2185,8 @@
       "name": "Ghana at Croatia",
       "group": "Group L",
       "venue": "",
-      "statusState": "in",
-      "statusDetail": "90'+3'",
+      "statusState": "post",
+      "statusDetail": "FT",
       "home": {
         "id": "477",
         "name": "Croatia",
@@ -2196,7 +2196,7 @@
         "isoCode": "hr",
         "flagUrl": "https://flagcdn.com/w160/hr.png",
         "score": 2,
-        "winner": false
+        "winner": true
       },
       "away": {
         "id": "4469",
@@ -2209,36 +2209,8 @@
         "score": 1,
         "winner": false
       },
-      "odds": {
-        "homeMoneyline": "-125",
-        "awayMoneyline": "+450",
-        "drawMoneyline": "+230",
-        "homeMoneylineOpen": "-140",
-        "awayMoneylineOpen": "+400",
-        "drawMoneylineOpen": "+275",
-        "homeWinPct": 53.4,
-        "drawPct": 29.1,
-        "awayWinPct": 17.5,
-        "overUnder": 2.5,
-        "overOdds": "+135",
-        "underOdds": "-165",
-        "overOddsOpen": "+110",
-        "underOddsOpen": "-135",
-        "spreadLine": "+0.5",
-        "spreadOdds": "+105",
-        "spreadOddsOpen": "+110",
-        "spreadHomeLine": "-0.5",
-        "spreadHomeOdds": "-130",
-        "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34206887?outcomes=0ML84944386_1",
-        "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34206887?outcomes=0ML84944386_2",
-        "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34206887?outcomes=0ML84944386_3",
-        "dkOverBetUrl": "https://sportsbook.draftkings.com/event/34206887?outcomes=0OU84944879O250_1",
-        "dkUnderBetUrl": "https://sportsbook.draftkings.com/event/34206887?outcomes=0OU84944879U250_3",
-        "dkHomeSpreadBetUrl": "https://sportsbook.draftkings.com/event/34206887?outcomes=0HC84944884N50_1",
-        "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34206887?outcomes=0HC84944884P50_3",
-        "provider": "DraftKings"
-      },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760480"
+      "odds": null,
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760480/ghana-croatia"
     },
     {
       "id": "760485",
@@ -2246,8 +2218,8 @@
       "name": "England at Panama",
       "group": "Group L",
       "venue": "",
-      "statusState": "in",
-      "statusDetail": "90'+6'",
+      "statusState": "post",
+      "statusDetail": "FT",
       "home": {
         "id": "2659",
         "name": "Panama",
@@ -2268,38 +2240,10 @@
         "isoCode": "gb-eng",
         "flagUrl": "https://flagcdn.com/w160/gb-eng.png",
         "score": 2,
-        "winner": false
+        "winner": true
       },
-      "odds": {
-        "homeMoneyline": "+1500",
-        "awayMoneyline": "-650",
-        "drawMoneyline": "+750",
-        "homeMoneylineOpen": "+1100",
-        "awayMoneylineOpen": "-450",
-        "drawMoneylineOpen": "+600",
-        "homeWinPct": 6,
-        "drawPct": 11.2,
-        "awayWinPct": 82.8,
-        "overUnder": 3.5,
-        "overOdds": "+100",
-        "underOdds": "-125",
-        "overOddsOpen": "-165",
-        "underOddsOpen": "+130",
-        "spreadLine": "-2.5",
-        "spreadOdds": "+110",
-        "spreadOddsOpen": "-155",
-        "spreadHomeLine": "+2.5",
-        "spreadHomeOdds": "-140",
-        "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34206866?outcomes=0ML84944365_1",
-        "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34206866?outcomes=0ML84944365_2",
-        "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34206866?outcomes=0ML84944365_3",
-        "dkOverBetUrl": "https://sportsbook.draftkings.com/event/34206866?outcomes=0OU84944779O350_1",
-        "dkUnderBetUrl": "https://sportsbook.draftkings.com/event/34206866?outcomes=0OU84944779U350_3",
-        "dkHomeSpreadBetUrl": "https://sportsbook.draftkings.com/event/34206866?outcomes=0HC84944784P250_1",
-        "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34206866?outcomes=0HC84944784N250_3",
-        "provider": "DraftKings"
-      },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760485"
+      "odds": null,
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760485/england-panama"
     },
     {
       "id": "760481",
@@ -2307,8 +2251,8 @@
       "name": "Portugal at Colombia",
       "group": "Group K",
       "venue": "",
-      "statusState": "pre",
-      "statusDetail": "",
+      "statusState": "in",
+      "statusDetail": "23'",
       "home": {
         "id": "208",
         "name": "Colombia",
@@ -2332,25 +2276,25 @@
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "+295",
-        "awayMoneyline": "-120",
-        "drawMoneyline": "+295",
+        "homeMoneyline": "+320",
+        "awayMoneyline": "-125",
+        "drawMoneyline": "+300",
         "homeMoneylineOpen": "+250",
         "awayMoneylineOpen": "+115",
         "drawMoneylineOpen": "+235",
-        "homeWinPct": 24.1,
-        "drawPct": 24.1,
-        "awayWinPct": 51.9,
+        "homeWinPct": 22.8,
+        "drawPct": 24,
+        "awayWinPct": 53.2,
         "overUnder": 2.5,
         "overOdds": "-140",
         "underOdds": "+115",
         "overOddsOpen": "+105",
         "underOddsOpen": "-135",
         "spreadLine": "-0.5",
-        "spreadOdds": "-115",
+        "spreadOdds": "-125",
         "spreadOddsOpen": "+105",
         "spreadHomeLine": "+0.5",
-        "spreadHomeOdds": "-110",
+        "spreadHomeOdds": "+100",
         "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34206871?outcomes=0ML84944371_1",
         "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34206871?outcomes=0ML84944371_2",
         "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34206871?outcomes=0ML84944371_3",
@@ -2360,7 +2304,7 @@
         "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34206871?outcomes=0HC84944859N50_3",
         "provider": "DraftKings"
       },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760481/portugal-colombia"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760481"
     },
     {
       "id": "760482",
@@ -2368,8 +2312,8 @@
       "name": "Uzbekistan at Congo DR",
       "group": "Group K",
       "venue": "",
-      "statusState": "pre",
-      "statusDetail": "",
+      "statusState": "in",
+      "statusDetail": "23'",
       "home": {
         "id": "2850",
         "name": "Congo DR",
@@ -2389,19 +2333,19 @@
         "altColor": "#0072CE",
         "isoCode": "uz",
         "flagUrl": "https://flagcdn.com/w160/uz.png",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "-150",
+        "homeMoneyline": "-145",
         "awayMoneyline": "+425",
         "drawMoneyline": "+290",
         "homeMoneylineOpen": "+155",
         "awayMoneylineOpen": "+185",
         "drawMoneylineOpen": "+230",
-        "homeWinPct": 57.3,
-        "drawPct": 24.5,
-        "awayWinPct": 18.2,
+        "homeWinPct": 57,
+        "drawPct": 24.7,
+        "awayWinPct": 18.3,
         "overUnder": 2.5,
         "overOdds": "+115",
         "underOdds": "-145",
@@ -2421,7 +2365,7 @@
         "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34206867?outcomes=0HC84944534P50_3",
         "provider": "DraftKings"
       },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760482/uzbekistan-congo-dr"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760482"
     },
     {
       "id": "760484",
@@ -2526,14 +2470,14 @@
         "awayWinPct": 84.2,
         "overUnder": 3.5,
         "overOdds": "+135",
-        "underOdds": "-165",
+        "underOdds": "-170",
         "overOddsOpen": "+140",
         "underOddsOpen": "-175",
         "spreadLine": "-2.5",
-        "spreadOdds": "+105",
+        "spreadOdds": "+110",
         "spreadOddsOpen": "-190",
         "spreadHomeLine": "+2.5",
-        "spreadHomeOdds": "-135",
+        "spreadHomeOdds": "-140",
         "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34206869?outcomes=0ML84944368_1",
         "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34206869?outcomes=0ML84944368_2",
         "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34206869?outcomes=0ML84944368_3",
@@ -2914,7 +2858,7 @@
     {
       "id": "760491",
       "date": "2026-07-01T01:00Z",
-      "name": "Third Place Group C/E/F/H/I at Mexico",
+      "name": "Ecuador at Mexico",
       "group": "round of 32",
       "venue": "",
       "statusState": "pre",
@@ -2931,35 +2875,35 @@
         "winner": false
       },
       "away": {
-        "id": "131545",
-        "name": "Third Place Group C/E/F/H/I",
-        "abbr": "3RD",
-        "color": "#000000",
-        "altColor": "#000000",
-        "isoCode": "",
-        "flagUrl": null,
+        "id": "209",
+        "name": "Ecuador",
+        "abbr": "ECU",
+        "color": "#ffdd00",
+        "altColor": "#034ea2",
+        "isoCode": "ec",
+        "flagUrl": "https://flagcdn.com/w160/ec.png",
         "score": 0,
         "winner": false
       },
       "odds": null,
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760491/third-place-group-cefhi-mexico"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760491/ecuador-mexico"
     },
     {
       "id": "760495",
       "date": "2026-07-01T16:00Z",
-      "name": "Third Place Group E/H/I/J/K at Group L Winner",
+      "name": "Third Place Group E/H/I/J/K at England",
       "group": "round of 32",
       "venue": "",
       "statusState": "pre",
       "statusDetail": "",
       "home": {
-        "id": "131508",
-        "name": "Group L Winner",
-        "abbr": "1L",
-        "color": "#000000",
-        "altColor": "#000000",
-        "isoCode": "",
-        "flagUrl": null,
+        "id": "448",
+        "name": "England",
+        "abbr": "ENG",
+        "color": "#ffffff",
+        "altColor": "#EA1F29",
+        "isoCode": "gb-eng",
+        "flagUrl": "https://flagcdn.com/w160/gb-eng.png",
         "score": 0,
         "winner": false
       },
@@ -2975,7 +2919,7 @@
         "winner": false
       },
       "odds": null,
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760495/third-place-group-ehijk-group-l-winner"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760495/third-place-group-ehijk-england"
     },
     {
       "id": "760493",
@@ -3107,7 +3051,7 @@
     {
       "id": "760496",
       "date": "2026-07-02T23:00Z",
-      "name": "Group L 2nd Place at Group K 2nd Place",
+      "name": "Croatia at Group K 2nd Place",
       "group": "round of 32",
       "venue": "",
       "statusState": "pre",
@@ -3124,18 +3068,18 @@
         "winner": false
       },
       "away": {
-        "id": "131504",
-        "name": "Group L 2nd Place",
-        "abbr": "2L",
-        "color": "#000000",
-        "altColor": "#000000",
-        "isoCode": "",
-        "flagUrl": null,
+        "id": "477",
+        "name": "Croatia",
+        "abbr": "CRO",
+        "color": "#ff0000",
+        "altColor": "#0c2fff",
+        "isoCode": "hr",
+        "flagUrl": "https://flagcdn.com/w160/hr.png",
         "score": 0,
         "winner": false
       },
       "odds": null,
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760496/group-l-2nd-place-group-k-2nd-place"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760496/croatia-group-k-2nd-place"
     },
     {
       "id": "760498",
@@ -3295,7 +3239,7 @@
     {
       "id": "760501",
       "date": "2026-07-04T01:30Z",
-      "name": "Third Place Group D/E/I/J/L at Group K Winner",
+      "name": "Ghana at Group K Winner",
       "group": "round of 32",
       "venue": "",
       "statusState": "pre",
@@ -3312,18 +3256,18 @@
         "winner": false
       },
       "away": {
-        "id": "131546",
-        "name": "Third Place Group D/E/I/J/L",
-        "abbr": "3RD",
-        "color": "#000000",
+        "id": "4469",
+        "name": "Ghana",
+        "abbr": "GHA",
+        "color": "#fbd632",
         "altColor": "#000000",
-        "isoCode": "",
-        "flagUrl": null,
+        "isoCode": "gh",
+        "flagUrl": "https://flagcdn.com/w160/gh.png",
         "score": 0,
         "winner": false
       },
       "odds": null,
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760501/third-place-group-deijl-group-k-winner"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760501/ghana-group-k-winner"
     },
     {
       "id": "760502",
