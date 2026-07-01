@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T16:01:34.874Z",
+  "updated": "2026-07-01T18:15:00.214Z",
   "matches": [
     {
       "id": "760415",
@@ -2614,8 +2614,8 @@
       "name": "Congo DR at England",
       "group": "round of 32",
       "venue": "",
-      "statusState": "in",
-      "statusDetail": "1'",
+      "statusState": "post",
+      "statusDetail": "FT",
       "home": {
         "id": "448",
         "name": "England",
@@ -2624,8 +2624,8 @@
         "altColor": "#EA1F29",
         "isoCode": "gb-eng",
         "flagUrl": "https://flagcdn.com/w160/gb-eng.png",
-        "score": 0,
-        "winner": false
+        "score": 2,
+        "winner": true
       },
       "away": {
         "id": "2850",
@@ -2635,39 +2635,11 @@
         "altColor": "#C60000",
         "isoCode": "cd",
         "flagUrl": "https://flagcdn.com/w160/cd.png",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
-      "odds": {
-        "homeMoneyline": "-340",
-        "awayMoneyline": "+1200",
-        "drawMoneyline": "+400",
-        "homeMoneylineOpen": "-340",
-        "awayMoneylineOpen": "+1000",
-        "drawMoneylineOpen": "+450",
-        "homeWinPct": 73.6,
-        "drawPct": 19.1,
-        "awayWinPct": 7.3,
-        "overUnder": 2.5,
-        "overOdds": "-105",
-        "underOdds": "-115",
-        "overOddsOpen": "-115",
-        "underOddsOpen": "-110",
-        "spreadLine": "+1.5",
-        "spreadOdds": "-115",
-        "spreadOddsOpen": "-110",
-        "spreadHomeLine": "-1.5",
-        "spreadHomeOdds": "-110",
-        "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34330736?outcomes=0ML85310125_1",
-        "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34330736?outcomes=0ML85310125_2",
-        "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34330736?outcomes=0ML85310125_3",
-        "dkOverBetUrl": "https://sportsbook.draftkings.com/event/34330736?outcomes=0OU85310223O250_1",
-        "dkUnderBetUrl": "https://sportsbook.draftkings.com/event/34330736?outcomes=0OU85310223U250_3",
-        "dkHomeSpreadBetUrl": "https://sportsbook.draftkings.com/event/34330736?outcomes=0HC85310228N150_1",
-        "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34330736?outcomes=0HC85310228P150_3",
-        "provider": "DraftKings"
-      },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760495"
+      "odds": null,
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760495/congo-dr-england"
     },
     {
       "id": "760493",
@@ -2700,17 +2672,17 @@
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "+115",
+        "homeMoneyline": "+110",
         "awayMoneyline": "+265",
-        "drawMoneyline": "+230",
+        "drawMoneyline": "+235",
         "homeMoneylineOpen": "+110",
         "awayMoneylineOpen": "+275",
         "drawMoneylineOpen": "+230",
-        "homeWinPct": 44.6,
-        "drawPct": 29.1,
-        "awayWinPct": 26.3,
+        "homeWinPct": 45.4,
+        "drawPct": 28.5,
+        "awayWinPct": 26.1,
         "overUnder": 2.5,
-        "overOdds": "-125",
+        "overOdds": "-120",
         "underOdds": "+100",
         "overOddsOpen": "+130",
         "underOddsOpen": "-160",
@@ -2761,17 +2733,17 @@
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "-275",
+        "homeMoneyline": "-265",
         "awayMoneyline": "+800",
         "drawMoneyline": "+400",
         "homeMoneylineOpen": "-185",
         "awayMoneylineOpen": "+550",
         "drawMoneylineOpen": "+320",
-        "homeWinPct": 70.2,
-        "drawPct": 19.1,
-        "awayWinPct": 10.6,
+        "homeWinPct": 70,
+        "drawPct": 19.3,
+        "awayWinPct": 10.7,
         "overUnder": 2.5,
-        "overOdds": "-155",
+        "overOdds": "-160",
         "underOdds": "+125",
         "overOddsOpen": "-105",
         "underOddsOpen": "-120",
@@ -3321,7 +3293,7 @@
         "awayWinPct": 24,
         "overUnder": 2.5,
         "overOdds": "-110",
-        "underOdds": "-115",
+        "underOdds": "-110",
         "overOddsOpen": "+100",
         "underOddsOpen": "-125",
         "spreadLine": "+0.5",
@@ -3343,7 +3315,7 @@
     {
       "id": "760505",
       "date": "2026-07-06T00:00Z",
-      "name": "Round of 32 8 Winner at Mexico",
+      "name": "England at Mexico",
       "group": "round of 16",
       "venue": "",
       "statusState": "pre",
@@ -3360,18 +3332,18 @@
         "winner": false
       },
       "away": {
-        "id": "131532",
-        "name": "Round of 32 8 Winner",
-        "abbr": "RD32",
-        "color": "#000000",
-        "altColor": "#000000",
-        "isoCode": "",
-        "flagUrl": null,
+        "id": "448",
+        "name": "England",
+        "abbr": "ENG",
+        "color": "#ffffff",
+        "altColor": "#EA1F29",
+        "isoCode": "gb-eng",
+        "flagUrl": "https://flagcdn.com/w160/gb-eng.png",
         "score": 0,
         "winner": false
       },
       "odds": null,
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760505/round-of-32-8-winner-mexico"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760505/england-mexico"
     },
     {
       "id": "760506",
