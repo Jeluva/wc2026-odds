@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T21:59:31.215Z",
+  "updated": "2026-07-02T23:10:01.931Z",
   "matches": [
     {
       "id": "760415",
@@ -2746,8 +2746,8 @@
       "name": "Croatia at Portugal",
       "group": "round of 32",
       "venue": "",
-      "statusState": "pre",
-      "statusDetail": "",
+      "statusState": "in",
+      "statusDetail": "10'",
       "home": {
         "id": "482",
         "name": "Portugal",
@@ -2781,15 +2781,15 @@
         "drawPct": 25.9,
         "awayWinPct": 17.4,
         "overUnder": 2.5,
-        "overOdds": "-120",
-        "underOdds": "-105",
+        "overOdds": "-130",
+        "underOdds": "+105",
         "overOddsOpen": "+135",
         "underOddsOpen": "-165",
         "spreadLine": "+0.5",
         "spreadOdds": "+120",
         "spreadOddsOpen": "-110",
         "spreadHomeLine": "-0.5",
-        "spreadHomeOdds": "-150",
+        "spreadHomeOdds": "-155",
         "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34330735?outcomes=0ML85310123_1",
         "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34330735?outcomes=0ML85310123_2",
         "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34330735?outcomes=0ML85310123_3",
@@ -2799,7 +2799,7 @@
         "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34330735?outcomes=0HC85310199P50_3",
         "provider": "DraftKings"
       },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760496/croatia-portugal"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760496"
     },
     {
       "id": "760498",
@@ -2832,17 +2832,17 @@
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "-105",
-        "awayMoneyline": "+340",
+        "homeMoneyline": "+100",
+        "awayMoneyline": "+330",
         "drawMoneyline": "+225",
         "homeMoneylineOpen": "-120",
         "awayMoneylineOpen": "+330",
         "drawMoneylineOpen": "+275",
-        "homeWinPct": 48.9,
-        "drawPct": 29.4,
-        "awayWinPct": 21.7,
+        "homeWinPct": 48.1,
+        "drawPct": 29.6,
+        "awayWinPct": 22.4,
         "overUnder": 2.5,
-        "overOdds": "+115",
+        "overOdds": "+120",
         "underOdds": "-145",
         "overOddsOpen": "-110",
         "underOddsOpen": "-110",
@@ -2903,7 +2903,7 @@
         "drawPct": 32.9,
         "awayWinPct": 38.2,
         "overUnder": 1.5,
-        "overOdds": "-165",
+        "overOdds": "-170",
         "underOdds": "+135",
         "overOddsOpen": "-175",
         "underOddsOpen": "+140",
@@ -3091,7 +3091,7 @@
         "overOddsOpen": "+125",
         "underOddsOpen": "-155",
         "spreadLine": "-0.5",
-        "spreadOdds": "-130",
+        "spreadOdds": "-135",
         "spreadOddsOpen": "-135",
         "spreadHomeLine": "+0.5",
         "spreadHomeOdds": "+105",
