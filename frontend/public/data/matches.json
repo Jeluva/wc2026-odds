@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T23:10:01.931Z",
+  "updated": "2026-07-03T00:18:03.912Z",
   "matches": [
     {
       "id": "760415",
@@ -2747,7 +2747,7 @@
       "group": "round of 32",
       "venue": "",
       "statusState": "in",
-      "statusDetail": "10'",
+      "statusDetail": "58'",
       "home": {
         "id": "482",
         "name": "Portugal",
@@ -2767,7 +2767,7 @@
         "altColor": "#0c2fff",
         "isoCode": "hr",
         "flagUrl": "https://flagcdn.com/w160/hr.png",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
       "odds": {
@@ -2965,7 +2965,7 @@
         "awayWinPct": 4.8,
         "overUnder": 2.5,
         "overOdds": "-160",
-        "underOdds": "+125",
+        "underOdds": "+130",
         "overOddsOpen": "-170",
         "underOddsOpen": "+135",
         "spreadLine": "+2.5",
@@ -3015,14 +3015,14 @@
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "-225",
+        "homeMoneyline": "-230",
         "awayMoneyline": "+750",
-        "drawMoneyline": "+330",
+        "drawMoneyline": "+340",
         "homeMoneylineOpen": "-125",
         "awayMoneylineOpen": "+390",
         "drawMoneylineOpen": "+260",
-        "homeWinPct": 66.4,
-        "drawPct": 22.3,
+        "homeWinPct": 66.9,
+        "drawPct": 21.8,
         "awayWinPct": 11.3,
         "overUnder": 2.5,
         "overOdds": "+110",
@@ -3030,10 +3030,10 @@
         "overOddsOpen": "+130",
         "underOddsOpen": "-160",
         "spreadLine": "+1.5",
-        "spreadOdds": "-160",
+        "spreadOdds": "-155",
         "spreadOddsOpen": "+105",
         "spreadHomeLine": "-1.5",
-        "spreadHomeOdds": "+130",
+        "spreadHomeOdds": "+125",
         "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34330734?outcomes=0ML85310124_1",
         "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34330734?outcomes=0ML85310124_2",
         "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34330734?outcomes=0ML85310124_3",
@@ -3269,8 +3269,8 @@
         "drawPct": 30.3,
         "awayWinPct": 39.8,
         "overUnder": 2.5,
-        "overOdds": "+145",
-        "underOdds": "-180",
+        "overOdds": "+140",
+        "underOdds": "-175",
         "overOddsOpen": "+145",
         "underOddsOpen": "-180",
         "spreadLine": "-0.5",
