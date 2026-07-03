@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T19:02:25.807Z",
+  "updated": "2026-07-03T20:21:38.694Z",
   "matches": [
     {
       "id": "760415",
@@ -2813,7 +2813,7 @@
       "group": "round of 32",
       "venue": "",
       "statusState": "in",
-      "statusDetail": "HT",
+      "statusDetail": "106'",
       "home": {
         "id": "628",
         "name": "Australia",
@@ -2822,7 +2822,7 @@
         "altColor": "#FFCD00",
         "isoCode": "au",
         "flagUrl": "https://flagcdn.com/w160/au.png",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
       "away": {
@@ -2908,12 +2908,12 @@
         "drawPct": 11.8,
         "awayWinPct": 5.3,
         "overUnder": 2.5,
-        "overOdds": "-160",
-        "underOdds": "+130",
+        "overOdds": "-155",
+        "underOdds": "+125",
         "overOddsOpen": "-170",
         "underOddsOpen": "+135",
         "spreadLine": "+2.5",
-        "spreadOdds": "-155",
+        "spreadOdds": "-160",
         "spreadOddsOpen": "-175",
         "spreadHomeLine": "-2.5",
         "spreadHomeOdds": "+125",
@@ -3325,15 +3325,15 @@
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "+160",
-        "awayMoneyline": "+170",
+        "homeMoneyline": "+165",
+        "awayMoneyline": "+165",
         "drawMoneyline": "+240",
         "homeMoneylineOpen": "+160",
         "awayMoneylineOpen": "+175",
         "drawMoneylineOpen": "+235",
-        "homeWinPct": 36.7,
+        "homeWinPct": 36,
         "drawPct": 28,
-        "awayWinPct": 35.3,
+        "awayWinPct": 36,
         "overUnder": 2.5,
         "overOdds": "-135",
         "underOdds": "+105",
