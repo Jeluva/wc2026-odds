@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T16:53:50.769Z",
+  "updated": "2026-07-04T17:56:31.195Z",
   "matches": [
     {
       "id": "760415",
@@ -2911,8 +2911,8 @@
       "name": "Morocco at Canada",
       "group": "round of 16",
       "venue": "",
-      "statusState": "pre",
-      "statusDetail": "",
+      "statusState": "in",
+      "statusDetail": "HT",
       "home": {
         "id": "206",
         "name": "Canada",
@@ -2946,12 +2946,12 @@
         "drawPct": 28.6,
         "awayWinPct": 52.5,
         "overUnder": 2.5,
-        "overOdds": "+130",
-        "underOdds": "-160",
+        "overOdds": "+135",
+        "underOdds": "-165",
         "overOddsOpen": "+125",
         "underOddsOpen": "-155",
         "spreadLine": "-0.5",
-        "spreadOdds": "-130",
+        "spreadOdds": "-125",
         "spreadOddsOpen": "-135",
         "spreadHomeLine": "+0.5",
         "spreadHomeOdds": "+100",
@@ -2964,7 +2964,7 @@
         "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34339353?outcomes=0HC85331635N50_3",
         "provider": "DraftKings"
       },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760502/morocco-canada"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760502"
     },
     {
       "id": "760503",
