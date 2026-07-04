@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T22:25:12.769Z",
+  "updated": "2026-07-04T23:28:35.428Z",
   "matches": [
     {
       "id": "760415",
@@ -2944,8 +2944,8 @@
       "name": "France at Paraguay",
       "group": "round of 16",
       "venue": "",
-      "statusState": "in",
-      "statusDetail": "60'",
+      "statusState": "post",
+      "statusDetail": "FT",
       "home": {
         "id": "210",
         "name": "Paraguay",
@@ -2965,39 +2965,11 @@
         "altColor": "#C8E6D8",
         "isoCode": "fr",
         "flagUrl": "https://flagcdn.com/w160/fr.png",
-        "score": 0,
-        "winner": false
+        "score": 1,
+        "winner": true
       },
-      "odds": {
-        "homeMoneyline": "+1600",
-        "awayMoneyline": "-500",
-        "drawMoneyline": "+500",
-        "homeMoneylineOpen": "+1500",
-        "awayMoneylineOpen": "-500",
-        "drawMoneylineOpen": "+600",
-        "homeWinPct": 5.6,
-        "drawPct": 15.7,
-        "awayWinPct": 78.7,
-        "overUnder": 2.5,
-        "overOdds": "-140",
-        "underOdds": "+115",
-        "overOddsOpen": "-175",
-        "underOddsOpen": "+140",
-        "spreadLine": "-1.5",
-        "spreadOdds": "-145",
-        "spreadOddsOpen": "-165",
-        "spreadHomeLine": "+1.5",
-        "spreadHomeOdds": "+115",
-        "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34342726?outcomes=0ML85342225_1",
-        "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34342726?outcomes=0ML85342225_2",
-        "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34342726?outcomes=0ML85342225_3",
-        "dkOverBetUrl": "https://sportsbook.draftkings.com/event/34342726?outcomes=0OU85342233O250_1",
-        "dkUnderBetUrl": "https://sportsbook.draftkings.com/event/34342726?outcomes=0OU85342233U250_3",
-        "dkHomeSpreadBetUrl": "https://sportsbook.draftkings.com/event/34342726?outcomes=0HC85342238P150_1",
-        "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34342726?outcomes=0HC85342238N150_3",
-        "provider": "DraftKings"
-      },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760503"
+      "odds": null,
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760503/france-paraguay"
     },
     {
       "id": "760504",
@@ -3030,25 +3002,25 @@
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "-120",
-        "awayMoneyline": "+310",
+        "homeMoneyline": "-125",
+        "awayMoneyline": "+330",
         "drawMoneyline": "+275",
         "homeMoneylineOpen": "-110",
         "awayMoneylineOpen": "+310",
         "drawMoneylineOpen": "+260",
-        "homeWinPct": 51.7,
+        "homeWinPct": 52.7,
         "drawPct": 25.3,
-        "awayWinPct": 23.1,
+        "awayWinPct": 22,
         "overUnder": 2.5,
-        "overOdds": "-130",
-        "underOdds": "+105",
+        "overOdds": "-135",
+        "underOdds": "+110",
         "overOddsOpen": "+100",
         "underOddsOpen": "-125",
         "spreadLine": "+0.5",
         "spreadOdds": "+100",
         "spreadOddsOpen": "-110",
         "spreadHomeLine": "-0.5",
-        "spreadHomeOdds": "-125",
+        "spreadHomeOdds": "-130",
         "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34342332?outcomes=0ML85341181_1",
         "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34342332?outcomes=0ML85341181_2",
         "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34342332?outcomes=0ML85341181_3",
@@ -3368,19 +3340,19 @@
     {
       "id": "760510",
       "date": "2026-07-09T20:00Z",
-      "name": "Morocco at Round of 16 1 Winner",
+      "name": "Morocco at France",
       "group": "quarterfinals",
       "venue": "",
       "statusState": "pre",
       "statusDetail": "",
       "home": {
-        "id": "19282",
-        "name": "Round of 16 1 Winner",
-        "abbr": "RD16 W1",
-        "color": "#000000",
-        "altColor": "#C60000",
-        "isoCode": "",
-        "flagUrl": null,
+        "id": "478",
+        "name": "France",
+        "abbr": "FRA",
+        "color": "#000080",
+        "altColor": "#C8E6D8",
+        "isoCode": "fr",
+        "flagUrl": "https://flagcdn.com/w160/fr.png",
         "score": 0,
         "winner": false
       },
@@ -3396,7 +3368,7 @@
         "winner": false
       },
       "odds": null,
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760510/morocco-round-of-16-1-winner"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760510/morocco-france"
     },
     {
       "id": "760511",
