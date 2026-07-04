@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T17:56:31.195Z",
+  "updated": "2026-07-04T19:01:23.703Z",
   "matches": [
     {
       "id": "760415",
@@ -2912,7 +2912,7 @@
       "group": "round of 16",
       "venue": "",
       "statusState": "in",
-      "statusDetail": "HT",
+      "statusDetail": "90'+6'",
       "home": {
         "id": "206",
         "name": "Canada",
@@ -2932,7 +2932,7 @@
         "altColor": "#ffffff",
         "isoCode": "ma",
         "flagUrl": "https://flagcdn.com/w160/ma.png",
-        "score": 0,
+        "score": 2,
         "winner": false
       },
       "odds": {
@@ -3007,8 +3007,8 @@
         "drawPct": 14.5,
         "awayWinPct": 80.5,
         "overUnder": 2.5,
-        "overOdds": "-160",
-        "underOdds": "+130",
+        "overOdds": "-155",
+        "underOdds": "+125",
         "overOddsOpen": "-175",
         "underOddsOpen": "+140",
         "spreadLine": "-1.5",
@@ -3060,13 +3060,13 @@
       "odds": {
         "homeMoneyline": "-125",
         "awayMoneyline": "+320",
-        "drawMoneyline": "+285",
+        "drawMoneyline": "+275",
         "homeMoneylineOpen": "-110",
         "awayMoneylineOpen": "+310",
         "drawMoneylineOpen": "+260",
-        "homeWinPct": 52.7,
-        "drawPct": 24.7,
-        "awayWinPct": 22.6,
+        "homeWinPct": 52.4,
+        "drawPct": 25.1,
+        "awayWinPct": 22.5,
         "overUnder": 2.5,
         "overOdds": "-135",
         "underOdds": "+110",
@@ -3256,7 +3256,7 @@
         "overOddsOpen": "-130",
         "underOddsOpen": "+105",
         "spreadLine": "+0.5",
-        "spreadOdds": "-200",
+        "spreadOdds": "-195",
         "spreadOddsOpen": "+155",
         "spreadHomeLine": "-0.5",
         "spreadHomeOdds": "+155",
@@ -3374,7 +3374,7 @@
         "awayWinPct": 43,
         "overUnder": 2.5,
         "overOdds": "+130",
-        "underOdds": "-165",
+        "underOdds": "-160",
         "overOddsOpen": "+130",
         "underOddsOpen": "-160",
         "spreadLine": "-0.5",
