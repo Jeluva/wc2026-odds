@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T21:25:24.178Z",
+  "updated": "2026-07-04T22:25:12.769Z",
   "matches": [
     {
       "id": "760415",
@@ -2945,7 +2945,7 @@
       "group": "round of 16",
       "venue": "",
       "statusState": "in",
-      "statusDetail": "21'",
+      "statusDetail": "60'",
       "home": {
         "id": "210",
         "name": "Paraguay",
@@ -3102,7 +3102,7 @@
         "awayWinPct": 39.4,
         "overUnder": 2.5,
         "overOdds": "+135",
-        "underOdds": "-170",
+        "underOdds": "-165",
         "overOddsOpen": "+145",
         "underOddsOpen": "-180",
         "spreadLine": "-0.5",
@@ -3274,15 +3274,15 @@
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "-275",
-        "awayMoneyline": "+850",
+        "homeMoneyline": "-265",
+        "awayMoneyline": "+800",
         "drawMoneyline": "+370",
         "homeMoneylineOpen": "-300",
         "awayMoneylineOpen": "+1000",
         "drawMoneylineOpen": "+360",
-        "homeWinPct": 69.8,
-        "drawPct": 20.2,
-        "awayWinPct": 10,
+        "homeWinPct": 69.2,
+        "drawPct": 20.3,
+        "awayWinPct": 10.6,
         "overUnder": 2.5,
         "overOdds": "+100",
         "underOdds": "-125",
