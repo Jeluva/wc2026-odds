@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T14:51:34.459Z",
+  "updated": "2026-07-05T16:00:41.902Z",
   "matches": [
     {
       "id": "760415",
@@ -3013,7 +3013,7 @@
         "awayWinPct": 21.1,
         "overUnder": 2.5,
         "overOdds": "-150",
-        "underOdds": "+120",
+        "underOdds": "+125",
         "overOddsOpen": "+100",
         "underOddsOpen": "-125",
         "spreadLine": "+0.5",
@@ -3124,15 +3124,15 @@
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "+295",
-        "awayMoneyline": "-110",
+        "homeMoneyline": "+280",
+        "awayMoneyline": "-105",
         "drawMoneyline": "+265",
         "homeMoneylineOpen": "+310",
         "awayMoneylineOpen": "-110",
         "drawMoneylineOpen": "+260",
-        "homeWinPct": 24.1,
+        "homeWinPct": 25.1,
         "drawPct": 26.1,
-        "awayWinPct": 49.8,
+        "awayWinPct": 48.8,
         "overUnder": 2.5,
         "overOdds": "-135",
         "underOdds": "+105",
@@ -3256,8 +3256,8 @@
         "drawPct": 20.6,
         "awayWinPct": 11.1,
         "overUnder": 2.5,
-        "overOdds": "+105",
-        "underOdds": "-130",
+        "overOdds": "+100",
+        "underOdds": "-125",
         "overOddsOpen": "-105",
         "underOddsOpen": "-120",
         "spreadLine": "+1.5",
