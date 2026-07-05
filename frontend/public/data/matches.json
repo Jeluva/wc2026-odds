@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T20:54:30.769Z",
+  "updated": "2026-07-05T21:52:22.430Z",
   "matches": [
     {
       "id": "760415",
@@ -2978,7 +2978,7 @@
       "group": "round of 16",
       "venue": "",
       "statusState": "in",
-      "statusDetail": "HT",
+      "statusDetail": "90'",
       "home": {
         "id": "205",
         "name": "Brazil",
@@ -2998,7 +2998,7 @@
         "altColor": "#C8102E",
         "isoCode": "no",
         "flagUrl": "https://flagcdn.com/w160/no.png",
-        "score": 0,
+        "score": 2,
         "winner": false
       },
       "odds": {
