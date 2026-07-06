@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T20:12:32.415Z",
+  "updated": "2026-07-06T21:46:52.550Z",
   "matches": [
     {
       "id": "760415",
@@ -3043,8 +3043,8 @@
       "name": "Spain at Portugal",
       "group": "round of 16",
       "venue": "",
-      "statusState": "in",
-      "statusDetail": "50'",
+      "statusState": "post",
+      "statusDetail": "FT",
       "home": {
         "id": "482",
         "name": "Portugal",
@@ -3064,39 +3064,11 @@
         "altColor": "#800000",
         "isoCode": "es",
         "flagUrl": "https://flagcdn.com/w160/es.png",
-        "score": 0,
-        "winner": false
+        "score": 1,
+        "winner": true
       },
-      "odds": {
-        "homeMoneyline": "+290",
-        "awayMoneyline": "-105",
-        "drawMoneyline": "+255",
-        "homeMoneylineOpen": "+310",
-        "awayMoneylineOpen": "-110",
-        "drawMoneylineOpen": "+260",
-        "homeWinPct": 24.4,
-        "drawPct": 26.8,
-        "awayWinPct": 48.8,
-        "overUnder": 2.5,
-        "overOdds": "-130",
-        "underOdds": "+105",
-        "overOddsOpen": "-105",
-        "underOddsOpen": "-120",
-        "spreadLine": "-0.5",
-        "spreadOdds": "-105",
-        "spreadOddsOpen": "-115",
-        "spreadHomeLine": "+0.5",
-        "spreadHomeOdds": "-120",
-        "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34349998?outcomes=0ML85365986_1",
-        "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34349998?outcomes=0ML85365986_2",
-        "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34349998?outcomes=0ML85365986_3",
-        "dkOverBetUrl": "https://sportsbook.draftkings.com/event/34349998?outcomes=0OU85365994O250_1",
-        "dkUnderBetUrl": "https://sportsbook.draftkings.com/event/34349998?outcomes=0OU85365994U250_3",
-        "dkHomeSpreadBetUrl": "https://sportsbook.draftkings.com/event/34349998?outcomes=0HC85365999P50_1",
-        "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34349998?outcomes=0HC85365999N50_3",
-        "provider": "DraftKings"
-      },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760506"
+      "odds": null,
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760506/spain-portugal"
     },
     {
       "id": "760507",
@@ -3139,8 +3111,8 @@
         "drawPct": 28,
         "awayWinPct": 34.6,
         "overUnder": 2.5,
-        "overOdds": "-155",
-        "underOdds": "+125",
+        "overOdds": "-150",
+        "underOdds": "+120",
         "overOddsOpen": "-130",
         "underOddsOpen": "+105",
         "spreadLine": "+0.5",
@@ -3200,8 +3172,8 @@
         "drawPct": 19.9,
         "awayWinPct": 10.6,
         "overUnder": 2.5,
-        "overOdds": "+105",
-        "underOdds": "-130",
+        "overOdds": "+100",
+        "underOdds": "-125",
         "overOddsOpen": "-105",
         "underOddsOpen": "-120",
         "spreadLine": "+1.5",
@@ -3345,19 +3317,19 @@
     {
       "id": "760511",
       "date": "2026-07-10T19:00Z",
-      "name": "Round of 16 6 Winner at Round of 16 5 Winner",
+      "name": "Round of 16 6 Winner at Spain",
       "group": "quarterfinals",
       "venue": "",
       "statusState": "pre",
       "statusDetail": "",
       "home": {
-        "id": "19278",
-        "name": "Round of 16 5 Winner",
-        "abbr": "RD16 W5",
-        "color": "#000000",
-        "altColor": "#C60000",
-        "isoCode": "",
-        "flagUrl": null,
+        "id": "164",
+        "name": "Spain",
+        "abbr": "ESP",
+        "color": "#c60b1e",
+        "altColor": "#800000",
+        "isoCode": "es",
+        "flagUrl": "https://flagcdn.com/w160/es.png",
         "score": 0,
         "winner": false
       },
@@ -3373,7 +3345,7 @@
         "winner": false
       },
       "odds": null,
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760511/round-of-16-6-winner-round-of-16-5-winner"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760511/round-of-16-6-winner-spain"
     },
     {
       "id": "760512",
