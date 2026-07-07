@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T22:58:14.770Z",
+  "updated": "2026-07-07T00:07:28.572Z",
   "matches": [
     {
       "id": "760415",
@@ -3076,8 +3076,8 @@
       "name": "Belgium at United States",
       "group": "round of 16",
       "venue": "",
-      "statusState": "pre",
-      "statusDetail": "",
+      "statusState": "in",
+      "statusDetail": "6'",
       "home": {
         "id": "660",
         "name": "United States",
@@ -3101,18 +3101,18 @@
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "+150",
-        "awayMoneyline": "+180",
-        "drawMoneyline": "+235",
+        "homeMoneyline": "+155",
+        "awayMoneyline": "+185",
+        "drawMoneyline": "+225",
         "homeMoneylineOpen": "+160",
         "awayMoneylineOpen": "+175",
         "drawMoneylineOpen": "+235",
-        "homeWinPct": 37.9,
-        "drawPct": 28.3,
-        "awayWinPct": 33.8,
+        "homeWinPct": 37.3,
+        "drawPct": 29.3,
+        "awayWinPct": 33.4,
         "overUnder": 2.5,
-        "overOdds": "-140",
-        "underOdds": "+110",
+        "overOdds": "-125",
+        "underOdds": "+105",
         "overOddsOpen": "-130",
         "underOddsOpen": "+105",
         "spreadLine": "+0.5",
@@ -3129,7 +3129,7 @@
         "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34346430?outcomes=0HC85354845P50_3",
         "provider": "DraftKings"
       },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760507/belgium-united-states"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760507"
     },
     {
       "id": "760509",
