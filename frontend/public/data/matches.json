@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T17:51:53.083Z",
+  "updated": "2026-07-07T19:41:46.918Z",
   "matches": [
     {
       "id": "760415",
@@ -3109,8 +3109,8 @@
       "name": "Egypt at Argentina",
       "group": "round of 16",
       "venue": "",
-      "statusState": "in",
-      "statusDetail": "88'",
+      "statusState": "post",
+      "statusDetail": "FT",
       "home": {
         "id": "202",
         "name": "Argentina",
@@ -3119,8 +3119,8 @@
         "altColor": "#173E69",
         "isoCode": "ar",
         "flagUrl": "https://flagcdn.com/w160/ar.png",
-        "score": 2,
-        "winner": false
+        "score": 3,
+        "winner": true
       },
       "away": {
         "id": "2620",
@@ -3133,36 +3133,8 @@
         "score": 2,
         "winner": false
       },
-      "odds": {
-        "homeMoneyline": "-310",
-        "awayMoneyline": "+1000",
-        "drawMoneyline": "+390",
-        "homeMoneylineOpen": "-300",
-        "awayMoneylineOpen": "+1000",
-        "drawMoneylineOpen": "+360",
-        "homeWinPct": 71.9,
-        "drawPct": 19.4,
-        "awayWinPct": 8.6,
-        "overUnder": 2.5,
-        "overOdds": "+100",
-        "underOdds": "-125",
-        "overOddsOpen": "-105",
-        "underOddsOpen": "-120",
-        "spreadLine": "+1.5",
-        "spreadOdds": "-125",
-        "spreadOddsOpen": "-140",
-        "spreadHomeLine": "-1.5",
-        "spreadHomeOdds": "+100",
-        "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34353902?outcomes=0ML85377491_1",
-        "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34353902?outcomes=0ML85377491_2",
-        "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34353902?outcomes=0ML85377491_3",
-        "dkOverBetUrl": "https://sportsbook.draftkings.com/event/34353902?outcomes=0OU85377503O250_1",
-        "dkUnderBetUrl": "https://sportsbook.draftkings.com/event/34353902?outcomes=0OU85377503U250_3",
-        "dkHomeSpreadBetUrl": "https://sportsbook.draftkings.com/event/34353902?outcomes=0HC85377508N150_1",
-        "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34353902?outcomes=0HC85377508P150_3",
-        "provider": "DraftKings"
-      },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760509"
+      "odds": null,
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760509/egypt-argentina"
     },
     {
       "id": "760508",
@@ -3197,23 +3169,23 @@
       "odds": {
         "homeMoneyline": "+250",
         "awayMoneyline": "+130",
-        "drawMoneyline": "+205",
+        "drawMoneyline": "+200",
         "homeMoneylineOpen": "+235",
         "awayMoneylineOpen": "+125",
         "drawMoneylineOpen": "+225",
-        "homeWinPct": 27.3,
-        "drawPct": 31.3,
-        "awayWinPct": 41.5,
+        "homeWinPct": 27.1,
+        "drawPct": 31.6,
+        "awayWinPct": 41.3,
         "overUnder": 2.5,
-        "overOdds": "+130",
-        "underOdds": "-160",
+        "overOdds": "+135",
+        "underOdds": "-170",
         "overOddsOpen": "+130",
         "underOddsOpen": "-160",
         "spreadLine": "-0.5",
-        "spreadOdds": "+120",
+        "spreadOdds": "+130",
         "spreadOddsOpen": "+120",
         "spreadHomeLine": "+0.5",
-        "spreadHomeOdds": "-155",
+        "spreadHomeOdds": "-165",
         "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34354013?outcomes=0ML85377793_1",
         "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34354013?outcomes=0ML85377793_2",
         "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34354013?outcomes=0ML85377793_3",
@@ -3317,15 +3289,15 @@
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "-160",
+        "homeMoneyline": "-165",
         "awayMoneyline": "+450",
-        "drawMoneyline": "+290",
+        "drawMoneyline": "+295",
         "homeMoneylineOpen": "-160",
         "awayMoneylineOpen": "+450",
         "drawMoneylineOpen": "+290",
-        "homeWinPct": 58.4,
-        "drawPct": 24.3,
-        "awayWinPct": 17.3,
+        "homeWinPct": 58.9,
+        "drawPct": 23.9,
+        "awayWinPct": 17.2,
         "overUnder": 2.5,
         "overOdds": "-125",
         "underOdds": "+100",
@@ -3411,19 +3383,19 @@
     {
       "id": "760513",
       "date": "2026-07-12T01:00Z",
-      "name": "Round of 16 8 Winner at Round of 16 7 Winner",
+      "name": "Round of 16 8 Winner at Argentina",
       "group": "quarterfinals",
       "venue": "",
       "statusState": "pre",
       "statusDetail": "",
       "home": {
-        "id": "19280",
-        "name": "Round of 16 7 Winner",
-        "abbr": "RD16 W7",
-        "color": "#000000",
-        "altColor": "#C60000",
-        "isoCode": "",
-        "flagUrl": null,
+        "id": "202",
+        "name": "Argentina",
+        "abbr": "ARG",
+        "color": "#74acdf",
+        "altColor": "#173E69",
+        "isoCode": "ar",
+        "flagUrl": "https://flagcdn.com/w160/ar.png",
         "score": 0,
         "winner": false
       },
@@ -3439,7 +3411,7 @@
         "winner": false
       },
       "odds": null,
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760513/round-of-16-8-winner-round-of-16-7-winner"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760513/round-of-16-8-winner-argentina"
     },
     {
       "id": "760514",
