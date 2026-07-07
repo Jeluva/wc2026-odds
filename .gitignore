@@ -19,6 +19,7 @@ backend/scraper-live*.txt
 
 # Claude Code local settings
 .claude/settings.local.json
+CLAUDE.md
 
 # Vite build output artifacts
 frontend/vite-out.txt
