@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T15:50:10.858Z",
+  "updated": "2026-07-07T17:51:53.083Z",
   "matches": [
     {
       "id": "760415",
@@ -3109,8 +3109,8 @@
       "name": "Egypt at Argentina",
       "group": "round of 16",
       "venue": "",
-      "statusState": "pre",
-      "statusDetail": "",
+      "statusState": "in",
+      "statusDetail": "88'",
       "home": {
         "id": "202",
         "name": "Argentina",
@@ -3119,7 +3119,7 @@
         "altColor": "#173E69",
         "isoCode": "ar",
         "flagUrl": "https://flagcdn.com/w160/ar.png",
-        "score": 0,
+        "score": 2,
         "winner": false
       },
       "away": {
@@ -3130,7 +3130,7 @@
         "altColor": "#FFFFFF",
         "isoCode": "eg",
         "flagUrl": "https://flagcdn.com/w160/eg.png",
-        "score": 0,
+        "score": 2,
         "winner": false
       },
       "odds": {
@@ -3162,7 +3162,7 @@
         "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34353902?outcomes=0HC85377508P150_3",
         "provider": "DraftKings"
       },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760509/egypt-argentina"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760509"
     },
     {
       "id": "760508",
@@ -3195,18 +3195,18 @@
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "+245",
-        "awayMoneyline": "+125",
-        "drawMoneyline": "+210",
+        "homeMoneyline": "+250",
+        "awayMoneyline": "+130",
+        "drawMoneyline": "+205",
         "homeMoneylineOpen": "+235",
         "awayMoneylineOpen": "+125",
         "drawMoneylineOpen": "+225",
-        "homeWinPct": 27.4,
-        "drawPct": 30.5,
-        "awayWinPct": 42.1,
+        "homeWinPct": 27.3,
+        "drawPct": 31.3,
+        "awayWinPct": 41.5,
         "overUnder": 2.5,
-        "overOdds": "+125",
-        "underOdds": "-155",
+        "overOdds": "+130",
+        "underOdds": "-160",
         "overOddsOpen": "+130",
         "underOddsOpen": "-160",
         "spreadLine": "-0.5",
