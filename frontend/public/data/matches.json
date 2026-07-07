@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T22:21:18.448Z",
+  "updated": "2026-07-07T23:27:11.616Z",
   "matches": [
     {
       "id": "760415",
@@ -3142,8 +3142,8 @@
       "name": "Colombia at Switzerland",
       "group": "round of 16",
       "venue": "",
-      "statusState": "in",
-      "statusDetail": "107'",
+      "statusState": "post",
+      "statusDetail": "FT",
       "home": {
         "id": "475",
         "name": "Switzerland",
@@ -3153,7 +3153,7 @@
         "isoCode": "ch",
         "flagUrl": "https://flagcdn.com/w160/ch.png",
         "score": 0,
-        "winner": false
+        "winner": true
       },
       "away": {
         "id": "208",
@@ -3166,36 +3166,8 @@
         "score": 0,
         "winner": false
       },
-      "odds": {
-        "homeMoneyline": "+250",
-        "awayMoneyline": "+140",
-        "drawMoneyline": "+185",
-        "homeMoneylineOpen": "+235",
-        "awayMoneylineOpen": "+125",
-        "drawMoneylineOpen": "+225",
-        "homeWinPct": 27.1,
-        "drawPct": 33.3,
-        "awayWinPct": 39.6,
-        "overUnder": 2.5,
-        "overOdds": "+135",
-        "underOdds": "-170",
-        "overOddsOpen": "+130",
-        "underOddsOpen": "-160",
-        "spreadLine": "-0.5",
-        "spreadOdds": "+130",
-        "spreadOddsOpen": "+120",
-        "spreadHomeLine": "+0.5",
-        "spreadHomeOdds": "-165",
-        "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34354013?outcomes=0ML85377793_1",
-        "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34354013?outcomes=0ML85377793_2",
-        "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34354013?outcomes=0ML85377793_3",
-        "dkOverBetUrl": "https://sportsbook.draftkings.com/event/34354013?outcomes=0OU85377801O250_1",
-        "dkUnderBetUrl": "https://sportsbook.draftkings.com/event/34354013?outcomes=0OU85377801U250_3",
-        "dkHomeSpreadBetUrl": "https://sportsbook.draftkings.com/event/34354013?outcomes=0HC85377806P50_1",
-        "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34354013?outcomes=0HC85377806N50_3",
-        "provider": "DraftKings"
-      },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760508"
+      "odds": null,
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760508/colombia-switzerland"
     },
     {
       "id": "760510",
@@ -3383,7 +3355,7 @@
     {
       "id": "760513",
       "date": "2026-07-12T01:00Z",
-      "name": "Round of 16 8 Winner at Argentina",
+      "name": "Switzerland at Argentina",
       "group": "quarterfinals",
       "venue": "",
       "statusState": "pre",
@@ -3400,18 +3372,18 @@
         "winner": false
       },
       "away": {
-        "id": "19281",
-        "name": "Round of 16 8 Winner",
-        "abbr": "RD16 W8",
-        "color": "#000000",
-        "altColor": "#C60000",
-        "isoCode": "",
-        "flagUrl": null,
+        "id": "475",
+        "name": "Switzerland",
+        "abbr": "SUI",
+        "color": "#FF0000",
+        "altColor": "#BCECAC",
+        "isoCode": "ch",
+        "flagUrl": "https://flagcdn.com/w160/ch.png",
         "score": 0,
         "winner": false
       },
       "odds": null,
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760513/round-of-16-8-winner-argentina"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760513/switzerland-argentina"
     },
     {
       "id": "760514",
