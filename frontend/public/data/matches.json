@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T19:41:46.918Z",
+  "updated": "2026-07-07T21:10:07.948Z",
   "matches": [
     {
       "id": "760415",
@@ -3142,8 +3142,8 @@
       "name": "Colombia at Switzerland",
       "group": "round of 16",
       "venue": "",
-      "statusState": "pre",
-      "statusDetail": "",
+      "statusState": "in",
+      "statusDetail": "51'",
       "home": {
         "id": "475",
         "name": "Switzerland",
@@ -3168,14 +3168,14 @@
       },
       "odds": {
         "homeMoneyline": "+250",
-        "awayMoneyline": "+130",
-        "drawMoneyline": "+200",
+        "awayMoneyline": "+140",
+        "drawMoneyline": "+185",
         "homeMoneylineOpen": "+235",
         "awayMoneylineOpen": "+125",
         "drawMoneylineOpen": "+225",
         "homeWinPct": 27.1,
-        "drawPct": 31.6,
-        "awayWinPct": 41.3,
+        "drawPct": 33.3,
+        "awayWinPct": 39.6,
         "overUnder": 2.5,
         "overOdds": "+135",
         "underOdds": "-170",
@@ -3195,7 +3195,7 @@
         "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34354013?outcomes=0HC85377806N50_3",
         "provider": "DraftKings"
       },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760508/colombia-switzerland"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760508"
     },
     {
       "id": "760510",
@@ -3238,8 +3238,8 @@
         "drawPct": 24.1,
         "awayWinPct": 14.7,
         "overUnder": 2.5,
-        "overOdds": "-105",
-        "underOdds": "-120",
+        "overOdds": "-110",
+        "underOdds": "-115",
         "overOddsOpen": "-105",
         "underOddsOpen": "-115",
         "spreadLine": "+0.5",
