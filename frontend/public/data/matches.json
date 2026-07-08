@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T23:27:11.616Z",
+  "updated": "2026-07-08T00:58:08.055Z",
   "matches": [
     {
       "id": "760415",
@@ -3211,7 +3211,7 @@
         "awayWinPct": 15.8,
         "overUnder": 2.5,
         "overOdds": "-105",
-        "underOdds": "-115",
+        "underOdds": "-120",
         "overOddsOpen": "-105",
         "underOddsOpen": "-115",
         "spreadLine": "+0.5",
@@ -3322,15 +3322,15 @@
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "+295",
+        "homeMoneyline": "+310",
         "awayMoneyline": "-115",
         "drawMoneyline": "+270",
         "homeMoneylineOpen": "+280",
         "awayMoneylineOpen": "-105",
         "drawMoneylineOpen": "+250",
-        "homeWinPct": 23.9,
-        "drawPct": 25.5,
-        "awayWinPct": 50.5,
+        "homeWinPct": 23.2,
+        "drawPct": 25.8,
+        "awayWinPct": 51,
         "overUnder": 2.5,
         "overOdds": "-140",
         "underOdds": "+110",
@@ -3382,7 +3382,35 @@
         "score": 0,
         "winner": false
       },
-      "odds": null,
+      "odds": {
+        "homeMoneyline": "-140",
+        "awayMoneyline": "+425",
+        "drawMoneyline": "+250",
+        "homeMoneylineOpen": "-140",
+        "awayMoneylineOpen": "+400",
+        "drawMoneylineOpen": "+260",
+        "homeWinPct": 55.1,
+        "drawPct": 27,
+        "awayWinPct": 18,
+        "overUnder": 2.5,
+        "overOdds": "+125",
+        "underOdds": "-155",
+        "overOddsOpen": "+125",
+        "underOddsOpen": "-155",
+        "spreadLine": "+0.5",
+        "spreadOdds": "+115",
+        "spreadOddsOpen": "+110",
+        "spreadHomeLine": "-0.5",
+        "spreadHomeOdds": "-145",
+        "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34369238?outcomes=0ML85420879_1",
+        "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34369238?outcomes=0ML85420879_2",
+        "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34369238?outcomes=0ML85420879_3",
+        "dkOverBetUrl": "https://sportsbook.draftkings.com/event/34369238?outcomes=0OU85420887O250_1",
+        "dkUnderBetUrl": "https://sportsbook.draftkings.com/event/34369238?outcomes=0OU85420887U250_3",
+        "dkHomeSpreadBetUrl": "https://sportsbook.draftkings.com/event/34369238?outcomes=0HC85420892N50_1",
+        "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34369238?outcomes=0HC85420892P50_3",
+        "provider": "DraftKings"
+      },
       "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760513/switzerland-argentina"
     },
     {
