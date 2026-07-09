@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T20:14:58.147Z",
+  "updated": "2026-07-09T21:46:23.102Z",
   "matches": [
     {
       "id": "760415",
@@ -3176,7 +3176,7 @@
       "group": "quarterfinals",
       "venue": "",
       "statusState": "in",
-      "statusDetail": "13'",
+      "statusDetail": "82'",
       "home": {
         "id": "478",
         "name": "France",
@@ -3185,7 +3185,7 @@
         "altColor": "#C8E6D8",
         "isoCode": "fr",
         "flagUrl": "https://flagcdn.com/w160/fr.png",
-        "score": 0,
+        "score": 2,
         "winner": false
       },
       "away": {
