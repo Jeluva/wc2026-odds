@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T21:46:23.102Z",
+  "updated": "2026-07-09T23:02:47.016Z",
   "matches": [
     {
       "id": "760415",
@@ -3175,8 +3175,8 @@
       "name": "Morocco at France",
       "group": "quarterfinals",
       "venue": "",
-      "statusState": "in",
-      "statusDetail": "82'",
+      "statusState": "post",
+      "statusDetail": "FT",
       "home": {
         "id": "478",
         "name": "France",
@@ -3186,7 +3186,7 @@
         "isoCode": "fr",
         "flagUrl": "https://flagcdn.com/w160/fr.png",
         "score": 2,
-        "winner": false
+        "winner": true
       },
       "away": {
         "id": "2869",
@@ -3199,36 +3199,8 @@
         "score": 0,
         "winner": false
       },
-      "odds": {
-        "homeMoneyline": "-170",
-        "awayMoneyline": "+500",
-        "drawMoneyline": "+280",
-        "homeMoneylineOpen": "-175",
-        "awayMoneylineOpen": "+500",
-        "drawMoneylineOpen": "+285",
-        "homeWinPct": 59.4,
-        "drawPct": 24.8,
-        "awayWinPct": 15.7,
-        "overUnder": 2.5,
-        "overOdds": "-115",
-        "underOdds": "-110",
-        "overOddsOpen": "-105",
-        "underOddsOpen": "-115",
-        "spreadLine": "+0.5",
-        "spreadOdds": "+140",
-        "spreadOddsOpen": "+140",
-        "spreadHomeLine": "-0.5",
-        "spreadHomeOdds": "-175",
-        "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34357451?outcomes=0ML85387919_1",
-        "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34357451?outcomes=0ML85387919_2",
-        "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34357451?outcomes=0ML85387919_3",
-        "dkOverBetUrl": "https://sportsbook.draftkings.com/event/34357451?outcomes=0OU85387927O250_1",
-        "dkUnderBetUrl": "https://sportsbook.draftkings.com/event/34357451?outcomes=0OU85387927U250_3",
-        "dkHomeSpreadBetUrl": "https://sportsbook.draftkings.com/event/34357451?outcomes=0HC85387932N50_1",
-        "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34357451?outcomes=0HC85387932P50_3",
-        "provider": "DraftKings"
-      },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760510"
+      "odds": null,
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760510/morocco-france"
     },
     {
       "id": "760511",
@@ -3416,19 +3388,19 @@
     {
       "id": "760514",
       "date": "2026-07-14T19:00Z",
-      "name": "Quarterfinal 2 Winner at Quarterfinal 1 Winner",
+      "name": "Quarterfinal 2 Winner at France",
       "group": "semifinals",
       "venue": "",
       "statusState": "pre",
       "statusDetail": "",
       "home": {
-        "id": "17631",
-        "name": "Quarterfinal 1 Winner",
-        "abbr": "QFW1",
-        "color": "#000000",
-        "altColor": "#C60000",
-        "isoCode": "",
-        "flagUrl": null,
+        "id": "478",
+        "name": "France",
+        "abbr": "FRA",
+        "color": "#000080",
+        "altColor": "#C8E6D8",
+        "isoCode": "fr",
+        "flagUrl": "https://flagcdn.com/w160/fr.png",
         "score": 0,
         "winner": false
       },
@@ -3444,7 +3416,7 @@
         "winner": false
       },
       "odds": null,
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760514/quarterfinal-2-winner-quarterfinal-1-winner"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760514/quarterfinal-2-winner-france"
     },
     {
       "id": "760515",
