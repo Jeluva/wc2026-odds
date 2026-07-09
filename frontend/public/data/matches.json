@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T16:41:25.532Z",
+  "updated": "2026-07-09T18:25:30.908Z",
   "matches": [
     {
       "id": "760415",
@@ -3200,18 +3200,18 @@
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "-170",
+        "homeMoneyline": "-165",
         "awayMoneyline": "+500",
-        "drawMoneyline": "+280",
+        "drawMoneyline": "+270",
         "homeMoneylineOpen": "-175",
         "awayMoneylineOpen": "+500",
         "drawMoneylineOpen": "+285",
-        "homeWinPct": 59.4,
-        "drawPct": 24.8,
+        "homeWinPct": 58.8,
+        "drawPct": 25.5,
         "awayWinPct": 15.7,
         "overUnder": 2.5,
-        "overOdds": "+105",
-        "underOdds": "-130",
+        "overOdds": "+100",
+        "underOdds": "-125",
         "overOddsOpen": "-105",
         "underOddsOpen": "-115",
         "spreadLine": "+0.5",
@@ -3279,7 +3279,7 @@
         "spreadOdds": "+130",
         "spreadOddsOpen": "+130",
         "spreadHomeLine": "-0.5",
-        "spreadHomeOdds": "-160",
+        "spreadHomeOdds": "-165",
         "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34365112?outcomes=0ML85407922_1",
         "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34365112?outcomes=0ML85407922_2",
         "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34365112?outcomes=0ML85407922_3",
