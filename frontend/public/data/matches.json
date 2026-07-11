@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T21:11:54.758Z",
+  "updated": "2026-07-11T22:06:54.473Z",
   "matches": [
     {
       "id": "760415",
@@ -3242,7 +3242,7 @@
       "group": "quarterfinals",
       "venue": "",
       "statusState": "in",
-      "statusDetail": "11'",
+      "statusDetail": "HT",
       "home": {
         "id": "464",
         "name": "Norway",
@@ -3251,7 +3251,7 @@
         "altColor": "#C8102E",
         "isoCode": "no",
         "flagUrl": "https://flagcdn.com/w160/no.png",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
       "away": {
@@ -3262,7 +3262,7 @@
         "altColor": "#FFFFFF",
         "isoCode": "gb-eng",
         "flagUrl": "https://flagcdn.com/w160/gb-eng.png",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
       "odds": {
