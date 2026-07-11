@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T16:10:22.374Z",
+  "updated": "2026-07-11T17:13:27.809Z",
   "matches": [
     {
       "id": "760415",
@@ -3342,10 +3342,10 @@
         "overOddsOpen": "+125",
         "underOddsOpen": "-155",
         "spreadLine": "+0.5",
-        "spreadOdds": "+120",
+        "spreadOdds": "+115",
         "spreadOddsOpen": "+110",
         "spreadHomeLine": "-0.5",
-        "spreadHomeOdds": "-155",
+        "spreadHomeOdds": "-150",
         "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34369238?outcomes=0ML85420879_1",
         "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34369238?outcomes=0ML85420879_2",
         "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34369238?outcomes=0ML85420879_3",
