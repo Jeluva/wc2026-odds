@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T22:06:54.473Z",
+  "updated": "2026-07-11T23:07:53.904Z",
   "matches": [
     {
       "id": "760415",
@@ -3242,7 +3242,7 @@
       "group": "quarterfinals",
       "venue": "",
       "statusState": "in",
-      "statusDetail": "HT",
+      "statusDetail": "ET",
       "home": {
         "id": "464",
         "name": "Norway",
@@ -3328,21 +3328,21 @@
       },
       "odds": {
         "homeMoneyline": "-145",
-        "awayMoneyline": "+450",
-        "drawMoneyline": "+255",
+        "awayMoneyline": "+475",
+        "drawMoneyline": "+250",
         "homeMoneylineOpen": "-140",
         "awayMoneylineOpen": "+400",
         "drawMoneylineOpen": "+260",
-        "homeWinPct": 56.1,
-        "drawPct": 26.7,
-        "awayWinPct": 17.2,
+        "homeWinPct": 56.3,
+        "drawPct": 27.2,
+        "awayWinPct": 16.5,
         "overUnder": 2.5,
         "overOdds": "+130",
         "underOdds": "-160",
         "overOddsOpen": "+125",
         "underOddsOpen": "-155",
         "spreadLine": "+0.5",
-        "spreadOdds": "+115",
+        "spreadOdds": "+120",
         "spreadOddsOpen": "+110",
         "spreadHomeLine": "-0.5",
         "spreadHomeOdds": "-150",
