@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T20:23:20.056Z",
+  "updated": "2026-07-11T21:11:54.758Z",
   "matches": [
     {
       "id": "760415",
@@ -3241,8 +3241,8 @@
       "name": "England at Norway",
       "group": "quarterfinals",
       "venue": "",
-      "statusState": "pre",
-      "statusDetail": "",
+      "statusState": "in",
+      "statusDetail": "11'",
       "home": {
         "id": "464",
         "name": "Norway",
@@ -3266,22 +3266,22 @@
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "+300",
-        "awayMoneyline": "-120",
-        "drawMoneyline": "+285",
+        "homeMoneyline": "+330",
+        "awayMoneyline": "-125",
+        "drawMoneyline": "+280",
         "homeMoneylineOpen": "+280",
         "awayMoneylineOpen": "-105",
         "drawMoneylineOpen": "+250",
-        "homeWinPct": 23.7,
-        "drawPct": 24.6,
-        "awayWinPct": 51.7,
+        "homeWinPct": 22.1,
+        "drawPct": 25,
+        "awayWinPct": 52.8,
         "overUnder": 2.5,
-        "overOdds": "-145",
-        "underOdds": "+115",
+        "overOdds": "-135",
+        "underOdds": "+110",
         "overOddsOpen": "-105",
         "underOddsOpen": "-115",
         "spreadLine": "-0.5",
-        "spreadOdds": "-125",
+        "spreadOdds": "-130",
         "spreadOddsOpen": "-105",
         "spreadHomeLine": "+0.5",
         "spreadHomeOdds": "+100",
@@ -3294,7 +3294,7 @@
         "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34361796?outcomes=0HC85398637N50_3",
         "provider": "DraftKings"
       },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760512/england-norway"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760512"
     },
     {
       "id": "760513",
