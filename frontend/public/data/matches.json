@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T23:07:53.904Z",
+  "updated": "2026-07-12T00:08:33.152Z",
   "matches": [
     {
       "id": "760415",
@@ -3241,8 +3241,8 @@
       "name": "England at Norway",
       "group": "quarterfinals",
       "venue": "",
-      "statusState": "in",
-      "statusDetail": "ET",
+      "statusState": "post",
+      "statusDetail": "FT",
       "home": {
         "id": "464",
         "name": "Norway",
@@ -3262,39 +3262,11 @@
         "altColor": "#FFFFFF",
         "isoCode": "gb-eng",
         "flagUrl": "https://flagcdn.com/w160/gb-eng.png",
-        "score": 1,
-        "winner": false
+        "score": 2,
+        "winner": true
       },
-      "odds": {
-        "homeMoneyline": "+330",
-        "awayMoneyline": "-125",
-        "drawMoneyline": "+280",
-        "homeMoneylineOpen": "+280",
-        "awayMoneylineOpen": "-105",
-        "drawMoneylineOpen": "+250",
-        "homeWinPct": 22.1,
-        "drawPct": 25,
-        "awayWinPct": 52.8,
-        "overUnder": 2.5,
-        "overOdds": "-135",
-        "underOdds": "+110",
-        "overOddsOpen": "-105",
-        "underOddsOpen": "-115",
-        "spreadLine": "-0.5",
-        "spreadOdds": "-130",
-        "spreadOddsOpen": "-105",
-        "spreadHomeLine": "+0.5",
-        "spreadHomeOdds": "+100",
-        "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34361796?outcomes=0ML85398625_1",
-        "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34361796?outcomes=0ML85398625_2",
-        "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34361796?outcomes=0ML85398625_3",
-        "dkOverBetUrl": "https://sportsbook.draftkings.com/event/34361796?outcomes=0OU85398632O250_1",
-        "dkUnderBetUrl": "https://sportsbook.draftkings.com/event/34361796?outcomes=0OU85398632U250_3",
-        "dkHomeSpreadBetUrl": "https://sportsbook.draftkings.com/event/34361796?outcomes=0HC85398637P50_1",
-        "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34361796?outcomes=0HC85398637N50_3",
-        "provider": "DraftKings"
-      },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760512"
+      "odds": null,
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760512/england-norway"
     },
     {
       "id": "760513",
@@ -3327,17 +3299,17 @@
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "-145",
-        "awayMoneyline": "+475",
-        "drawMoneyline": "+250",
+        "homeMoneyline": "-140",
+        "awayMoneyline": "+450",
+        "drawMoneyline": "+245",
         "homeMoneylineOpen": "-140",
         "awayMoneylineOpen": "+400",
         "drawMoneylineOpen": "+260",
-        "homeWinPct": 56.3,
-        "drawPct": 27.2,
-        "awayWinPct": 16.5,
+        "homeWinPct": 55.3,
+        "drawPct": 27.5,
+        "awayWinPct": 17.2,
         "overUnder": 2.5,
-        "overOdds": "+130",
+        "overOdds": "+125",
         "underOdds": "-160",
         "overOddsOpen": "+125",
         "underOddsOpen": "-155",
@@ -3403,10 +3375,10 @@
         "overOddsOpen": "+100",
         "underOddsOpen": "-125",
         "spreadLine": "+0.5",
-        "spreadOdds": "-170",
+        "spreadOdds": "-165",
         "spreadOddsOpen": "-160",
         "spreadHomeLine": "-0.5",
-        "spreadHomeOdds": "+135",
+        "spreadHomeOdds": "+130",
         "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34380320?outcomes=0ML85455144_1",
         "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34380320?outcomes=0ML85455144_2",
         "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34380320?outcomes=0ML85455144_3",
@@ -3421,19 +3393,19 @@
     {
       "id": "760515",
       "date": "2026-07-15T19:00Z",
-      "name": "Quarterfinal 4 Winner at Quarterfinal 3 Winner",
+      "name": "Quarterfinal 4 Winner at England",
       "group": "semifinals",
       "venue": "",
       "statusState": "pre",
       "statusDetail": "",
       "home": {
-        "id": "17630",
-        "name": "Quarterfinal 3 Winner",
-        "abbr": "QFW3",
-        "color": "#000000",
-        "altColor": "#C60000",
-        "isoCode": "",
-        "flagUrl": null,
+        "id": "448",
+        "name": "England",
+        "abbr": "ENG",
+        "color": "#EA1F29",
+        "altColor": "#FFFFFF",
+        "isoCode": "gb-eng",
+        "flagUrl": "https://flagcdn.com/w160/gb-eng.png",
         "score": 0,
         "winner": false
       },
@@ -3449,7 +3421,7 @@
         "winner": false
       },
       "odds": null,
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760515/quarterfinal-4-winner-quarterfinal-3-winner"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760515/quarterfinal-4-winner-england"
     },
     {
       "id": "760516",
