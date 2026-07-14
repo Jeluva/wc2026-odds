@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T21:28:28.771Z",
+  "updated": "2026-07-14T22:30:07.877Z",
   "matches": [
     {
       "id": "760415",
@@ -3365,18 +3365,18 @@
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "+175",
-        "awayMoneyline": "+190",
+        "homeMoneyline": "+170",
+        "awayMoneyline": "+200",
         "drawMoneyline": "+185",
         "homeMoneylineOpen": "+180",
         "awayMoneylineOpen": "+175",
         "drawMoneylineOpen": "+205",
-        "homeWinPct": 34.3,
-        "drawPct": 33.1,
-        "awayWinPct": 32.6,
+        "homeWinPct": 35.1,
+        "drawPct": 33.3,
+        "awayWinPct": 31.6,
         "overUnder": 2.5,
-        "overOdds": "+140",
-        "underOdds": "-170",
+        "overOdds": "+135",
+        "underOdds": "-165",
         "overOddsOpen": "+125",
         "underOddsOpen": "-155",
         "spreadLine": "+0.5",
@@ -3398,19 +3398,19 @@
     {
       "id": "760516",
       "date": "2026-07-18T21:00Z",
-      "name": "Semifinal 2 Loser at Semifinal 1 Loser",
+      "name": "Semifinal 2 Loser at France",
       "group": "3rd place match",
       "venue": "",
       "statusState": "pre",
       "statusDetail": "",
       "home": {
-        "id": "5958",
-        "name": "Semifinal 1 Loser",
-        "abbr": "SF L1",
-        "color": "#000000",
-        "altColor": "#000000",
-        "isoCode": "",
-        "flagUrl": null,
+        "id": "478",
+        "name": "France",
+        "abbr": "FRA",
+        "color": "#000080",
+        "altColor": "#C8E6D8",
+        "isoCode": "fr",
+        "flagUrl": "https://flagcdn.com/w160/fr.png",
         "score": 0,
         "winner": false
       },
@@ -3426,24 +3426,24 @@
         "winner": false
       },
       "odds": null,
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760516/semifinal-2-loser-semifinal-1-loser"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760516/semifinal-2-loser-france"
     },
     {
       "id": "760517",
       "date": "2026-07-19T19:00Z",
-      "name": "Semifinal 2 Winner at Semifinal 1 Winner",
+      "name": "Semifinal 2 Winner at Spain",
       "group": "final",
       "venue": "",
       "statusState": "pre",
       "statusDetail": "",
       "home": {
-        "id": "5960",
-        "name": "Semifinal 1 Winner",
-        "abbr": "SFW1",
-        "color": "#000000",
-        "altColor": "#000000",
-        "isoCode": "",
-        "flagUrl": null,
+        "id": "164",
+        "name": "Spain",
+        "abbr": "ESP",
+        "color": "#c60b1e",
+        "altColor": "#FFFFFF",
+        "isoCode": "es",
+        "flagUrl": "https://flagcdn.com/w160/es.png",
         "score": 0,
         "winner": false
       },
@@ -3459,7 +3459,7 @@
         "winner": false
       },
       "odds": null,
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760517/semifinal-2-winner-semifinal-1-winner"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760517/semifinal-2-winner-spain"
     }
   ]
 }
