@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T17:45:42.012Z",
+  "updated": "2026-07-14T19:02:33.238Z",
   "standings": {
     "Group A": [
       {
@@ -427,7 +427,7 @@
         "name": "Spain",
         "abbr": "ESP",
         "color": "#c60b1e",
-        "altColor": "#800000",
+        "altColor": "#FFFFFF",
         "isoCode": "es",
         "flagUrl": "https://flagcdn.com/w160/es.png",
         "played": 3,
