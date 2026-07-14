@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T19:02:33.238Z",
+  "updated": "2026-07-14T20:21:18.968Z",
   "standings": {
     "Group A": [
       {
@@ -776,8 +776,8 @@
         "id": "448",
         "name": "England",
         "abbr": "ENG",
-        "color": "#EA1F29",
-        "altColor": "#FFFFFF",
+        "color": "#FFFFFF",
+        "altColor": "#EA1F29",
         "isoCode": "gb-eng",
         "flagUrl": "https://flagcdn.com/w160/gb-eng.png",
         "played": 3,
