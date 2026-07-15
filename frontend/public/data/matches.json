@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T20:02:48.273Z",
+  "updated": "2026-07-15T21:13:20.221Z",
   "matches": [
     {
       "id": "760415",
@@ -3340,8 +3340,8 @@
       "name": "Argentina at England",
       "group": "semifinals",
       "venue": "",
-      "statusState": "in",
-      "statusDetail": "HT",
+      "statusState": "post",
+      "statusDetail": "FT",
       "home": {
         "id": "448",
         "name": "England",
@@ -3350,7 +3350,7 @@
         "altColor": "#EA1F29",
         "isoCode": "gb-eng",
         "flagUrl": "https://flagcdn.com/w160/gb-eng.png",
-        "score": 0,
+        "score": 1,
         "winner": false
       },
       "away": {
@@ -3361,44 +3361,16 @@
         "altColor": "#173E69",
         "isoCode": "ar",
         "flagUrl": "https://flagcdn.com/w160/ar.png",
-        "score": 0,
-        "winner": false
+        "score": 2,
+        "winner": true
       },
-      "odds": {
-        "homeMoneyline": "+170",
-        "awayMoneyline": "+205",
-        "drawMoneyline": "+180",
-        "homeMoneylineOpen": "+180",
-        "awayMoneylineOpen": "+175",
-        "drawMoneylineOpen": "+205",
-        "homeWinPct": 35.1,
-        "drawPct": 33.8,
-        "awayWinPct": 31.1,
-        "overUnder": 2.5,
-        "overOdds": "+140",
-        "underOdds": "-175",
-        "overOddsOpen": "+125",
-        "underOddsOpen": "-155",
-        "spreadLine": "+0.5",
-        "spreadOdds": "-210",
-        "spreadOddsOpen": "+165",
-        "spreadHomeLine": "-0.5",
-        "spreadHomeOdds": "+165",
-        "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34384863?outcomes=0ML85467783_1",
-        "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34384863?outcomes=0ML85467783_2",
-        "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34384863?outcomes=0ML85467783_3",
-        "dkOverBetUrl": "https://sportsbook.draftkings.com/event/34384863?outcomes=0OU85467792O250_1",
-        "dkUnderBetUrl": "https://sportsbook.draftkings.com/event/34384863?outcomes=0OU85467792U250_3",
-        "dkHomeSpreadBetUrl": "https://sportsbook.draftkings.com/event/34384863?outcomes=0HC85467797N50_1",
-        "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34384863?outcomes=0HC85467797P50_3",
-        "provider": "DraftKings"
-      },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760515"
+      "odds": null,
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760515/argentina-england"
     },
     {
       "id": "760516",
       "date": "2026-07-18T21:00Z",
-      "name": "Semifinal 2 Loser at France",
+      "name": "England at France",
       "group": "3rd place match",
       "venue": "",
       "statusState": "pre",
@@ -3415,23 +3387,23 @@
         "winner": false
       },
       "away": {
-        "id": "5959",
-        "name": "Semifinal 2 Loser",
-        "abbr": "SF L2",
-        "color": "#000000",
-        "altColor": "#000000",
-        "isoCode": "",
-        "flagUrl": null,
+        "id": "448",
+        "name": "England",
+        "abbr": "ENG",
+        "color": "#FFFFFF",
+        "altColor": "#EA1F29",
+        "isoCode": "gb-eng",
+        "flagUrl": "https://flagcdn.com/w160/gb-eng.png",
         "score": 0,
         "winner": false
       },
       "odds": null,
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760516/semifinal-2-loser-france"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760516/england-france"
     },
     {
       "id": "760517",
       "date": "2026-07-19T19:00Z",
-      "name": "Semifinal 2 Winner at Spain",
+      "name": "Argentina at Spain",
       "group": "final",
       "venue": "",
       "statusState": "pre",
@@ -3448,18 +3420,46 @@
         "winner": false
       },
       "away": {
-        "id": "5961",
-        "name": "Semifinal 2 Winner",
-        "abbr": "SFW2",
-        "color": "#000000",
-        "altColor": "#000000",
-        "isoCode": "",
-        "flagUrl": null,
+        "id": "202",
+        "name": "Argentina",
+        "abbr": "ARG",
+        "color": "#74acdf",
+        "altColor": "#173E69",
+        "isoCode": "ar",
+        "flagUrl": "https://flagcdn.com/w160/ar.png",
         "score": 0,
         "winner": false
       },
-      "odds": null,
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760517/semifinal-2-winner-spain"
+      "odds": {
+        "homeMoneyline": "+125",
+        "awayMoneyline": "+275",
+        "drawMoneyline": "+195",
+        "homeMoneylineOpen": "+125",
+        "awayMoneylineOpen": "+275",
+        "drawMoneylineOpen": "+195",
+        "homeWinPct": 42.3,
+        "drawPct": 32.3,
+        "awayWinPct": 25.4,
+        "overUnder": 2.5,
+        "overOdds": "+140",
+        "underOdds": "-175",
+        "overOddsOpen": "+140",
+        "underOddsOpen": "-175",
+        "spreadLine": "+0.5",
+        "spreadOdds": "-150",
+        "spreadOddsOpen": "-150",
+        "spreadHomeLine": "-0.5",
+        "spreadHomeOdds": "+120",
+        "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34399244?outcomes=0ML85511120_1",
+        "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34399244?outcomes=0ML85511120_2",
+        "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34399244?outcomes=0ML85511120_3",
+        "dkOverBetUrl": "https://sportsbook.draftkings.com/event/34399244?outcomes=0OU85511127O250_1",
+        "dkUnderBetUrl": "https://sportsbook.draftkings.com/event/34399244?outcomes=0OU85511127U250_3",
+        "dkHomeSpreadBetUrl": "https://sportsbook.draftkings.com/event/34399244?outcomes=0HC85511132N50_1",
+        "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34399244?outcomes=0HC85511132P50_3",
+        "provider": "DraftKings"
+      },
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760517/argentina-spain"
     }
   ]
 }
