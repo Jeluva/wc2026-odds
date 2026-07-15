@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T18:55:19.108Z",
+  "updated": "2026-07-15T20:02:48.273Z",
   "matches": [
     {
       "id": "760415",
@@ -3340,8 +3340,8 @@
       "name": "Argentina at England",
       "group": "semifinals",
       "venue": "",
-      "statusState": "pre",
-      "statusDetail": "",
+      "statusState": "in",
+      "statusDetail": "HT",
       "home": {
         "id": "448",
         "name": "England",
@@ -3365,25 +3365,25 @@
         "winner": false
       },
       "odds": {
-        "homeMoneyline": "+165",
+        "homeMoneyline": "+170",
         "awayMoneyline": "+205",
-        "drawMoneyline": "+185",
+        "drawMoneyline": "+180",
         "homeMoneylineOpen": "+180",
         "awayMoneylineOpen": "+175",
         "drawMoneylineOpen": "+205",
-        "homeWinPct": 35.7,
-        "drawPct": 33.2,
-        "awayWinPct": 31,
+        "homeWinPct": 35.1,
+        "drawPct": 33.8,
+        "awayWinPct": 31.1,
         "overUnder": 2.5,
         "overOdds": "+140",
         "underOdds": "-175",
         "overOddsOpen": "+125",
         "underOddsOpen": "-155",
         "spreadLine": "+0.5",
-        "spreadOdds": "-200",
+        "spreadOdds": "-210",
         "spreadOddsOpen": "+165",
         "spreadHomeLine": "-0.5",
-        "spreadHomeOdds": "+155",
+        "spreadHomeOdds": "+165",
         "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34384863?outcomes=0ML85467783_1",
         "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34384863?outcomes=0ML85467783_2",
         "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34384863?outcomes=0ML85467783_3",
@@ -3393,7 +3393,7 @@
         "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34384863?outcomes=0HC85467797P50_3",
         "provider": "DraftKings"
       },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760515/argentina-england"
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760515"
     },
     {
       "id": "760516",
