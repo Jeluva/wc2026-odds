@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T18:31:30.595Z",
+  "updated": "2026-07-17T19:44:37.187Z",
   "matches": [
     {
       "id": "760415",
@@ -3469,8 +3469,8 @@
         "drawPct": 31.5,
         "awayWinPct": 26.6,
         "overUnder": 2.5,
-        "overOdds": "+120",
-        "underOdds": "-150",
+        "overOdds": "+125",
+        "underOdds": "-155",
         "overOddsOpen": "+140",
         "underOddsOpen": "-175",
         "spreadLine": "+0.5",
