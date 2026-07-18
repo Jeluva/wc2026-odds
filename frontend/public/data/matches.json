@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T22:04:53.530Z",
+  "updated": "2026-07-18T23:06:59.465Z",
   "matches": [
     {
       "id": "760415",
@@ -3373,8 +3373,8 @@
       "name": "England at France",
       "group": "3rd place match",
       "venue": "",
-      "statusState": "in",
-      "statusDetail": "HT",
+      "statusState": "post",
+      "statusDetail": "FT",
       "home": {
         "id": "478",
         "name": "France",
@@ -3383,7 +3383,7 @@
         "altColor": "#C8E6D8",
         "isoCode": "fr",
         "flagUrl": "https://flagcdn.com/w160/fr.png",
-        "score": 0,
+        "score": 4,
         "winner": false
       },
       "away": {
@@ -3394,39 +3394,11 @@
         "altColor": "#EA1F29",
         "isoCode": "gb-eng",
         "flagUrl": "https://flagcdn.com/w160/gb-eng.png",
-        "score": 4,
-        "winner": false
+        "score": 6,
+        "winner": true
       },
-      "odds": {
-        "homeMoneyline": "-145",
-        "awayMoneyline": "+350",
-        "drawMoneyline": "+310",
-        "homeMoneylineOpen": "+110",
-        "awayMoneylineOpen": "+265",
-        "drawMoneylineOpen": "+235",
-        "homeWinPct": 55.9,
-        "drawPct": 23.1,
-        "awayWinPct": 21,
-        "overUnder": 3.5,
-        "overOdds": "+115",
-        "underOdds": "-140",
-        "overOddsOpen": "-145",
-        "underOddsOpen": "+115",
-        "spreadLine": "+0.5",
-        "spreadOdds": "+115",
-        "spreadOddsOpen": "-130",
-        "spreadHomeLine": "-0.5",
-        "spreadHomeOdds": "-145",
-        "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34400513?outcomes=0ML85514714_1",
-        "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34400513?outcomes=0ML85514714_2",
-        "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34400513?outcomes=0ML85514714_3",
-        "dkOverBetUrl": "https://sportsbook.draftkings.com/event/34400513?outcomes=0OU85514728O350_1",
-        "dkUnderBetUrl": "https://sportsbook.draftkings.com/event/34400513?outcomes=0OU85514728U350_3",
-        "dkHomeSpreadBetUrl": "https://sportsbook.draftkings.com/event/34400513?outcomes=0HC85514733N50_1",
-        "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34400513?outcomes=0HC85514733P50_3",
-        "provider": "DraftKings"
-      },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760516"
+      "odds": null,
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760516/england-france"
     },
     {
       "id": "760517",
@@ -3469,8 +3441,8 @@
         "drawPct": 31.5,
         "awayWinPct": 26.6,
         "overUnder": 2.5,
-        "overOdds": "+130",
-        "underOdds": "-160",
+        "overOdds": "+125",
+        "underOdds": "-155",
         "overOddsOpen": "+140",
         "underOddsOpen": "-175",
         "spreadLine": "+0.5",
