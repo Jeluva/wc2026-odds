@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T21:32:36.909Z",
+  "updated": "2026-07-19T22:32:22.655Z",
   "matches": [
     {
       "id": "760415",
@@ -3406,8 +3406,8 @@
       "name": "Argentina at Spain",
       "group": "final",
       "venue": "",
-      "statusState": "in",
-      "statusDetail": "102'",
+      "statusState": "post",
+      "statusDetail": "FT",
       "home": {
         "id": "164",
         "name": "Spain",
@@ -3416,8 +3416,8 @@
         "altColor": "#FFFFFF",
         "isoCode": "es",
         "flagUrl": "https://flagcdn.com/w160/es.png",
-        "score": 0,
-        "winner": false
+        "score": 1,
+        "winner": true
       },
       "away": {
         "id": "202",
@@ -3430,36 +3430,8 @@
         "score": 0,
         "winner": false
       },
-      "odds": {
-        "homeMoneyline": "+125",
-        "awayMoneyline": "+265",
-        "drawMoneyline": "+205",
-        "homeMoneylineOpen": "+125",
-        "awayMoneylineOpen": "+275",
-        "drawMoneylineOpen": "+195",
-        "homeWinPct": 42.5,
-        "drawPct": 31.3,
-        "awayWinPct": 26.2,
-        "overUnder": 2.5,
-        "overOdds": "+130",
-        "underOdds": "-160",
-        "overOddsOpen": "+140",
-        "underOddsOpen": "-175",
-        "spreadLine": "+0.5",
-        "spreadOdds": "-145",
-        "spreadOddsOpen": "-150",
-        "spreadHomeLine": "-0.5",
-        "spreadHomeOdds": "+115",
-        "dkHomeBetUrl": "https://sportsbook.draftkings.com/event/34399244?outcomes=0ML85511120_1",
-        "dkDrawBetUrl": "https://sportsbook.draftkings.com/event/34399244?outcomes=0ML85511120_2",
-        "dkAwayBetUrl": "https://sportsbook.draftkings.com/event/34399244?outcomes=0ML85511120_3",
-        "dkOverBetUrl": "https://sportsbook.draftkings.com/event/34399244?outcomes=0OU85511127O250_1",
-        "dkUnderBetUrl": "https://sportsbook.draftkings.com/event/34399244?outcomes=0OU85511127U250_3",
-        "dkHomeSpreadBetUrl": "https://sportsbook.draftkings.com/event/34399244?outcomes=0HC85511132N50_1",
-        "dkAwaySpreadBetUrl": "https://sportsbook.draftkings.com/event/34399244?outcomes=0HC85511132P50_3",
-        "provider": "DraftKings"
-      },
-      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760517"
+      "odds": null,
+      "espnUrl": "https://www.espn.com/soccer/match/_/gameId/760517/argentina-spain"
     }
   ]
 }
