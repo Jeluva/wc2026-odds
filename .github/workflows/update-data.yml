@@ -1,8 +1,10 @@
 name: Update match data
 
 on:
-  schedule:
-    - cron: '*/15 * * * *'   # every 15 min during tournament
+  # Scheduled scraping paused after WC2026 ended (2026-07-19) — data no longer changes.
+  # Re-enable the schedule block below if there's a reason to resume polling.
+  # schedule:
+  #   - cron: '*/15 * * * *'
   workflow_dispatch:           # manual trigger from GitHub UI
 
 jobs:
