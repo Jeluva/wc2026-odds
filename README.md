@@ -7,7 +7,7 @@
 ![Vercel](https://img.shields.io/badge/Vercel-deployed-000000?style=flat-square&logo=vercel&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-automated-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
-> Real-time 2026 FIFA World Cup odds tracker — pre-match moneylines, win probabilities, and live scores for all 48 teams across 12 groups. Data refreshed every 15 minutes via GitHub Actions.
+> Real-time 2026 FIFA World Cup odds tracker — pre-match moneylines, win probabilities, and live scores for all 48 group-stage matches across 12 groups. Data refreshed every 15 minutes via GitHub Actions; live scores overlay directly from ESPN every 30 seconds.
 
 ## 🌐 Live
 
@@ -19,10 +19,19 @@
 
 | Page | Description |
 |---|---|
-| **Home** | Hero card for the live/next match with win probabilities; upcoming match list |
+| **Home** | Hero card for the live/next match (flag dominant-color gradient, win probability bar); "Awaiting Odds" section for real-team upcoming matches; recent results as score-only rows |
 | **Groups** | All 12 groups with live standings + match results and upcoming fixtures |
-| **Standings** | Full group-stage standings table |
+| **Standings** | Full group-stage standings table (P/W/D/L/GF/GA/GD/Pts) |
 | **Team Detail** | Per-team match history and upcoming schedule |
+
+Clicking any match opens the **Match Detail Modal** with four tabs:
+
+| Tab | Contents |
+|---|---|
+| **Odds** | 1X2 moneylines + implied probabilities + opening→closing movement arrows; Double Chance; Draw No Bet; Over/Under line & odds; Asian Handicap (both sides); DraftKings deep-link bet buttons |
+| **Form & Stats** | Last-5 results for each team; avg goals scored/conceded; clean sheets; Head-to-Head record |
+| **Analysis** | Poisson model — expected goals from form averages, top-8 scoreline probabilities |
+| **Chatbot** | Coming Soon placeholder |
 
 Available in **English and Spanish** (toggle in the nav).
 
@@ -41,6 +50,8 @@ p = |ml| / (|ml| + 100)       # negative line  e.g. -220
 homeWinPct = p_home / (p_home + p_draw + p_away) × 100
 ```
 
+The scraper only emits odds when at least one real moneyline is present — no fake 33.3/33.3/33.3 objects for unpriced matches.
+
 > **Note:** Odds are pre-match and do not update in-play. Live scores and match clock are fetched directly from ESPN in real time.
 
 ---
@@ -48,15 +59,17 @@ homeWinPct = p_home / (p_home + p_draw + p_away) × 100
 ## 🏗️ Architecture
 
 ```
-ESPN public API ──────────────────────────────────┐
-  scoreboardv2  (matches + odds)                   │
-  standings     (group tables)                     │
-                                                   ▼
+ESPN public API ──────────────────────────────────────┐
+  scoreboardv2  (matches + odds, June 11–July 19)     │
+  standings     (group tables)                         │
+  summary?event=<id>  (enriched odds for next 7 days) │
+                                                       ▼
                               backend/scraper.js  (Node.js ESM)
-                              polls every 15 min (local)
-                              or --once (GitHub Actions)
-                                                   │
-                        ┌──────────────────────────┘
+                              --once (GitHub Actions, every 15 min)
+                              or continuous with dynamic interval:
+                                15 min normally · 1 min when live
+                                                       │
+                        ┌──────────────────────────────┘
                         │
               frontend/public/data/
               ├── matches.json      ← all matches + odds + team info
@@ -64,20 +77,24 @@ ESPN public API ─────────────────────�
 
                         │
               React 19 + Vite + TypeScript + Tailwind
-              ├── useLiveMatches hook   ← polls matches.json every 30s
-              │                           + overlays ESPN real-time
-              │                             state/score/clock
-              ├── Home      (hero + upcoming list)
+              ├── useLiveMatches hook
+              │     ├── polls matches.json every 30 s (scraper updates)
+              │     └── polls ESPN scoreboard every 30 s when live
+              │           → overlays real-time state/score/clock
+              │             onto cached records
+              ├── Home      (hero card + awaiting odds + results)
               ├── Groups    (12 groups: standings + fixtures)
               ├── Standings (full standings table)
-              └── Team      (per-team detail)
+              ├── Team      (per-team detail)
+              └── MatchDetailModal
+                    (Odds · Form & Stats · Analysis · Chatbot)
                         │
                    Vercel (static deploy)
               ESPN API proxy via vercel.json rewrites
               (avoids CORS in production)
 ```
 
-**GitHub Actions** runs `node scraper.js --once` every 15 minutes, commits updated JSONs, and Vercel auto-redeploys on push.
+**GitHub Actions** runs `node scraper.js --once` every 15 minutes, commits updated JSONs, and Vercel auto-redeploys on push. The workflow can also be triggered manually from the GitHub UI.
 
 ---
 
@@ -96,7 +113,7 @@ npm run dev       # http://localhost:5173
 ```bash
 cd backend
 npm install
-node scraper.js          # polls every 15 min continuously
+node scraper.js          # polls continuously (15 min / 1 min live)
 node scraper.js --once   # single run, then exits
 ```
 
@@ -110,18 +127,25 @@ WC2026ODDS/
 ├── backend/
 │   ├── scraper.js                      ← Node.js ESM scraper (ESPN API)
 │   └── package.json
-├── docs/
-│   └── DATA_ANALYSIS.md               ← Data analyst reference
+├── data-pipeline/                      ← Legacy Python/Playwright scraper
+│   ├── scraper.py                        (OddsPortal + Wikipedia). Superseded
+│   └── outputs/                          by the Node scraper; not consumed by
+│       ├── bracket.json                  the live app.
+│       ├── champion_probs.json
+│       ├── groups.json
+│       └── match_results.json
 └── frontend/
     ├── public/data/
     │   ├── matches.json               ← Scraped match + odds data
-    │   └── standings.json             ← Group standings
+    │   ├── standings.json             ← Group standings
+    │   └── bracket.json               ← Static knockout bracket skeleton
     ├── src/
     │   ├── hooks/
-    │   │   ├── useLiveMatches.ts      ← Polls + ESPN real-time overlay
-    │   │   └── useDominantColor.ts    ← Flag color extraction
+    │   │   ├── useLiveMatches.ts      ← Polls JSON + ESPN real-time overlay
+    │   │   └── useDominantColor.ts    ← Flag color extraction for gradients
     │   ├── components/
-    │   │   ├── MatchDetailModal.tsx   ← Full odds + Poisson analysis
+    │   │   ├── Flag.tsx               ← Null-safe flag renderer (skips placeholder slots)
+    │   │   ├── MatchDetailModal.tsx   ← Full odds + Form & Stats + Poisson analysis
     │   │   ├── Nav.tsx
     │   │   ├── Footer.tsx
     │   │   └── ProgressBar.tsx
@@ -130,7 +154,7 @@ WC2026ODDS/
     │   │   ├── Groups.tsx
     │   │   ├── Standings.tsx
     │   │   └── Team.tsx
-    │   ├── i18n/                      ← EN/ES translations
+    │   ├── i18n/                      ← EN/ES translations (LangContext)
     │   └── types.ts
     └── vercel.json                    ← ESPN API proxy rewrite rules
 ```
@@ -142,8 +166,15 @@ WC2026ODDS/
 | Source | Role |
 |---|---|
 | ESPN `site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard` | Matches, odds (DraftKings), live scores |
+| ESPN `site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=<id>` | Enriched odds: opening lines, O/U, spread, DK bet URLs |
 | ESPN `site.api.espn.com/apis/v2/sports/soccer/fifa.world/standings` | Group standings |
 | [flagcdn.com](https://flagcdn.com) | Country flag images (w160 for retina) |
+
+---
+
+## 🏳️ Data integrity
+
+Knockout fixtures use placeholder "teams" (e.g. `RD32`, `QFW1`, `1A`) that have no real country behind them. The scraper maps ESPN abbreviations to ISO 3166-1 alpha-2 codes via an explicit `TEAM_ISO` lookup and returns `flagUrl: null` for any abbreviation not in that table — never guessing from the first two characters, which would silently render the wrong country's flag. The `<Flag>` component skips rendering entirely when `flagUrl` is null, so placeholder slots show a neutral badge with no broken-image requests.
 
 ---
 
